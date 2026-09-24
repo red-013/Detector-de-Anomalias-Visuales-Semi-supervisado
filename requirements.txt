@@ -1,0 +1,17 @@
+# Entorno para PatchCore (Python 3.11).
+#
+# GPU NVIDIA (recomendado): instala PyTorch con CUDA desde el indice oficial.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+# Solo CPU (funciona, mas lento):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#
+# El resto de dependencias van con:  pip install -r requirements.txt
+
+torch>=2.2
+torchvision>=0.17
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+Pillow>=10.0
+matplotlib>=3.7
+tqdm>=4.66
