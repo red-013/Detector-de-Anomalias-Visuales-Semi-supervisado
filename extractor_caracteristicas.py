@@ -4,14 +4,9 @@ Modulo (b): extractor de caracteristicas jerarquicas multiescala.
 Es el nucleo del OE2. Tres sub-decisiones, todas implementadas aqui:
 
   1) QUE CAPAS.   Extraemos layer1 + layer2 + layer3 de una WideResNet-50
-     preentrenada en ImageNet (>= 3 niveles jerarquicos -> OE2). Descartamos:
-       - layer4: demasiado semantica/sesgada a clases ImageNet y 7x7 (mala
-         localizacion).
+     preentrenada en ImageNet (>= 3 niveles jerarquicos -> OE2).
        - (solo layer3, como haria un metodo de una sola capa): pierde el
          detalle fino que necesitamos para la AUROC de pixel.
-     El PatchCore original usa 2 capas (layer2+layer3); aqui lo AMPLIAMOS a 3
-     incorporando layer1 (bajo nivel). Es un aporte propio y medible (ablation
-     2 vs 3 niveles).
 
   2) AGREGACION LOCAL.   Cada vector de parche se hace "consciente de su
      vecindad" promediando una ventana p x p (AvgPool2d stride=1, padding=p//2).
