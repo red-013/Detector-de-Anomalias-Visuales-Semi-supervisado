@@ -1,0 +1,19 @@
+18:03:13 | === SWEEP post-proceso | config: fusion=layer1 coreset=10% | sigmas=[0.0, 1.0, 2.0, 3.0, 4.0, 6.0, 8.0] bs=[2, 3, 5, 9] | 2 categorias | seed=0 ===
+18:08:25 | [tile] banco 649152 -> 64915 (grid (56, 56))
+18:08:51 | [tile] b: sin_reweight=0.9867 b=2=0.9892 b=3=0.9895 b=5=0.9888 b=9=0.9881 | sigma: 0:0.9556 1:0.9557 2:0.9558 3:0.956 4:0.9561 6:0.956 8:0.9557 | 336.9s
+18:13:34 | [transistor] banco 602112 -> 60211 (grid (56, 56))
+18:13:57 | [transistor] b: sin_reweight=1.0 b=2=0.99 b=3=0.9987 b=5=1.0 b=9=1.0 | sigma: 0:0.9685 1:0.969 2:0.9698 3:0.9706 4:0.9714 6:0.9731 8:0.9747 | 306.2s
+18:13:57 | === completado en 643.1s ===
+18:13:57 | AUROC imagen (medias): sin_reweight=0.9933 b=2=0.9896 b=3=0.9941 b=5=0.9944 b=9=0.994
+18:13:57 | AUROC pixel (medias): sigma=0=0.9621 sigma=1=0.9624 sigma=2=0.9628 sigma=3=0.9633 sigma=4=0.9637 sigma=6=0.9646 sigma=8=0.9652
+18:13:57 | --- Wilcoxon pareado vs valores actuales ---
+18:13:57 |   img sin_reweight vs b=3: media +0.9933 vs 0.9941 (delta -0.0008) | gana 1/2 | p=1.0000 ns
+18:13:57 |   img b=2 vs b=3: media +0.9896 vs 0.9941 (delta -0.0045) | gana 0/2 | p=0.5000 ns
+18:13:57 |   img b=5 vs b=3: media +0.9944 vs 0.9941 (delta +0.0003) | gana 1/2 | p=1.0000 ns
+18:13:57 |   img b=9 vs b=3: media +0.9940 vs 0.9941 (delta -0.0000) | gana 1/2 | p=1.0000 ns
+18:13:57 |   pix sigma=0 vs sigma=4: media +0.9621 vs 0.9637 (delta -0.0017) | gana 0/2 | p=0.5000 ns
+18:13:57 |   pix sigma=1 vs sigma=4: media +0.9624 vs 0.9637 (delta -0.0014) | gana 0/2 | p=0.5000 ns
+18:13:57 |   pix sigma=2 vs sigma=4: media +0.9628 vs 0.9637 (delta -0.0010) | gana 0/2 | p=0.5000 ns
+18:13:57 |   pix sigma=3 vs sigma=4: media +0.9633 vs 0.9637 (delta -0.0004) | gana 0/2 | p=0.5000 ns
+18:13:57 |   pix sigma=6 vs sigma=4: media +0.9646 vs 0.9637 (delta +0.0008) | gana 1/2 | p=1.0000 ns
+18:13:57 |   pix sigma=8 vs sigma=4: media +0.9652 vs 0.9637 (delta +0.0015) | gana 1/2 | p=1.0000 ns

@@ -1,0 +1,62 @@
+15:11:26 | === SWEEP post-proceso | config: fusion=layer1 coreset=1% | sigmas=[0.0, 1.0, 2.0, 3.0, 4.0, 6.0, 8.0] bs=[2, 3, 5, 9] | 1 categorias | seed=0 ===
+15:11:32 | [toothbrush] banco 169344 -> 1693 (grid (56, 56))
+15:11:38 | [toothbrush] b: sin_reweight=0.9972 b=2=0.9778 b=3=0.9917 b=5=0.9917 b=9=0.9944 | sigma: 0:0.9873 1:0.9874 2:0.9875 3:0.9875 4:0.9875 6:0.9872 8:0.9868 | 10.7s
+15:11:38 | === completado en 10.7s ===
+15:11:38 | AUROC imagen (medias): sin_reweight=0.9972 b=2=0.9778 b=3=0.9917 b=5=0.9917 b=9=0.9944
+15:11:38 | AUROC pixel (medias): sigma=0=0.9873 sigma=1=0.9874 sigma=2=0.9875 sigma=3=0.9875 sigma=4=0.9875 sigma=6=0.9872 sigma=8=0.9868
+15:11:38 | --- Wilcoxon pareado vs valores actuales ---
+15:11:38 |   img sin_reweight vs b=3: media +0.9972 vs 0.9917 (delta +0.0055) | gana 1/1 | p=1.0000 ns
+15:11:38 |   img b=2 vs b=3: media +0.9778 vs 0.9917 (delta -0.0139) | gana 0/1 | p=1.0000 ns
+15:11:38 |   img b=5 vs b=3: identicos
+15:11:38 |   img b=9 vs b=3: media +0.9944 vs 0.9917 (delta +0.0027) | gana 1/1 | p=1.0000 ns
+15:11:38 |   pix sigma=0 vs sigma=4: media +0.9873 vs 0.9875 (delta -0.0002) | gana 0/1 | p=1.0000 ns
+15:11:38 |   pix sigma=1 vs sigma=4: media +0.9874 vs 0.9875 (delta -0.0001) | gana 0/1 | p=1.0000 ns
+15:11:38 |   pix sigma=2 vs sigma=4: identicos
+15:11:38 |   pix sigma=3 vs sigma=4: identicos
+15:11:38 |   pix sigma=6 vs sigma=4: media +0.9872 vs 0.9875 (delta -0.0003) | gana 0/1 | p=1.0000 ns
+15:11:38 |   pix sigma=8 vs sigma=4: media +0.9868 vs 0.9875 (delta -0.0007) | gana 0/1 | p=1.0000 ns
+15:11:51 | === SWEEP post-proceso | config: fusion=layer1 coreset=1% | sigmas=[0.0, 1.0, 2.0, 3.0, 4.0, 6.0, 8.0] bs=[2, 3, 5, 9] | 15 categorias | seed=0 ===
+15:12:26 | [bottle] banco 592704 -> 5927 (grid (56, 56))
+15:12:37 | [bottle] b: sin_reweight=1.0 b=2=1.0 b=3=1.0 b=5=1.0 b=9=1.0 | sigma: 0:0.9861 1:0.9861 2:0.9861 3:0.9861 4:0.986 6:0.9856 8:0.9849 | 45.4s
+15:13:18 | [cable] banco 633472 -> 6335 (grid (56, 56))
+15:13:39 | [cable] b: sin_reweight=0.9871 b=2=0.9402 b=3=0.9702 b=5=0.9784 b=9=0.9839 | sigma: 0:0.9841 1:0.9844 2:0.985 3:0.9855 4:0.9858 6:0.9859 8:0.9856 | 61.6s
+15:14:16 | [capsule] banco 620928 -> 6209 (grid (56, 56))
+15:14:35 | [capsule] b: sin_reweight=0.9677 b=2=0.929 b=3=0.9565 b=5=0.9629 b=9=0.9637 | sigma: 0:0.9888 1:0.9889 2:0.989 3:0.989 4:0.9888 6:0.9883 8:0.9876 | 56.3s
+15:15:33 | [carpet] banco 790272 -> 7903 (grid (56, 56))
+15:15:49 | [carpet] b: sin_reweight=0.9936 b=2=0.99 b=3=0.99 b=5=0.9928 b=9=0.9932 | sigma: 0:0.9896 1:0.9896 2:0.9896 3:0.9896 4:0.9896 6:0.9893 8:0.9889 | 73.8s
+15:16:36 | [grid] banco 746368 -> 7464 (grid (56, 56))
+15:16:46 | [grid] b: sin_reweight=0.9783 b=2=0.9089 b=3=0.9733 b=5=0.9783 b=9=0.9766 | sigma: 0:0.9794 1:0.98 2:0.9808 3:0.9811 4:0.9808 6:0.979 8:0.9756 | 57.2s
+15:18:32 | [hazelnut] banco 1103872 -> 11039 (grid (56, 56))
+15:18:48 | [hazelnut] b: sin_reweight=1.0 b=2=0.9911 b=3=0.9993 b=5=1.0 b=9=1.0 | sigma: 0:0.9872 1:0.9872 2:0.9872 3:0.9872 4:0.9871 6:0.9869 8:0.9866 | 122.2s
+15:19:32 | [leather] banco 693056 -> 6931 (grid (56, 56))
+15:19:49 | [leather] b: sin_reweight=1.0 b=2=1.0 b=3=1.0 b=5=1.0 b=9=1.0 | sigma: 0:0.9921 1:0.9921 2:0.992 3:0.9919 4:0.9917 6:0.9911 8:0.9904 | 60.7s
+15:20:23 | [metal_nut] banco 620928 -> 6209 (grid (56, 56))
+15:20:36 | [metal_nut] b: sin_reweight=0.9985 b=2=0.9751 b=3=0.9976 b=5=1.0 b=9=0.9995 | sigma: 0:0.9868 1:0.987 2:0.9874 3:0.9878 4:0.9881 6:0.9885 8:0.9887 | 47.2s
+15:21:25 | [pill] banco 755776 -> 7558 (grid (56, 56))
+15:21:46 | [pill] b: sin_reweight=0.9618 b=2=0.8573 b=3=0.9329 b=5=0.9506 b=9=0.9583 | sigma: 0:0.9773 1:0.9777 2:0.9786 3:0.9793 4:0.98 6:0.9812 8:0.9822 | 70.1s
+15:22:53 | [screw] banco 903168 -> 9032 (grid (56, 56))
+15:23:13 | [screw] b: sin_reweight=0.9779 b=2=0.9164 b=3=0.9699 b=5=0.9775 b=9=0.9787 | sigma: 0:0.9929 1:0.9933 2:0.9937 3:0.9939 4:0.9939 6:0.9934 8:0.9925 | 86.4s
+15:23:51 | [tile] banco 649152 -> 6492 (grid (56, 56))
+15:24:06 | [tile] b: sin_reweight=0.9867 b=2=0.9841 b=3=0.9827 b=5=0.9838 b=9=0.9877 | sigma: 0:0.958 1:0.9581 2:0.9583 3:0.9585 4:0.9586 6:0.9586 8:0.9582 | 53.0s
+15:24:11 | [toothbrush] banco 169344 -> 1693 (grid (56, 56))
+15:24:16 | [toothbrush] b: sin_reweight=0.9972 b=2=0.9778 b=3=0.9917 b=5=0.9917 b=9=0.9944 | sigma: 0:0.9873 1:0.9874 2:0.9875 3:0.9875 4:0.9875 6:0.9872 8:0.9868 | 10.1s
+15:24:51 | [transistor] banco 602112 -> 6021 (grid (56, 56))
+15:25:05 | [transistor] b: sin_reweight=0.9992 b=2=0.9812 b=3=0.9979 b=5=0.9992 b=9=0.9987 | sigma: 0:0.9657 1:0.967 2:0.9692 3:0.9712 4:0.9727 6:0.9749 8:0.9767 | 49.1s
+15:25:51 | [wood] banco 699328 -> 6993 (grid (56, 56))
+15:26:02 | [wood] b: sin_reweight=0.9956 b=2=0.9974 b=3=0.9965 b=5=0.9947 b=9=0.9947 | sigma: 0:0.947 1:0.947 2:0.9471 3:0.9471 4:0.947 6:0.9463 8:0.9451 | 56.7s
+15:26:44 | [zipper] banco 677376 -> 6774 (grid (56, 56))
+15:27:02 | [zipper] b: sin_reweight=0.9932 b=2=0.9858 b=3=0.9913 b=5=0.9916 b=9=0.9919 | sigma: 0:0.9856 1:0.9857 2:0.9858 3:0.9859 4:0.9858 6:0.9853 8:0.9845 | 59.9s
+15:27:02 | === completado en 910.1s ===
+15:27:02 | AUROC imagen (medias): sin_reweight=0.9891 b=2=0.9623 b=3=0.9833 b=5=0.9868 b=9=0.9881
+15:27:02 | AUROC pixel (medias): sigma=0=0.9805 sigma=1=0.9808 sigma=2=0.9812 sigma=3=0.9814 sigma=4=0.9816 sigma=6=0.9814 sigma=8=0.981
+15:27:02 | --- Wilcoxon pareado vs valores actuales ---
+15:27:02 |   img sin_reweight vs b=3: media +0.9891 vs 0.9833 (delta +0.0058) | gana 12/15 | p=0.0026 SIG
+15:27:02 |   img b=2 vs b=3: media +0.9623 vs 0.9833 (delta -0.0210) | gana 2/15 | p=0.0047 SIG
+15:27:02 |   img b=5 vs b=3: media +0.9868 vs 0.9833 (delta +0.0034) | gana 11/15 | p=0.0076 SIG
+15:27:02 |   img b=9 vs b=3: media +0.9881 vs 0.9833 (delta +0.0048) | gana 12/15 | p=0.0037 SIG
+15:27:02 |   pix sigma=0 vs sigma=4: media +0.9805 vs 0.9816 (delta -0.0010) | gana 3/15 | p=0.0150 SIG
+15:27:02 |   pix sigma=1 vs sigma=4: media +0.9808 vs 0.9816 (delta -0.0008) | gana 4/15 | p=0.0320 SIG
+15:27:02 |   pix sigma=2 vs sigma=4: media +0.9812 vs 0.9816 (delta -0.0004) | gana 5/15 | p=0.1542 ns
+15:27:02 |   pix sigma=3 vs sigma=4: media +0.9814 vs 0.9816 (delta -0.0001) | gana 7/15 | p=0.7225 ns
+15:27:02 |   pix sigma=6 vs sigma=4: media +0.9814 vs 0.9816 (delta -0.0001) | gana 4/15 | p=0.2203 ns
+15:27:02 |   pix sigma=8 vs sigma=4: media +0.9810 vs 0.9816 (delta -0.0006) | gana 3/15 | p=0.0995 ns

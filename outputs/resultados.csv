@@ -1,0 +1,3 @@
+category,auroc_image,auroc_pixel,bestF1_f1,bestF1_precision,bestF1_recall,honest_f1,honest_precision,honest_recall,n_val,n_coreset
+transistor,0.92958,0.83657,0.85714,0.89189,0.825,0.84337,0.81395,0.875,21,6912
+PROMEDIO,0.92958,0.83657,0.85714,0.89189,0.825,0.84337,0.81395,0.875,,

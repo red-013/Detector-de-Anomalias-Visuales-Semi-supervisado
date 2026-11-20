@@ -6,4 +6,4 @@ venv/
 .vscode/
 Thumbs.db
 desktop.ini
-outputs
+outputs/**/bank_*.pt

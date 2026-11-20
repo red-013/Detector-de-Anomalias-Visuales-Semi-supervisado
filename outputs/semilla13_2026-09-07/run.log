@@ -1,0 +1,1752 @@
+15:21:47 | === PatchCore | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | coreset=1% | seed=0 ===
+15:22:01 | [bottle] banco 148176 -> 1482 (dim 1792, grid (28, 28)) | extract 5.08s coreset 2.03s
+15:22:09 | [bottle] AUROC img=1.0000 pix=0.9856 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=1.000 (P=1.000 R=1.000) | infer 3.1s total 14.5s
+15:22:09 | === PROMEDIO AUROC img=1.0000 pix=0.9856 | tiempo total 14.5s ===
+15:22:09 | Meta AUROC imagen >=0.95: OK (1.0000)
+15:22:09 | Meta AUROC pixel  >=0.96: OK (0.9856)
+15:22:09 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados.csv
+15:26:03 | === PatchCore | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | coreset=1% | seed=0 ===
+15:26:11 | [bottle] banco 148176 -> 1482 (dim 1792, grid (28, 28)) | extract 4.55s coreset 2.02s
+15:26:17 | [bottle] AUROC img=1.0000 pix=0.9856 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=1.000 (P=1.000 R=1.000) | infer 2.9s total 13.1s
+15:26:28 | [cable] banco 158368 -> 1584 (dim 1792, grid (28, 28)) | extract 8.16s coreset 2.27s
+15:26:43 | [cable] AUROC img=0.9376 pix=0.9848 | bestF1=0.887 (P=0.843 R=0.935) | honestoF1=0.808 (P=0.984 R=0.685) | infer 7.7s total 26.1s
+15:26:53 | [capsule] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 7.63s coreset 2.22s
+15:27:07 | [capsule] AUROC img=0.9617 pix=0.9878 | bestF1=0.977 (P=0.973 R=0.982) | honestoF1=0.938 (P=0.971 R=0.908) | infer 6.8s total 23.6s
+15:27:20 | [carpet] banco 197568 -> 1976 (dim 1792, grid (28, 28)) | extract 9.61s coreset 3.36s
+15:27:32 | [carpet] AUROC img=0.9888 pix=0.9889 | bestF1=0.971 (P=0.988 R=0.955) | honestoF1=0.941 (P=0.906 R=0.978) | infer 6.3s total 25.5s
+15:27:41 | [grid] banco 186592 -> 1866 (dim 1792, grid (28, 28)) | extract 5.0s coreset 3.0s
+15:27:47 | [grid] AUROC img=0.9348 pix=0.9777 | bestF1=0.922 (P=0.914 R=0.930) | honestoF1=0.800 (P=1.000 R=0.667) | infer 2.8s total 14.1s
+15:28:06 | [hazelnut] banco 275968 -> 2760 (dim 1792, grid (28, 28)) | extract 12.99s coreset 6.08s
+15:28:18 | [hazelnut] AUROC img=1.0000 pix=0.9860 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.993 (P=1.000 R=0.986) | infer 6.3s total 31.3s
+15:28:28 | [leather] banco 173264 -> 1733 (dim 1792, grid (28, 28)) | extract 7.12s coreset 2.67s
+15:28:40 | [leather] AUROC img=1.0000 pix=0.9915 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.929 (P=0.868 R=1.000) | infer 6.1s total 22.4s
+15:28:47 | [metal_nut] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 3.97s coreset 2.2s
+15:28:54 | [metal_nut] AUROC img=0.9809 pix=0.9861 | bestF1=0.972 (P=1.000 R=0.946) | honestoF1=0.967 (P=1.000 R=0.935) | infer 3.4s total 13.8s
+15:29:03 | [pill] banco 188944 -> 1889 (dim 1792, grid (28, 28)) | extract 5.97s coreset 3.14s
+15:29:17 | [pill] AUROC img=0.9051 pix=0.9739 | bestF1=0.936 (P=0.896 R=0.979) | honestoF1=0.524 (P=1.000 R=0.355) | infer 6.6s total 22.6s
+15:29:27 | [screw] banco 225792 -> 2258 (dim 1792, grid (28, 28)) | extract 6.24s coreset 4.22s
+15:29:38 | [screw] AUROC img=0.9026 pix=0.9856 | bestF1=0.905 (P=0.857 R=0.958) | honestoF1=0.413 (P=1.000 R=0.261) | infer 5.1s total 21.2s
+15:29:47 | [tile] banco 162288 -> 1623 (dim 1792, grid (28, 28)) | extract 6.1s coreset 2.44s
+15:29:57 | [tile] AUROC img=0.9867 pix=0.9587 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.957 (P=1.000 R=0.917) | infer 4.9s total 18.8s
+15:29:59 | [toothbrush] banco 42336 -> 423 (dim 1792, grid (28, 28)) | extract 1.9s coreset 0.27s
+15:30:04 | [toothbrush] AUROC img=0.9694 pix=0.9861 | bestF1=0.967 (P=0.967 R=0.967) | honestoF1=0.800 (P=1.000 R=0.667) | infer 2.0s total 6.9s
+15:30:13 | [transistor] banco 150528 -> 1505 (dim 1792, grid (28, 28)) | extract 7.46s coreset 2.08s
+15:30:24 | [transistor] AUROC img=0.9983 pix=0.9712 | bestF1=0.976 (P=0.952 R=1.000) | honestoF1=0.919 (P=1.000 R=0.850) | infer 5.3s total 20.5s
+15:30:36 | [wood] banco 174832 -> 1748 (dim 1792, grid (28, 28)) | extract 8.82s coreset 2.7s
+15:30:45 | [wood] AUROC img=0.9947 pix=0.9453 | bestF1=0.984 (P=0.968 R=1.000) | honestoF1=0.976 (P=0.952 R=1.000) | infer 4.7s total 21.1s
+15:30:52 | [zipper] banco 169344 -> 1693 (dim 1792, grid (28, 28)) | extract 4.37s coreset 2.56s
+15:31:02 | [zipper] AUROC img=0.9835 pix=0.9851 | bestF1=0.992 (P=0.992 R=0.992) | honestoF1=0.987 (P=0.992 R=0.983) | infer 4.5s total 16.7s
+15:31:02 | === PROMEDIO AUROC img=0.9696 pix=0.9796 | tiempo total 297.7s ===
+15:31:02 | Meta AUROC imagen >=0.95: OK (0.9696)
+15:31:02 | Meta AUROC pixel  >=0.96: OK (0.9796)
+15:31:02 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados.csv
+15:42:32 | === PatchCore | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | coreset=1% | umbral=percentile(p90) | seed=0 ===
+15:42:40 | [bottle] banco 148176 -> 1482 (dim 1792, grid (28, 28)) | extract 4.7s coreset 2.01s
+15:42:44 | [bottle] AUROC img=1.0000 pix=0.9856 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 2.9s total 10.8s
+15:42:54 | [cable] banco 158368 -> 1584 (dim 1792, grid (28, 28)) | extract 8.11s coreset 2.31s
+15:43:04 | [cable] AUROC img=0.9376 pix=0.9848 | bestF1=0.887 (P=0.843 R=0.935) | honestoF1=0.874 (P=0.927 R=0.826) | infer 7.5s total 19.8s
+15:43:13 | [capsule] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 7.45s coreset 2.18s
+15:43:22 | [capsule] AUROC img=0.9617 pix=0.9878 | bestF1=0.977 (P=0.973 R=0.982) | honestoF1=0.973 (P=0.964 R=0.982) | infer 6.7s total 18.0s
+15:43:35 | [carpet] banco 197568 -> 1976 (dim 1792, grid (28, 28)) | extract 9.41s coreset 3.34s
+15:43:42 | [carpet] AUROC img=0.9888 pix=0.9889 | bestF1=0.971 (P=0.988 R=0.955) | honestoF1=0.937 (P=0.881 R=1.000) | infer 6.3s total 20.6s
+15:43:50 | [grid] banco 186592 -> 1866 (dim 1792, grid (28, 28)) | extract 5.02s coreset 3.0s
+15:43:54 | [grid] AUROC img=0.9348 pix=0.9777 | bestF1=0.922 (P=0.914 R=0.930) | honestoF1=0.914 (P=0.898 R=0.930) | infer 2.6s total 11.7s
+15:44:13 | [hazelnut] banco 275968 -> 2760 (dim 1792, grid (28, 28)) | extract 12.86s coreset 6.14s
+15:44:21 | [hazelnut] AUROC img=1.0000 pix=0.9860 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.966 (P=0.933 R=1.000) | infer 6.3s total 26.8s
+15:44:31 | [leather] banco 173264 -> 1733 (dim 1792, grid (28, 28)) | extract 7.16s coreset 2.66s
+15:44:38 | [leather] AUROC img=1.0000 pix=0.9915 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.872 (P=0.773 R=1.000) | infer 6.1s total 17.5s
+15:44:45 | [metal_nut] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 4.08s coreset 2.29s
+15:44:50 | [metal_nut] AUROC img=0.9809 pix=0.9861 | bestF1=0.972 (P=1.000 R=0.946) | honestoF1=0.962 (P=0.978 R=0.946) | infer 3.5s total 11.5s
+15:44:59 | [pill] banco 188944 -> 1889 (dim 1792, grid (28, 28)) | extract 6.1s coreset 3.14s
+15:45:08 | [pill] AUROC img=0.9051 pix=0.9739 | bestF1=0.936 (P=0.896 R=0.979) | honestoF1=0.774 (P=0.968 R=0.645) | infer 6.4s total 17.8s
+15:45:18 | [screw] banco 225792 -> 2258 (dim 1792, grid (28, 28)) | extract 6.09s coreset 4.27s
+15:45:25 | [screw] AUROC img=0.9026 pix=0.9856 | bestF1=0.905 (P=0.857 R=0.958) | honestoF1=0.733 (P=0.972 R=0.588) | infer 5.0s total 17.5s
+15:45:34 | [tile] banco 162288 -> 1623 (dim 1792, grid (28, 28)) | extract 6.07s coreset 2.38s
+15:45:40 | [tile] AUROC img=0.9867 pix=0.9587 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.970 (P=0.965 R=0.976) | infer 4.9s total 14.8s
+15:45:42 | [toothbrush] banco 42336 -> 423 (dim 1792, grid (28, 28)) | extract 1.94s coreset 0.33s
+15:45:45 | [toothbrush] AUROC img=0.9694 pix=0.9861 | bestF1=0.967 (P=0.967 R=0.967) | honestoF1=0.967 (P=0.967 R=0.967) | infer 2.0s total 4.8s
+15:45:54 | [transistor] banco 150528 -> 1505 (dim 1792, grid (28, 28)) | extract 7.48s coreset 2.1s
+15:46:01 | [transistor] AUROC img=0.9983 pix=0.9712 | bestF1=0.976 (P=0.952 R=1.000) | honestoF1=0.976 (P=0.952 R=1.000) | infer 5.4s total 16.2s
+15:46:13 | [wood] banco 174832 -> 1748 (dim 1792, grid (28, 28)) | extract 9.01s coreset 2.73s
+15:46:18 | [wood] AUROC img=0.9947 pix=0.9453 | bestF1=0.984 (P=0.968 R=1.000) | honestoF1=0.937 (P=0.882 R=1.000) | infer 4.7s total 17.5s
+15:46:26 | [zipper] banco 169344 -> 1693 (dim 1792, grid (28, 28)) | extract 4.37s coreset 2.55s
+15:46:32 | [zipper] AUROC img=0.9835 pix=0.9851 | bestF1=0.992 (P=0.992 R=0.992) | honestoF1=0.979 (P=0.960 R=1.000) | infer 4.5s total 13.3s
+15:46:32 | === PROMEDIO AUROC img=0.9696 pix=0.9796 | tiempo total 238.7s ===
+15:46:32 | Meta AUROC imagen >=0.95: OK (0.9696)
+15:46:32 | Meta AUROC pixel  >=0.96: OK (0.9796)
+15:46:32 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados.csv
+18:09:50 | === PatchCore | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer1 | coreset=1% | umbral=percentile(p90) | seed=0 ===
+18:10:32 | [bottle] banco 592704 -> 5927 (dim 1792, grid (56, 56)) | extract 8.7s coreset 31.53s
+18:10:40 | [bottle] AUROC img=1.0000 pix=0.9860 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=1.000 (P=1.000 R=1.000) | infer 4.4s total 48.8s
+18:11:19 | [cable] banco 633472 -> 6335 (dim 1792, grid (56, 56)) | extract 9.2s coreset 29.34s
+18:11:36 | [cable] AUROC img=0.9702 pix=0.9858 | bestF1=0.928 (P=0.882 R=0.978) | honestoF1=0.893 (P=0.929 R=0.859) | infer 9.0s total 55.7s
+18:12:13 | [capsule] banco 620928 -> 6209 (dim 1792, grid (56, 56)) | extract 8.41s coreset 28.08s
+18:12:27 | [capsule] AUROC img=0.9565 pix=0.9888 | bestF1=0.968 (P=0.955 R=0.982) | honestoF1=0.968 (P=0.955 R=0.982) | infer 7.9s total 51.4s
+18:13:24 | [carpet] banco 790272 -> 7903 (dim 1792, grid (56, 56)) | extract 10.59s coreset 45.52s
+18:13:40 | [carpet] AUROC img=0.9900 pix=0.9896 | bestF1=0.971 (P=0.988 R=0.955) | honestoF1=0.937 (P=0.881 R=1.000) | infer 9.1s total 72.5s
+18:14:27 | [grid] banco 746368 -> 7464 (dim 1792, grid (56, 56)) | extract 6.37s coreset 39.98s
+18:14:34 | [grid] AUROC img=0.9733 pix=0.9808 | bestF1=0.966 (P=0.949 R=0.982) | honestoF1=0.949 (P=0.918 R=0.982) | infer 3.9s total 53.7s
+18:16:16 | [hazelnut] banco 1103872 -> 11039 (dim 1792, grid (56, 56)) | extract 15.14s coreset 86.38s
+18:16:30 | [hazelnut] AUROC img=0.9993 pix=0.9871 | bestF1=0.993 (P=1.000 R=0.986) | honestoF1=0.972 (P=0.946 R=1.000) | infer 8.6s total 116.3s
+18:17:13 | [leather] banco 693056 -> 6931 (dim 1792, grid (56, 56)) | extract 8.28s coreset 34.7s
+18:17:27 | [leather] AUROC img=1.0000 pix=0.9917 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.868 (P=0.767 R=1.000) | infer 7.6s total 57.3s
+18:18:01 | [metal_nut] banco 620928 -> 6209 (dim 1792, grid (56, 56)) | extract 4.96s coreset 28.21s
+18:18:09 | [metal_nut] AUROC img=0.9976 pix=0.9881 | bestF1=0.989 (P=0.979 R=1.000) | honestoF1=0.979 (P=0.959 R=1.000) | infer 4.7s total 42.1s
+18:19:00 | [pill] banco 755776 -> 7558 (dim 1792, grid (56, 56)) | extract 7.24s coreset 43.0s
+18:19:14 | [pill] AUROC img=0.9329 pix=0.9800 | bestF1=0.944 (P=0.931 R=0.957) | honestoF1=0.752 (P=1.000 R=0.603) | infer 8.0s total 64.9s
+18:20:20 | [screw] banco 903168 -> 9032 (dim 1792, grid (56, 56)) | extract 7.73s coreset 57.94s
+18:20:33 | [screw] AUROC img=0.9699 pix=0.9939 | bestF1=0.957 (P=0.974 R=0.941) | honestoF1=0.953 (P=0.974 R=0.933) | infer 7.6s total 79.0s
+18:21:11 | [tile] banco 649152 -> 6492 (dim 1792, grid (56, 56)) | extract 7.3s coreset 30.55s
+18:21:23 | [tile] AUROC img=0.9827 pix=0.9586 | bestF1=0.982 (P=0.988 R=0.976) | honestoF1=0.982 (P=0.988 R=0.976) | infer 6.2s total 49.4s
+18:21:28 | [toothbrush] banco 169344 -> 1693 (dim 1792, grid (56, 56)) | extract 2.21s coreset 2.53s
+18:21:33 | [toothbrush] AUROC img=0.9917 pix=0.9875 | bestF1=0.968 (P=0.937 R=1.000) | honestoF1=0.923 (P=0.857 R=1.000) | infer 2.1s total 9.7s
+18:22:10 | [transistor] banco 602112 -> 6021 (dim 1792, grid (56, 56)) | extract 8.82s coreset 28.88s
+18:22:23 | [transistor] AUROC img=0.9979 pix=0.9727 | bestF1=0.975 (P=0.975 R=0.975) | honestoF1=0.909 (P=0.833 R=1.000) | infer 6.6s total 50.2s
+18:23:12 | [wood] banco 699328 -> 6993 (dim 1792, grid (56, 56)) | extract 10.04s coreset 38.5s
+18:23:22 | [wood] AUROC img=0.9965 pix=0.9470 | bestF1=0.983 (P=0.983 R=0.983) | honestoF1=0.952 (P=0.909 R=1.000) | infer 6.0s total 59.6s
+18:24:04 | [zipper] banco 677376 -> 6774 (dim 1792, grid (56, 56)) | extract 5.42s coreset 36.2s
+18:24:16 | [zipper] AUROC img=0.9913 pix=0.9858 | bestF1=0.992 (P=0.992 R=0.992) | honestoF1=0.967 (P=0.944 R=0.992) | infer 6.6s total 53.7s
+18:24:16 | === PROMEDIO AUROC img=0.9833 pix=0.9816 | tiempo total 864.4s ===
+18:24:16 | Meta AUROC imagen >=0.95: OK (0.9833)
+18:24:16 | Meta AUROC pixel  >=0.96: OK (0.9816)
+18:24:16 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados.csv
+18:27:59 | === PatchCore | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer1 | coreset=2% | umbral=percentile(p90) | seed=0 ===
+18:29:11 | [bottle] banco 592704 -> 14818 (dim 1792, grid (56, 56)) | extract 5.65s coreset 65.17s
+18:29:20 | [bottle] AUROC img=1.0000 pix=0.9861 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.969 (P=0.940 R=1.000) | infer 5.3s total 80.1s
+18:30:43 | [cable] banco 633472 -> 15837 (dim 1792, grid (56, 56)) | extract 9.22s coreset 73.87s
+18:31:03 | [cable] AUROC img=0.9861 pix=0.9861 | bestF1=0.947 (P=0.927 R=0.967) | honestoF1=0.946 (P=0.936 R=0.957) | infer 11.6s total 103.2s
+18:32:28 | [capsule] banco 620928 -> 15523 (dim 1792, grid (56, 56)) | extract 8.91s coreset 76.09s
+18:32:46 | [capsule] AUROC img=0.9777 pix=0.9889 | bestF1=0.977 (P=0.964 R=0.991) | honestoF1=0.973 (P=0.964 R=0.982) | infer 10.1s total 102.7s
+18:34:55 | [carpet] banco 790272 -> 19757 (dim 1792, grid (56, 56)) | extract 11.23s coreset 116.96s
+23:02:53 | === PatchCore | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer1 | coreset=2% | umbral=percentile(p90) | seed=0 ===
+23:04:58 | [carpet] banco 790272 -> 19757 (dim 1792, grid (56, 56)) | extract 11.58s coreset 112.15s
+23:05:15 | [carpet] AUROC img=0.9920 pix=0.9896 | bestF1=0.978 (P=0.978 R=0.978) | honestoF1=0.937 (P=0.881 R=1.000) | infer 10.3s total 140.7s
+23:07:00 | [grid] banco 746368 -> 18659 (dim 1792, grid (56, 56)) | extract 6.48s coreset 98.72s
+23:07:09 | [grid] AUROC img=0.9774 pix=0.9817 | bestF1=0.974 (P=0.966 R=0.982) | honestoF1=0.966 (P=0.949 R=0.982) | infer 5.5s total 114.6s
+23:11:00 | [hazelnut] banco 1103872 -> 27597 (dim 1792, grid (56, 56)) | extract 16.86s coreset 212.89s
+23:11:17 | [hazelnut] AUROC img=1.0000 pix=0.9870 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.986 (P=0.972 R=1.000) | infer 11.8s total 248.3s
+23:12:53 | [leather] banco 693056 -> 17326 (dim 1792, grid (56, 56)) | extract 9.81s coreset 85.44s
+23:13:09 | [leather] AUROC img=1.0000 pix=0.9917 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.852 (P=0.742 R=1.000) | infer 9.6s total 111.6s
+23:14:23 | [metal_nut] banco 620928 -> 15523 (dim 1792, grid (56, 56)) | extract 4.95s coreset 68.95s
+23:14:34 | [metal_nut] AUROC img=0.9995 pix=0.9886 | bestF1=0.995 (P=0.989 R=1.000) | honestoF1=0.969 (P=0.939 R=1.000) | infer 6.3s total 84.7s
+23:16:23 | [pill] banco 755776 -> 18894 (dim 1792, grid (56, 56)) | extract 7.41s coreset 101.14s
+23:16:40 | [pill] AUROC img=0.9618 pix=0.9803 | bestF1=0.961 (P=0.958 R=0.965) | honestoF1=0.841 (P=0.990 R=0.730) | infer 10.8s total 126.2s
+23:19:11 | [screw] banco 903168 -> 22579 (dim 1792, grid (56, 56)) | extract 7.7s coreset 143.31s
+23:19:28 | [screw] AUROC img=0.9783 pix=0.9940 | bestF1=0.975 (P=0.952 R=1.000) | honestoF1=0.975 (P=0.952 R=1.000) | infer 11.1s total 168.2s
+23:20:52 | [tile] banco 649152 -> 16229 (dim 1792, grid (56, 56)) | extract 7.78s coreset 75.3s
+23:21:05 | [tile] AUROC img=0.9881 pix=0.9585 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.982 (P=0.988 R=0.976) | infer 8.0s total 96.7s
+23:21:13 | [toothbrush] banco 169344 -> 4234 (dim 1792, grid (56, 56)) | extract 2.21s coreset 5.81s
+23:21:18 | [toothbrush] AUROC img=1.0000 pix=0.9874 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.984 (P=0.968 R=1.000) | infer 2.3s total 13.2s
+23:22:32 | [transistor] banco 602112 -> 15053 (dim 1792, grid (56, 56)) | extract 8.53s coreset 64.94s
+23:22:45 | [transistor] AUROC img=1.0000 pix=0.9736 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.952 (P=0.909 R=1.000) | infer 7.8s total 87.2s
+23:24:23 | [wood] banco 699328 -> 17483 (dim 1792, grid (56, 56)) | extract 10.11s coreset 86.98s
+23:24:35 | [wood] AUROC img=0.9965 pix=0.9464 | bestF1=0.992 (P=1.000 R=0.983) | honestoF1=0.923 (P=0.857 R=1.000) | infer 7.1s total 109.4s
+23:26:02 | [zipper] banco 677376 -> 16934 (dim 1792, grid (56, 56)) | extract 5.67s coreset 81.68s
+23:26:16 | [zipper] AUROC img=0.9926 pix=0.9856 | bestF1=0.992 (P=0.992 R=0.992) | honestoF1=0.960 (P=0.922 R=1.000) | infer 8.7s total 101.6s
+23:26:16 | === PROMEDIO AUROC img=0.99052 pix=0.98038 | tiempo total 1402.4s ===
+23:26:16 | Meta AUROC imagen >=0.95: OK (0.9905)
+23:26:16 | Meta AUROC pixel  >=0.96: OK (0.9804)
+23:26:16 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados.csv
+20:52:17 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=10% | umbral=percentile(p90) | seed=0 ===
+20:52:59 | [bottle] banco 680400 -> C_emb 6804 -> C_dist 680 (dim 1792, grid (60, 60)) | extract 7.74s coreset 33.48s dist 0.18s
+20:53:20 |       MLP epoca 1/10 loss=0.8822 (170100 muestras)
+20:53:31 |       MLP epoca 2/10 loss=0.5502 (170100 muestras)
+20:53:43 |       MLP epoca 3/10 loss=0.4794 (170100 muestras)
+20:53:54 |       MLP epoca 4/10 loss=0.4187 (170100 muestras)
+20:54:05 |       MLP epoca 5/10 loss=0.4035 (170100 muestras)
+20:54:17 |       MLP epoca 6/10 loss=0.3896 (170100 muestras)
+20:54:28 |       MLP epoca 7/10 loss=0.3604 (170100 muestras)
+20:54:39 |       MLP epoca 8/10 loss=0.3455 (170100 muestras)
+20:54:50 |       MLP epoca 9/10 loss=0.3352 (170100 muestras)
+20:55:02 |       MLP epoca 10/10 loss=0.3306 (170100 muestras)
+20:55:02 | [bottle] distribucion N+P ajustada en 122.2s (680 simbolos)
+20:55:14 | [bottle] AUROC img=1.0000 pix=0.9883 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.969 (P=0.940 R=1.000) | infer 7.8s total 175.9s
+20:55:14 | === PROMEDIO AUROC img=1.00000 pix=0.98827 | tiempo total 176.0s ===
+20:55:14 | AUROC imagen: 1.00000 | referencia 0.9946 | delta +0.0054 -> IGUALADO
+20:55:14 | AUROC pixel : 0.98827 | referencia 0.9880 | delta +0.0003 -> IGUALADO
+20:55:14 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados.csv
+20:55:46 | === PNI [baseline] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=10% | umbral=percentile(p90) | seed=0 ===
+20:56:29 | [bottle] banco 680400 -> C_emb 6804 -> C_dist 680 (dim 1792, grid (60, 60)) | extract 7.96s coreset 33.55s dist 0.18s
+20:56:39 | [bottle] AUROC img=1.0000 pix=0.9883 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.969 (P=0.940 R=1.000) | infer 5.8s total 52.3s
+20:56:39 | === PROMEDIO AUROC img=1.00000 pix=0.98828 | tiempo total 52.3s ===
+20:56:39 | AUROC imagen: 1.00000 | referencia 0.9892 | delta +0.0108 -> IGUALADO
+20:56:39 | AUROC pixel : 0.98828 | referencia 0.9818 | delta +0.0065 -> IGUALADO
+20:56:39 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados.csv
+20:59:15 | === PNI [baseline] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=10% | umbral=percentile(p90) | seed=0 ===
+21:00:02 | [transistor] banco 691200 -> C_emb 6912 -> C_dist 691 (dim 1792, grid (60, 60)) | extract 11.11s coreset 34.68s dist 0.19s
+21:00:16 | [transistor] AUROC img=0.9554 pix=0.8905 | bestF1=0.962 (P=0.974 R=0.950) | honestoF1=0.927 (P=0.905 R=0.950) | infer 8.8s total 60.5s
+21:00:16 | === PROMEDIO AUROC img=0.95542 pix=0.89052 | tiempo total 60.5s ===
+21:00:16 | AUROC imagen: 0.95542 | referencia 0.9892 | delta -0.0338 -> POR DEBAJO
+21:00:16 | AUROC pixel : 0.89052 | referencia 0.9818 | delta -0.0913 -> POR DEBAJO
+21:00:16 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados.csv
+21:00:31 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=10% | umbral=percentile(p90) | seed=0 ===
+21:01:17 | [transistor] banco 691200 -> C_emb 6912 -> C_dist 691 (dim 1792, grid (60, 60)) | extract 10.96s coreset 34.65s dist 0.2s
+21:01:45 |       MLP epoca 1/10 loss=1.1522 (172800 muestras)
+21:01:59 |       MLP epoca 2/10 loss=0.7546 (172800 muestras)
+21:02:14 |       MLP epoca 3/10 loss=0.6532 (172800 muestras)
+21:02:28 |       MLP epoca 4/10 loss=0.6095 (172800 muestras)
+21:02:43 |       MLP epoca 5/10 loss=0.5628 (172800 muestras)
+21:02:57 |       MLP epoca 6/10 loss=0.5548 (172800 muestras)
+21:03:11 |       MLP epoca 7/10 loss=0.5039 (172800 muestras)
+21:03:26 |       MLP epoca 8/10 loss=0.4957 (172800 muestras)
+21:03:40 |       MLP epoca 9/10 loss=0.4761 (172800 muestras)
+21:03:55 |       MLP epoca 10/10 loss=0.4542 (172800 muestras)
+21:03:55 | [transistor] distribucion N+P ajustada en 157.3s (691 simbolos)
+21:04:11 | [transistor] AUROC img=0.9554 pix=0.8907 | bestF1=0.962 (P=0.974 R=0.950) | honestoF1=0.927 (P=0.905 R=0.950) | infer 10.8s total 219.4s
+21:04:11 | === PROMEDIO AUROC img=0.95542 pix=0.89072 | tiempo total 219.4s ===
+21:04:11 | AUROC imagen: 0.95542 | referencia 0.9946 | delta -0.0392 -> POR DEBAJO
+21:04:11 | AUROC pixel : 0.89072 | referencia 0.9880 | delta -0.0973 -> POR DEBAJO
+21:04:11 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados.csv
+21:07:21 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=10% | umbral=percentile(p90) | seed=0 ===
+21:08:07 | [transistor] banco 691200 -> C_emb 6912 -> C_dist 691 (dim 1792, grid (60, 60)) | extract 10.69s coreset 34.56s dist 0.18s
+21:08:35 |       MLP epoca 1/10 loss=1.1522 (172800 muestras)
+21:08:49 |       MLP epoca 2/10 loss=0.7546 (172800 muestras)
+21:09:04 |       MLP epoca 3/10 loss=0.6532 (172800 muestras)
+21:09:19 |       MLP epoca 4/10 loss=0.6095 (172800 muestras)
+21:09:34 |       MLP epoca 5/10 loss=0.5628 (172800 muestras)
+21:09:48 |       MLP epoca 6/10 loss=0.5548 (172800 muestras)
+21:10:03 |       MLP epoca 7/10 loss=0.5039 (172800 muestras)
+21:10:18 |       MLP epoca 8/10 loss=0.4957 (172800 muestras)
+21:10:33 |       MLP epoca 9/10 loss=0.4761 (172800 muestras)
+21:10:48 |       MLP epoca 10/10 loss=0.4542 (172800 muestras)
+21:10:48 | [transistor] distribucion N+P ajustada en 160.8s (691 simbolos)
+21:11:05 | [transistor] AUROC img=0.9296 pix=0.8366 | bestF1=0.857 (P=0.892 R=0.825) | honestoF1=0.843 (P=0.814 R=0.875) | infer 11.4s total 223.9s
+21:11:05 | === PROMEDIO AUROC img=0.92958 pix=0.83657 | tiempo total 223.9s ===
+21:11:05 | AUROC imagen: 0.92958 | referencia 0.9946 | delta -0.0650 -> POR DEBAJO
+21:11:05 | AUROC pixel : 0.83657 | referencia 0.9880 | delta -0.1514 -> POR DEBAJO
+21:11:05 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados.csv
+07:16:38 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+07:17:23 | [bottle] parches 680400 (pool 680400) -> C_emb 6804 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 9.12s coreset 34.09s dist 0.44s
+07:18:03 |       MLP epoca 1/15 loss=1.8004 (170100 muestras, 189 img, lr=1.0e-03)
+07:18:33 |       MLP epoca 2/15 loss=1.1940 (170100 muestras, 189 img, lr=1.0e-03)
+07:19:03 |       MLP epoca 3/15 loss=1.0402 (170100 muestras, 189 img, lr=1.0e-03)
+07:19:34 |       MLP epoca 4/15 loss=0.9250 (170100 muestras, 189 img, lr=1.0e-03)
+07:20:04 |       MLP epoca 5/15 loss=0.8826 (170100 muestras, 189 img, lr=1.0e-04)
+07:20:34 |       MLP epoca 6/15 loss=0.6526 (170100 muestras, 189 img, lr=1.0e-04)
+07:21:05 |       MLP epoca 7/15 loss=0.5788 (170100 muestras, 189 img, lr=1.0e-04)
+07:21:35 |       MLP epoca 8/15 loss=0.5551 (170100 muestras, 189 img, lr=1.0e-04)
+07:22:06 |       MLP epoca 9/15 loss=0.5405 (170100 muestras, 189 img, lr=1.0e-04)
+07:22:37 |       MLP epoca 10/15 loss=0.5272 (170100 muestras, 189 img, lr=1.0e-05)
+07:23:07 |       MLP epoca 11/15 loss=0.4975 (170100 muestras, 189 img, lr=1.0e-05)
+07:23:38 |       MLP epoca 12/15 loss=0.4842 (170100 muestras, 189 img, lr=1.0e-05)
+07:24:08 |       MLP epoca 13/15 loss=0.4801 (170100 muestras, 189 img, lr=1.0e-05)
+07:24:39 |       MLP epoca 14/15 loss=0.4779 (170100 muestras, 189 img, lr=1.0e-05)
+07:25:10 |       MLP epoca 15/15 loss=0.4721 (170100 muestras, 189 img, lr=1.0e-06)
+07:25:10 | [bottle] distribucion N+P ajustada en 466.8s (2048 simbolos)
+07:25:36 | [bottle] AUROC img=1.0000 pix=0.9882 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 21.1s total 536.8s
+07:25:36 | === PROMEDIO AUROC img=1.00000 pix=0.98823 | tiempo total 536.8s ===
+07:25:36 | AUROC imagen: 1.00000 | referencia 0.9946 | delta +0.0054 -> IGUALADO
+07:25:36 | AUROC pixel : 0.98823 | referencia 0.9880 | delta +0.0002 -> IGUALADO
+07:25:36 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_mvtec.csv
+07:26:14 | === PNI [baseline] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+07:29:11 | [candle] parches 2916000 (pool 700000) -> C_emb 29160 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 29.88s coreset 145.42s dist 0.78s
+07:29:46 | [candle] AUROC img=0.9834 pix=0.9959 | bestF1=0.951 (P=0.925 R=0.980) | honestoF1=0.933 (P=0.958 R=0.910) | infer 24.4s total 211.6s
+07:29:46 | === PROMEDIO AUROC img=0.98340 pix=0.99593 | tiempo total 211.6s ===
+07:29:46 | AUROC imagen: 0.98340 | referencia 0.9520 | delta +0.0314 -> IGUALADO
+07:29:46 | AUROC pixel : 0.99593 | referencia 0.9880 | delta +0.0079 -> IGUALADO
+07:29:46 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv
+07:30:09 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+07:30:52 | [bottle] parches 680400 (pool 680400) -> C_emb 6804 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 7.99s coreset 33.88s dist 0.43s
+07:31:31 |       MLP epoca 1/15 loss=1.8004 (170100 muestras, 189 img, lr=1.0e-03)
+07:32:01 |       MLP epoca 2/15 loss=1.1940 (170100 muestras, 189 img, lr=1.0e-03)
+07:32:32 |       MLP epoca 3/15 loss=1.0402 (170100 muestras, 189 img, lr=1.0e-03)
+07:33:02 |       MLP epoca 4/15 loss=0.9250 (170100 muestras, 189 img, lr=1.0e-03)
+07:33:32 |       MLP epoca 5/15 loss=0.8826 (170100 muestras, 189 img, lr=1.0e-04)
+07:34:02 |       MLP epoca 6/15 loss=0.6526 (170100 muestras, 189 img, lr=1.0e-04)
+07:34:32 |       MLP epoca 7/15 loss=0.5788 (170100 muestras, 189 img, lr=1.0e-04)
+07:35:02 |       MLP epoca 8/15 loss=0.5551 (170100 muestras, 189 img, lr=1.0e-04)
+07:35:32 |       MLP epoca 9/15 loss=0.5405 (170100 muestras, 189 img, lr=1.0e-04)
+07:36:03 |       MLP epoca 10/15 loss=0.5272 (170100 muestras, 189 img, lr=1.0e-05)
+07:36:33 |       MLP epoca 11/15 loss=0.4975 (170100 muestras, 189 img, lr=1.0e-05)
+07:37:03 |       MLP epoca 12/15 loss=0.4842 (170100 muestras, 189 img, lr=1.0e-05)
+07:37:33 |       MLP epoca 13/15 loss=0.4801 (170100 muestras, 189 img, lr=1.0e-05)
+07:38:03 |       MLP epoca 14/15 loss=0.4779 (170100 muestras, 189 img, lr=1.0e-05)
+07:38:33 |       MLP epoca 15/15 loss=0.4721 (170100 muestras, 189 img, lr=1.0e-06)
+07:38:33 | [bottle] distribucion N+P ajustada en 461.3s (2048 simbolos)
+07:39:02 | [bottle] AUROC img=1.0000 pix=0.9882 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 20.6s total 532.4s
+07:39:52 | [cable] parches 727200 (pool 700000) -> C_emb 7272 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 12.49s coreset 37.3s dist 0.38s
+07:40:06 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+07:40:39 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+07:40:40 | --resume: 1 categorias ya evaluadas en parcial_mvtec_N+P.csv -> ['bottle']
+07:40:40 | [bottle] REUTILIZADA del parcial: AUROC img=1.0000 pix=0.9882
+07:40:40 | === PROMEDIO AUROC img=1.00000 pix=0.98823 | tiempo total 0.0s ===
+07:40:40 | AUROC imagen: 1.00000 | referencia 0.9946 | delta +0.0054 -> IGUALADO
+07:40:40 | AUROC pixel : 0.98823 | referencia 0.9880 | delta +0.0002 -> IGUALADO
+07:40:40 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_mvtec.csv
+07:40:41 |       MLP epoca 1/15 loss=2.4259 (181800 muestras, 202 img, lr=1.0e-03)
+07:41:16 |       MLP epoca 2/15 loss=1.6520 (181800 muestras, 202 img, lr=1.0e-03)
+07:41:52 |       MLP epoca 3/15 loss=1.3962 (181800 muestras, 202 img, lr=1.0e-03)
+07:42:27 |       MLP epoca 4/15 loss=1.2795 (181800 muestras, 202 img, lr=1.0e-03)
+07:42:43 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+07:42:44 | --resume: 1 categorias ya evaluadas en parcial_mvtec_N+P.csv -> ['bottle']
+07:42:44 | [bottle] REUTILIZADA del parcial: AUROC img=1.0000 pix=0.9882
+07:43:13 |       MLP epoca 5/15 loss=1.1904 (181800 muestras, 202 img, lr=1.0e-04)
+07:44:26 |       MLP epoca 6/15 loss=0.9289 (181800 muestras, 202 img, lr=1.0e-04)
+07:44:37 | [cable] parches 727200 (pool 700000) -> C_emb 7272 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 15.65s coreset 95.23s dist 2.17s
+07:45:50 |       MLP epoca 7/15 loss=0.8234 (181800 muestras, 202 img, lr=1.0e-04)
+07:46:52 |       MLP epoca 1/15 loss=2.4200 (181800 muestras, 202 img, lr=1.0e-03)
+07:47:44 |       MLP epoca 8/15 loss=0.7899 (181800 muestras, 202 img, lr=1.0e-04)
+07:48:45 |       MLP epoca 2/15 loss=1.6551 (181800 muestras, 202 img, lr=1.0e-03)
+07:49:38 |       MLP epoca 9/15 loss=0.7595 (181800 muestras, 202 img, lr=1.0e-04)
+07:50:37 |       MLP epoca 3/15 loss=1.3999 (181800 muestras, 202 img, lr=1.0e-03)
+07:51:31 |       MLP epoca 10/15 loss=0.7381 (181800 muestras, 202 img, lr=1.0e-05)
+07:52:30 |       MLP epoca 4/15 loss=1.2769 (181800 muestras, 202 img, lr=1.0e-03)
+07:53:23 |       MLP epoca 11/15 loss=0.7096 (181800 muestras, 202 img, lr=1.0e-05)
+07:54:24 |       MLP epoca 5/15 loss=1.2043 (181800 muestras, 202 img, lr=1.0e-04)
+07:55:17 |       MLP epoca 12/15 loss=0.6919 (181800 muestras, 202 img, lr=1.0e-05)
+07:56:16 |       MLP epoca 6/15 loss=0.9417 (181800 muestras, 202 img, lr=1.0e-04)
+07:57:10 |       MLP epoca 13/15 loss=0.6905 (181800 muestras, 202 img, lr=1.0e-05)
+07:58:10 |       MLP epoca 7/15 loss=0.8330 (181800 muestras, 202 img, lr=1.0e-04)
+07:59:02 |       MLP epoca 14/15 loss=0.6814 (181800 muestras, 202 img, lr=1.0e-05)
+08:00:03 |       MLP epoca 8/15 loss=0.7990 (181800 muestras, 202 img, lr=1.0e-04)
+08:00:56 |       MLP epoca 15/15 loss=0.6795 (181800 muestras, 202 img, lr=1.0e-06)
+08:00:56 | [cable] distribucion N+P ajustada en 1263.4s (2048 simbolos)
+08:01:54 |       MLP epoca 9/15 loss=0.7686 (181800 muestras, 202 img, lr=1.0e-04)
+08:03:22 | [cable] AUROC img=0.9798 pix=0.9800 | bestF1=0.955 (P=0.988 R=0.924) | honestoF1=0.943 (P=0.988 R=0.902) | infer 123.6s total 1460.4s
+08:03:28 |       MLP epoca 10/15 loss=0.7457 (181800 muestras, 202 img, lr=1.0e-05)
+08:05:20 |       MLP epoca 11/15 loss=0.7163 (181800 muestras, 202 img, lr=1.0e-05)
+08:06:02 | [capsule] parches 712800 (pool 700000) -> C_emb 7128 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 38.03s coreset 121.23s dist 0.38s
+08:07:14 |       MLP epoca 12/15 loss=0.6990 (181800 muestras, 202 img, lr=1.0e-05)
+08:08:34 |       MLP epoca 1/15 loss=1.7606 (178200 muestras, 198 img, lr=1.0e-03)
+08:09:09 |       MLP epoca 13/15 loss=0.6972 (181800 muestras, 202 img, lr=1.0e-05)
+08:10:25 |       MLP epoca 2/15 loss=1.1184 (178200 muestras, 198 img, lr=1.0e-03)
+08:11:01 |       MLP epoca 14/15 loss=0.6885 (181800 muestras, 202 img, lr=1.0e-05)
+08:12:17 |       MLP epoca 3/15 loss=0.9763 (178200 muestras, 198 img, lr=1.0e-03)
+08:12:55 |       MLP epoca 15/15 loss=0.6862 (181800 muestras, 202 img, lr=1.0e-06)
+08:12:55 | [cable] distribucion N+P ajustada en 1698.2s (2048 simbolos)
+08:14:10 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+08:15:15 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+08:15:16 | --resume: 2 categorias ya evaluadas en parcial_mvtec_N+P.csv -> ['bottle', 'cable']
+08:15:16 | [bottle] REUTILIZADA del parcial: AUROC img=1.0000 pix=0.9882
+08:15:16 | [cable] REUTILIZADA del parcial: AUROC img=0.9798 pix=0.9800
+08:16:05 | [capsule] parches 712800 (pool 700000) -> C_emb 7128 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 12.05s coreset 36.64s dist 0.38s
+08:16:52 |       MLP epoca 1/15 loss=1.7548 (178200 muestras, 198 img, lr=1.0e-03)
+08:17:27 |       MLP epoca 2/15 loss=1.1185 (178200 muestras, 198 img, lr=1.0e-03)
+08:18:01 |       MLP epoca 3/15 loss=0.9683 (178200 muestras, 198 img, lr=1.0e-03)
+08:18:36 |       MLP epoca 4/15 loss=0.8853 (178200 muestras, 198 img, lr=1.0e-03)
+08:19:10 |       MLP epoca 5/15 loss=0.8088 (178200 muestras, 198 img, lr=1.0e-04)
+08:19:45 |       MLP epoca 6/15 loss=0.5977 (178200 muestras, 198 img, lr=1.0e-04)
+08:20:19 |       MLP epoca 7/15 loss=0.5333 (178200 muestras, 198 img, lr=1.0e-04)
+08:20:54 |       MLP epoca 8/15 loss=0.5147 (178200 muestras, 198 img, lr=1.0e-04)
+08:21:28 |       MLP epoca 9/15 loss=0.4985 (178200 muestras, 198 img, lr=1.0e-04)
+08:22:03 |       MLP epoca 10/15 loss=0.4855 (178200 muestras, 198 img, lr=1.0e-05)
+08:22:37 |       MLP epoca 11/15 loss=0.4629 (178200 muestras, 198 img, lr=1.0e-05)
+08:23:12 |       MLP epoca 12/15 loss=0.4524 (178200 muestras, 198 img, lr=1.0e-05)
+08:23:46 |       MLP epoca 13/15 loss=0.4464 (178200 muestras, 198 img, lr=1.0e-05)
+08:24:21 |       MLP epoca 14/15 loss=0.4448 (178200 muestras, 198 img, lr=1.0e-05)
+08:24:56 |       MLP epoca 15/15 loss=0.4452 (178200 muestras, 198 img, lr=1.0e-06)
+08:24:56 | [capsule] distribucion N+P ajustada en 530.8s (2048 simbolos)
+08:25:43 | [capsule] AUROC img=0.9976 pix=0.9908 | bestF1=0.995 (P=0.991 R=1.000) | honestoF1=0.991 (P=0.982 R=1.000) | infer 33.0s total 627.4s
+08:26:47 | [carpet] parches 907200 (pool 700000) -> C_emb 9072 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 16.86s coreset 45.9s dist 0.4s
+08:27:46 |       MLP epoca 1/15 loss=4.2610 (226800 muestras, 252 img, lr=1.0e-03)
+08:28:29 |       MLP epoca 2/15 loss=3.2085 (226800 muestras, 252 img, lr=1.0e-03)
+08:29:13 |       MLP epoca 3/15 loss=2.7963 (226800 muestras, 252 img, lr=1.0e-03)
+08:29:57 |       MLP epoca 4/15 loss=2.5870 (226800 muestras, 252 img, lr=1.0e-03)
+08:30:41 |       MLP epoca 5/15 loss=2.4154 (226800 muestras, 252 img, lr=1.0e-04)
+08:31:24 |       MLP epoca 6/15 loss=2.0624 (226800 muestras, 252 img, lr=1.0e-04)
+08:32:08 |       MLP epoca 7/15 loss=1.9209 (226800 muestras, 252 img, lr=1.0e-04)
+08:32:51 |       MLP epoca 8/15 loss=1.8796 (226800 muestras, 252 img, lr=1.0e-04)
+08:33:35 |       MLP epoca 9/15 loss=1.8445 (226800 muestras, 252 img, lr=1.0e-04)
+08:34:19 |       MLP epoca 10/15 loss=1.7984 (226800 muestras, 252 img, lr=1.0e-05)
+08:35:03 |       MLP epoca 11/15 loss=1.7328 (226800 muestras, 252 img, lr=1.0e-05)
+08:35:46 |       MLP epoca 12/15 loss=1.7427 (226800 muestras, 252 img, lr=1.0e-05)
+08:36:30 |       MLP epoca 13/15 loss=1.7188 (226800 muestras, 252 img, lr=1.0e-05)
+08:37:13 |       MLP epoca 14/15 loss=1.7182 (226800 muestras, 252 img, lr=1.0e-05)
+08:37:57 |       MLP epoca 15/15 loss=1.7109 (226800 muestras, 252 img, lr=1.0e-06)
+08:37:57 | [carpet] distribucion N+P ajustada en 670.6s (2048 simbolos)
+08:38:41 | [carpet] AUROC img=0.9952 pix=0.9929 | bestF1=0.983 (P=0.967 R=1.000) | honestoF1=0.937 (P=0.881 R=1.000) | infer 31.6s total 777.5s
+08:39:35 | [grid] parches 856800 (pool 700000) -> C_emb 8568 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 10.07s coreset 43.41s dist 0.4s
+08:40:23 |       MLP epoca 1/15 loss=3.9765 (214200 muestras, 238 img, lr=1.0e-03)
+08:41:00 |       MLP epoca 2/15 loss=2.4122 (214200 muestras, 238 img, lr=1.0e-03)
+08:41:38 |       MLP epoca 3/15 loss=1.9720 (214200 muestras, 238 img, lr=1.0e-03)
+08:42:15 |       MLP epoca 4/15 loss=1.7349 (214200 muestras, 238 img, lr=1.0e-03)
+08:42:53 |       MLP epoca 5/15 loss=1.5597 (214200 muestras, 238 img, lr=1.0e-04)
+08:43:30 |       MLP epoca 6/15 loss=1.2691 (214200 muestras, 238 img, lr=1.0e-04)
+08:44:08 |       MLP epoca 7/15 loss=1.0596 (214200 muestras, 238 img, lr=1.0e-04)
+08:44:45 |       MLP epoca 8/15 loss=1.0464 (214200 muestras, 238 img, lr=1.0e-04)
+08:45:22 |       MLP epoca 9/15 loss=0.9975 (214200 muestras, 238 img, lr=1.0e-04)
+08:46:00 |       MLP epoca 10/15 loss=0.9871 (214200 muestras, 238 img, lr=1.0e-05)
+08:46:37 |       MLP epoca 11/15 loss=0.9404 (214200 muestras, 238 img, lr=1.0e-05)
+08:47:15 |       MLP epoca 12/15 loss=0.9022 (214200 muestras, 238 img, lr=1.0e-05)
+08:47:52 |       MLP epoca 13/15 loss=0.8939 (214200 muestras, 238 img, lr=1.0e-05)
+08:48:30 |       MLP epoca 14/15 loss=0.8960 (214200 muestras, 238 img, lr=1.0e-05)
+08:49:07 |       MLP epoca 15/15 loss=0.8922 (214200 muestras, 238 img, lr=1.0e-06)
+08:49:07 | [grid] distribucion N+P ajustada en 572.1s (2048 simbolos)
+08:49:35 | [grid] AUROC img=0.9866 pix=0.9935 | bestF1=0.991 (P=1.000 R=0.982) | honestoF1=0.957 (P=0.933 R=0.982) | infer 20.9s total 654.2s
+08:50:59 | [hazelnut] parches 1267200 (pool 700000) -> C_emb 12672 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 19.94s coreset 63.63s dist 0.49s
+08:52:08 |       MLP epoca 1/15 loss=2.0564 (250200 muestras, 278 img, lr=1.0e-03)
+08:52:56 |       MLP epoca 2/15 loss=1.2968 (250200 muestras, 278 img, lr=1.0e-03)
+08:53:44 |       MLP epoca 3/15 loss=1.0627 (250200 muestras, 278 img, lr=1.0e-03)
+08:54:31 |       MLP epoca 4/15 loss=0.9541 (250200 muestras, 278 img, lr=1.0e-03)
+08:55:19 |       MLP epoca 5/15 loss=0.8519 (250200 muestras, 278 img, lr=1.0e-04)
+08:56:07 |       MLP epoca 6/15 loss=0.6928 (250200 muestras, 278 img, lr=1.0e-04)
+08:56:55 |       MLP epoca 7/15 loss=0.6041 (250200 muestras, 278 img, lr=1.0e-04)
+08:57:43 |       MLP epoca 8/15 loss=0.5723 (250200 muestras, 278 img, lr=1.0e-04)
+08:58:31 |       MLP epoca 9/15 loss=0.5563 (250200 muestras, 278 img, lr=1.0e-04)
+08:59:19 |       MLP epoca 10/15 loss=0.5427 (250200 muestras, 278 img, lr=1.0e-05)
+09:00:07 |       MLP epoca 11/15 loss=0.5110 (250200 muestras, 278 img, lr=1.0e-05)
+09:00:55 |       MLP epoca 12/15 loss=0.5042 (250200 muestras, 278 img, lr=1.0e-05)
+09:01:42 |       MLP epoca 13/15 loss=0.5003 (250200 muestras, 278 img, lr=1.0e-05)
+09:02:30 |       MLP epoca 14/15 loss=0.4960 (250200 muestras, 278 img, lr=1.0e-05)
+09:03:18 |       MLP epoca 15/15 loss=0.4994 (250200 muestras, 278 img, lr=1.0e-06)
+09:03:18 | [hazelnut] distribucion N+P ajustada en 738.9s (2048 simbolos)
+09:04:03 | [hazelnut] AUROC img=1.0000 pix=0.9914 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.959 (P=0.921 R=1.000) | infer 33.2s total 867.7s
+09:04:56 | [leather] parches 795600 (pool 700000) -> C_emb 7956 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 11.97s coreset 40.45s dist 0.38s
+09:05:46 |       MLP epoca 1/15 loss=4.6606 (198900 muestras, 221 img, lr=1.0e-03)
+09:06:23 |       MLP epoca 2/15 loss=3.3870 (198900 muestras, 221 img, lr=1.0e-03)
+09:07:00 |       MLP epoca 3/15 loss=2.9353 (198900 muestras, 221 img, lr=1.0e-03)
+09:07:38 |       MLP epoca 4/15 loss=2.6679 (198900 muestras, 221 img, lr=1.0e-03)
+09:08:15 |       MLP epoca 5/15 loss=2.4861 (198900 muestras, 221 img, lr=1.0e-04)
+09:08:53 |       MLP epoca 6/15 loss=2.1187 (198900 muestras, 221 img, lr=1.0e-04)
+09:09:30 |       MLP epoca 7/15 loss=1.9872 (198900 muestras, 221 img, lr=1.0e-04)
+09:10:07 |       MLP epoca 8/15 loss=1.9157 (198900 muestras, 221 img, lr=1.0e-04)
+09:10:45 |       MLP epoca 9/15 loss=1.8775 (198900 muestras, 221 img, lr=1.0e-04)
+09:11:22 |       MLP epoca 10/15 loss=1.8272 (198900 muestras, 221 img, lr=1.0e-05)
+09:11:59 |       MLP epoca 11/15 loss=1.7999 (198900 muestras, 221 img, lr=1.0e-05)
+09:12:37 |       MLP epoca 12/15 loss=1.7875 (198900 muestras, 221 img, lr=1.0e-05)
+09:13:14 |       MLP epoca 13/15 loss=1.7766 (198900 muestras, 221 img, lr=1.0e-05)
+09:13:51 |       MLP epoca 14/15 loss=1.7742 (198900 muestras, 221 img, lr=1.0e-05)
+09:14:29 |       MLP epoca 15/15 loss=1.7645 (198900 muestras, 221 img, lr=1.0e-06)
+09:14:29 | [leather] distribucion N+P ajustada en 572.8s (2048 simbolos)
+09:15:12 | [leather] AUROC img=1.0000 pix=0.9945 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.852 (P=0.742 R=1.000) | infer 31.6s total 669.7s
+09:15:57 | [metal_nut] parches 712800 (pool 700000) -> C_emb 7128 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 8.1s coreset 36.35s dist 0.36s
+09:16:37 |       MLP epoca 1/15 loss=2.1195 (178200 muestras, 198 img, lr=1.0e-03)
+09:17:08 |       MLP epoca 2/15 loss=1.2733 (178200 muestras, 198 img, lr=1.0e-03)
+09:17:39 |       MLP epoca 3/15 loss=1.0915 (178200 muestras, 198 img, lr=1.0e-03)
+09:18:10 |       MLP epoca 4/15 loss=0.9731 (178200 muestras, 198 img, lr=1.0e-03)
+09:18:41 |       MLP epoca 5/15 loss=0.8879 (178200 muestras, 198 img, lr=1.0e-04)
+09:19:11 |       MLP epoca 6/15 loss=0.6875 (178200 muestras, 198 img, lr=1.0e-04)
+09:19:42 |       MLP epoca 7/15 loss=0.5946 (178200 muestras, 198 img, lr=1.0e-04)
+09:20:13 |       MLP epoca 8/15 loss=0.5716 (178200 muestras, 198 img, lr=1.0e-04)
+09:20:44 |       MLP epoca 9/15 loss=0.5480 (178200 muestras, 198 img, lr=1.0e-04)
+09:21:15 |       MLP epoca 10/15 loss=0.5282 (178200 muestras, 198 img, lr=1.0e-05)
+09:21:46 |       MLP epoca 11/15 loss=0.5105 (178200 muestras, 198 img, lr=1.0e-05)
+09:22:17 |       MLP epoca 12/15 loss=0.4978 (178200 muestras, 198 img, lr=1.0e-05)
+09:22:48 |       MLP epoca 13/15 loss=0.4896 (178200 muestras, 198 img, lr=1.0e-05)
+09:23:19 |       MLP epoca 14/15 loss=0.4849 (178200 muestras, 198 img, lr=1.0e-05)
+09:23:50 |       MLP epoca 15/15 loss=0.4814 (178200 muestras, 198 img, lr=1.0e-06)
+09:23:50 | [metal_nut] distribucion N+P ajustada en 472.5s (2048 simbolos)
+09:24:27 | [metal_nut] AUROC img=1.0000 pix=0.9893 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.989 (P=0.979 R=1.000) | infer 27.1s total 554.8s
+09:25:23 | [pill] parches 867600 (pool 700000) -> C_emb 8676 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 11.04s coreset 43.93s dist 0.39s
+09:26:14 |       MLP epoca 1/15 loss=1.9179 (216900 muestras, 241 img, lr=1.0e-03)
+09:26:52 |       MLP epoca 2/15 loss=1.2753 (216900 muestras, 241 img, lr=1.0e-03)
+09:27:31 |       MLP epoca 3/15 loss=1.1005 (216900 muestras, 241 img, lr=1.0e-03)
+09:28:10 |       MLP epoca 4/15 loss=0.9985 (216900 muestras, 241 img, lr=1.0e-03)
+09:28:49 |       MLP epoca 5/15 loss=0.9429 (216900 muestras, 241 img, lr=1.0e-04)
+09:29:28 |       MLP epoca 6/15 loss=0.7331 (216900 muestras, 241 img, lr=1.0e-04)
+09:30:07 |       MLP epoca 7/15 loss=0.6596 (216900 muestras, 241 img, lr=1.0e-04)
+09:30:46 |       MLP epoca 8/15 loss=0.6373 (216900 muestras, 241 img, lr=1.0e-04)
+09:31:25 |       MLP epoca 9/15 loss=0.6169 (216900 muestras, 241 img, lr=1.0e-04)
+09:32:04 |       MLP epoca 10/15 loss=0.5978 (216900 muestras, 241 img, lr=1.0e-05)
+09:32:42 |       MLP epoca 11/15 loss=0.5769 (216900 muestras, 241 img, lr=1.0e-05)
+09:33:21 |       MLP epoca 12/15 loss=0.5651 (216900 muestras, 241 img, lr=1.0e-05)
+09:34:00 |       MLP epoca 13/15 loss=0.5606 (216900 muestras, 241 img, lr=1.0e-05)
+09:34:39 |       MLP epoca 14/15 loss=0.5579 (216900 muestras, 241 img, lr=1.0e-05)
+09:35:18 |       MLP epoca 15/15 loss=0.5546 (216900 muestras, 241 img, lr=1.0e-06)
+09:35:18 | [pill] distribucion N+P ajustada en 595.1s (2048 simbolos)
+09:36:12 | [pill] AUROC img=0.9686 pix=0.9766 | bestF1=0.964 (P=0.985 R=0.943) | honestoF1=0.894 (P=1.000 R=0.809) | infer 39.6s total 704.6s
+09:37:17 | [screw] parches 1036800 (pool 700000) -> C_emb 10368 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 11.79s coreset 52.22s dist 0.44s
+09:38:13 |       MLP epoca 1/15 loss=1.7056 (250200 muestras, 278 img, lr=1.0e-03)
+09:38:57 |       MLP epoca 2/15 loss=1.0337 (250200 muestras, 278 img, lr=1.0e-03)
+09:39:41 |       MLP epoca 3/15 loss=0.8600 (250200 muestras, 278 img, lr=1.0e-03)
+09:40:24 |       MLP epoca 4/15 loss=0.7544 (250200 muestras, 278 img, lr=1.0e-03)
+09:41:08 |       MLP epoca 5/15 loss=0.7141 (250200 muestras, 278 img, lr=1.0e-04)
+09:41:52 |       MLP epoca 6/15 loss=0.5403 (250200 muestras, 278 img, lr=1.0e-04)
+09:42:36 |       MLP epoca 7/15 loss=0.4761 (250200 muestras, 278 img, lr=1.0e-04)
+09:43:19 |       MLP epoca 8/15 loss=0.4482 (250200 muestras, 278 img, lr=1.0e-04)
+09:44:03 |       MLP epoca 9/15 loss=0.4282 (250200 muestras, 278 img, lr=1.0e-04)
+09:44:47 |       MLP epoca 10/15 loss=0.4185 (250200 muestras, 278 img, lr=1.0e-05)
+09:45:30 |       MLP epoca 11/15 loss=0.3991 (250200 muestras, 278 img, lr=1.0e-05)
+09:46:14 |       MLP epoca 12/15 loss=0.3883 (250200 muestras, 278 img, lr=1.0e-05)
+09:46:58 |       MLP epoca 13/15 loss=0.3879 (250200 muestras, 278 img, lr=1.0e-05)
+09:47:42 |       MLP epoca 14/15 loss=0.3829 (250200 muestras, 278 img, lr=1.0e-05)
+09:48:25 |       MLP epoca 15/15 loss=0.3779 (250200 muestras, 278 img, lr=1.0e-06)
+09:48:25 | [screw] distribucion N+P ajustada en 668.8s (2048 simbolos)
+09:49:18 | [screw] AUROC img=0.9875 pix=0.9943 | bestF1=0.979 (P=0.975 R=0.983) | honestoF1=0.975 (P=0.975 R=0.975) | infer 39.4s total 786.2s
+09:50:07 | [tile] parches 745200 (pool 700000) -> C_emb 7452 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 10.55s coreset 38.01s dist 0.37s
+09:50:53 |       MLP epoca 1/15 loss=4.4879 (186300 muestras, 207 img, lr=1.0e-03)
+09:51:27 |       MLP epoca 2/15 loss=3.3587 (186300 muestras, 207 img, lr=1.0e-03)
+09:52:01 |       MLP epoca 3/15 loss=2.9443 (186300 muestras, 207 img, lr=1.0e-03)
+09:52:35 |       MLP epoca 4/15 loss=2.6863 (186300 muestras, 207 img, lr=1.0e-03)
+09:53:10 |       MLP epoca 5/15 loss=2.5294 (186300 muestras, 207 img, lr=1.0e-04)
+09:53:44 |       MLP epoca 6/15 loss=2.1628 (186300 muestras, 207 img, lr=1.0e-04)
+09:54:18 |       MLP epoca 7/15 loss=2.0178 (186300 muestras, 207 img, lr=1.0e-04)
+09:54:53 |       MLP epoca 8/15 loss=1.9682 (186300 muestras, 207 img, lr=1.0e-04)
+09:55:27 |       MLP epoca 9/15 loss=1.9486 (186300 muestras, 207 img, lr=1.0e-04)
+09:56:01 |       MLP epoca 10/15 loss=1.8828 (186300 muestras, 207 img, lr=1.0e-05)
+09:56:36 |       MLP epoca 11/15 loss=1.8245 (186300 muestras, 207 img, lr=1.0e-05)
+09:57:10 |       MLP epoca 12/15 loss=1.8140 (186300 muestras, 207 img, lr=1.0e-05)
+09:57:44 |       MLP epoca 13/15 loss=1.7927 (186300 muestras, 207 img, lr=1.0e-05)
+09:58:19 |       MLP epoca 14/15 loss=1.7987 (186300 muestras, 207 img, lr=1.0e-05)
+09:58:53 |       MLP epoca 15/15 loss=1.8009 (186300 muestras, 207 img, lr=1.0e-06)
+09:58:53 | [tile] distribucion N+P ajustada en 525.6s (2048 simbolos)
+09:59:33 | [tile] AUROC img=0.9982 pix=0.9728 | bestF1=0.994 (P=1.000 R=0.988) | honestoF1=0.982 (P=1.000 R=0.964) | infer 29.0s total 614.8s
+09:59:40 | [toothbrush] parches 194400 (pool 194400) -> C_emb 1944 -> C_dist 1944 (dim 1792, grid (60, 60)) | extract 3.06s coreset 3.24s dist 0.36s
+09:59:53 |       MLP epoca 1/15 loss=2.7928 (48600 muestras, 54 img, lr=1.0e-03)
+10:00:02 |       MLP epoca 2/15 loss=1.9686 (48600 muestras, 54 img, lr=1.0e-03)
+10:00:11 |       MLP epoca 3/15 loss=1.5150 (48600 muestras, 54 img, lr=1.0e-03)
+10:00:21 |       MLP epoca 4/15 loss=1.2804 (48600 muestras, 54 img, lr=1.0e-03)
+10:00:30 |       MLP epoca 5/15 loss=1.1054 (48600 muestras, 54 img, lr=1.0e-04)
+10:00:40 |       MLP epoca 6/15 loss=0.8836 (48600 muestras, 54 img, lr=1.0e-04)
+10:00:49 |       MLP epoca 7/15 loss=0.7771 (48600 muestras, 54 img, lr=1.0e-04)
+10:00:58 |       MLP epoca 8/15 loss=0.7313 (48600 muestras, 54 img, lr=1.0e-04)
+10:01:08 |       MLP epoca 9/15 loss=0.7110 (48600 muestras, 54 img, lr=1.0e-04)
+10:01:17 |       MLP epoca 10/15 loss=0.6941 (48600 muestras, 54 img, lr=1.0e-05)
+10:01:26 |       MLP epoca 11/15 loss=0.6619 (48600 muestras, 54 img, lr=1.0e-05)
+10:01:36 |       MLP epoca 12/15 loss=0.6623 (48600 muestras, 54 img, lr=1.0e-05)
+10:01:45 |       MLP epoca 13/15 loss=0.6530 (48600 muestras, 54 img, lr=1.0e-05)
+10:01:54 |       MLP epoca 14/15 loss=0.6488 (48600 muestras, 54 img, lr=1.0e-05)
+10:02:04 |       MLP epoca 15/15 loss=0.6327 (48600 muestras, 54 img, lr=1.0e-06)
+10:02:04 | [toothbrush] distribucion N+P ajustada en 144.0s (1944 simbolos)
+10:02:19 | [toothbrush] AUROC img=1.0000 pix=0.9921 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.952 (P=0.909 R=1.000) | infer 9.8s total 165.7s
+10:03:05 | [transistor] parches 691200 (pool 691200) -> C_emb 6912 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 11.17s coreset 34.92s dist 0.39s
+10:03:51 |       MLP epoca 1/15 loss=2.0591 (172800 muestras, 192 img, lr=1.0e-03)
+10:04:25 |       MLP epoca 2/15 loss=1.3832 (172800 muestras, 192 img, lr=1.0e-03)
+10:04:58 |       MLP epoca 3/15 loss=1.2161 (172800 muestras, 192 img, lr=1.0e-03)
+10:05:32 |       MLP epoca 4/15 loss=1.1076 (172800 muestras, 192 img, lr=1.0e-03)
+10:06:05 |       MLP epoca 5/15 loss=1.0387 (172800 muestras, 192 img, lr=1.0e-04)
+10:06:39 |       MLP epoca 6/15 loss=0.8072 (172800 muestras, 192 img, lr=1.0e-04)
+10:07:13 |       MLP epoca 7/15 loss=0.7196 (172800 muestras, 192 img, lr=1.0e-04)
+10:07:46 |       MLP epoca 8/15 loss=0.6850 (172800 muestras, 192 img, lr=1.0e-04)
+10:08:20 |       MLP epoca 9/15 loss=0.6667 (172800 muestras, 192 img, lr=1.0e-04)
+10:08:54 |       MLP epoca 10/15 loss=0.6516 (172800 muestras, 192 img, lr=1.0e-05)
+10:09:27 |       MLP epoca 11/15 loss=0.6245 (172800 muestras, 192 img, lr=1.0e-05)
+10:10:01 |       MLP epoca 12/15 loss=0.6175 (172800 muestras, 192 img, lr=1.0e-05)
+10:10:34 |       MLP epoca 13/15 loss=0.6065 (172800 muestras, 192 img, lr=1.0e-05)
+10:11:08 |       MLP epoca 14/15 loss=0.6039 (172800 muestras, 192 img, lr=1.0e-05)
+10:11:42 |       MLP epoca 15/15 loss=0.5986 (172800 muestras, 192 img, lr=1.0e-06)
+10:11:42 | [transistor] distribucion N+P ajustada en 516.2s (2048 simbolos)
+10:12:18 | [transistor] AUROC img=0.9558 pix=0.8865 | bestF1=0.949 (P=0.974 R=0.925) | honestoF1=0.894 (P=0.844 R=0.950) | infer 26.0s total 599.6s
+10:13:14 | [wood] parches 802800 (pool 700000) -> C_emb 8028 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 13.77s coreset 40.86s dist 0.38s
+10:14:07 |       MLP epoca 1/15 loss=4.8060 (200700 muestras, 223 img, lr=1.0e-03)
+10:14:46 |       MLP epoca 2/15 loss=3.5107 (200700 muestras, 223 img, lr=1.0e-03)
+10:15:26 |       MLP epoca 3/15 loss=2.9655 (200700 muestras, 223 img, lr=1.0e-03)
+10:16:05 |       MLP epoca 4/15 loss=2.7770 (200700 muestras, 223 img, lr=1.0e-03)
+10:16:44 |       MLP epoca 5/15 loss=2.4745 (200700 muestras, 223 img, lr=1.0e-04)
+10:17:23 |       MLP epoca 6/15 loss=2.1395 (200700 muestras, 223 img, lr=1.0e-04)
+10:18:03 |       MLP epoca 7/15 loss=2.0370 (200700 muestras, 223 img, lr=1.0e-04)
+10:18:42 |       MLP epoca 8/15 loss=1.9556 (200700 muestras, 223 img, lr=1.0e-04)
+10:19:21 |       MLP epoca 9/15 loss=1.9493 (200700 muestras, 223 img, lr=1.0e-04)
+10:20:00 |       MLP epoca 10/15 loss=1.8878 (200700 muestras, 223 img, lr=1.0e-05)
+10:20:40 |       MLP epoca 11/15 loss=1.8590 (200700 muestras, 223 img, lr=1.0e-05)
+10:21:19 |       MLP epoca 12/15 loss=1.8005 (200700 muestras, 223 img, lr=1.0e-05)
+10:21:58 |       MLP epoca 13/15 loss=1.7706 (200700 muestras, 223 img, lr=1.0e-05)
+10:22:37 |       MLP epoca 14/15 loss=1.8158 (200700 muestras, 223 img, lr=1.0e-05)
+10:23:16 |       MLP epoca 15/15 loss=1.7889 (200700 muestras, 223 img, lr=1.0e-06)
+10:23:16 | [wood] distribucion N+P ajustada en 602.9s (2048 simbolos)
+10:23:48 | [wood] AUROC img=0.9921 pix=0.9621 | bestF1=0.976 (P=0.952 R=1.000) | honestoF1=0.930 (P=0.870 R=1.000) | infer 22.5s total 689.4s
+10:24:37 | [zipper] parches 777600 (pool 700000) -> C_emb 7776 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 9.07s coreset 39.63s dist 0.38s
+10:25:20 |       MLP epoca 1/15 loss=2.8981 (194400 muestras, 216 img, lr=1.0e-03)
+10:25:54 |       MLP epoca 2/15 loss=2.1420 (194400 muestras, 216 img, lr=1.0e-03)
+10:26:28 |       MLP epoca 3/15 loss=1.8798 (194400 muestras, 216 img, lr=1.0e-03)
+10:27:02 |       MLP epoca 4/15 loss=1.6760 (194400 muestras, 216 img, lr=1.0e-03)
+10:27:36 |       MLP epoca 5/15 loss=1.5415 (194400 muestras, 216 img, lr=1.0e-04)
+10:28:10 |       MLP epoca 6/15 loss=1.2503 (194400 muestras, 216 img, lr=1.0e-04)
+10:28:44 |       MLP epoca 7/15 loss=1.1601 (194400 muestras, 216 img, lr=1.0e-04)
+10:29:18 |       MLP epoca 8/15 loss=1.1189 (194400 muestras, 216 img, lr=1.0e-04)
+10:29:51 |       MLP epoca 9/15 loss=1.0899 (194400 muestras, 216 img, lr=1.0e-04)
+10:30:25 |       MLP epoca 10/15 loss=1.0587 (194400 muestras, 216 img, lr=1.0e-05)
+10:30:59 |       MLP epoca 11/15 loss=1.0253 (194400 muestras, 216 img, lr=1.0e-05)
+10:31:33 |       MLP epoca 12/15 loss=1.0092 (194400 muestras, 216 img, lr=1.0e-05)
+10:32:07 |       MLP epoca 13/15 loss=1.0042 (194400 muestras, 216 img, lr=1.0e-05)
+10:32:41 |       MLP epoca 14/15 loss=1.0048 (194400 muestras, 216 img, lr=1.0e-05)
+10:33:15 |       MLP epoca 15/15 loss=0.9987 (194400 muestras, 216 img, lr=1.0e-06)
+10:33:15 | [zipper] distribucion N+P ajustada en 517.7s (2048 simbolos)
+10:34:02 | [zipper] AUROC img=0.9961 pix=0.9941 | bestF1=0.983 (P=0.975 R=0.992) | honestoF1=0.952 (P=0.908 R=1.000) | infer 35.0s total 614.3s
+10:34:02 | === PROMEDIO AUROC img=0.99050 pix=0.97994 | tiempo total 8326.3s ===
+10:34:02 | AUROC imagen: 0.99050 | referencia 0.9946 | delta -0.0041 -> IGUALADO
+10:34:02 | AUROC pixel : 0.97994 | referencia 0.9880 | delta -0.0081 -> IGUALADO
+10:34:02 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_mvtec.csv
+10:34:30 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+10:37:25 | [candle] parches 2916000 (pool 700000) -> C_emb 29160 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 28.18s coreset 145.54s dist 0.75s
+10:38:39 |       MLP epoca 1/15 loss=1.8531 (250200 muestras, 278 img, lr=1.0e-03)
+10:39:22 |       MLP epoca 2/15 loss=1.3464 (250200 muestras, 278 img, lr=1.0e-03)
+10:40:04 |       MLP epoca 3/15 loss=1.1946 (250200 muestras, 278 img, lr=1.0e-03)
+10:40:47 |       MLP epoca 4/15 loss=1.1041 (250200 muestras, 278 img, lr=1.0e-03)
+10:41:29 |       MLP epoca 5/15 loss=1.0477 (250200 muestras, 278 img, lr=1.0e-04)
+10:42:12 |       MLP epoca 6/15 loss=0.8189 (250200 muestras, 278 img, lr=1.0e-04)
+10:42:55 |       MLP epoca 7/15 loss=0.7656 (250200 muestras, 278 img, lr=1.0e-04)
+10:43:37 |       MLP epoca 8/15 loss=0.7729 (250200 muestras, 278 img, lr=1.0e-04)
+10:44:20 |       MLP epoca 9/15 loss=0.7584 (250200 muestras, 278 img, lr=1.0e-04)
+10:45:02 |       MLP epoca 10/15 loss=0.7263 (250200 muestras, 278 img, lr=1.0e-05)
+10:45:45 |       MLP epoca 11/15 loss=0.7150 (250200 muestras, 278 img, lr=1.0e-05)
+10:46:28 |       MLP epoca 12/15 loss=0.6765 (250200 muestras, 278 img, lr=1.0e-05)
+10:47:10 |       MLP epoca 13/15 loss=0.6805 (250200 muestras, 278 img, lr=1.0e-05)
+10:47:53 |       MLP epoca 14/15 loss=0.6742 (250200 muestras, 278 img, lr=1.0e-05)
+10:48:36 |       MLP epoca 15/15 loss=0.6790 (250200 muestras, 278 img, lr=1.0e-06)
+10:48:36 | [candle] distribucion N+P ajustada en 670.3s (2048 simbolos)
+10:50:00 | [candle] AUROC img=0.9834 pix=0.9959 | bestF1=0.951 (P=0.925 R=0.980) | honestoF1=0.933 (P=0.958 R=0.910) | infer 68.2s total 929.1s
+10:51:46 | [capsules] parches 1756800 (pool 700000) -> C_emb 17568 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 17.69s coreset 87.55s dist 0.57s
+10:52:48 |       MLP epoca 1/15 loss=2.1621 (250200 muestras, 278 img, lr=1.0e-03)
+10:53:31 |       MLP epoca 2/15 loss=1.4119 (250200 muestras, 278 img, lr=1.0e-03)
+10:54:13 |       MLP epoca 3/15 loss=1.2539 (250200 muestras, 278 img, lr=1.0e-03)
+10:54:56 |       MLP epoca 4/15 loss=1.1164 (250200 muestras, 278 img, lr=1.0e-03)
+10:55:39 |       MLP epoca 5/15 loss=1.0728 (250200 muestras, 278 img, lr=1.0e-04)
+10:56:21 |       MLP epoca 6/15 loss=0.8382 (250200 muestras, 278 img, lr=1.0e-04)
+10:57:04 |       MLP epoca 7/15 loss=0.7577 (250200 muestras, 278 img, lr=1.0e-04)
+10:57:47 |       MLP epoca 8/15 loss=0.7221 (250200 muestras, 278 img, lr=1.0e-04)
+10:58:29 |       MLP epoca 9/15 loss=0.7045 (250200 muestras, 278 img, lr=1.0e-04)
+10:59:12 |       MLP epoca 10/15 loss=0.6839 (250200 muestras, 278 img, lr=1.0e-05)
+10:59:55 |       MLP epoca 11/15 loss=0.6648 (250200 muestras, 278 img, lr=1.0e-05)
+11:00:37 |       MLP epoca 12/15 loss=0.6480 (250200 muestras, 278 img, lr=1.0e-05)
+11:01:20 |       MLP epoca 13/15 loss=0.6515 (250200 muestras, 278 img, lr=1.0e-05)
+11:02:03 |       MLP epoca 14/15 loss=0.6473 (250200 muestras, 278 img, lr=1.0e-05)
+11:02:45 |       MLP epoca 15/15 loss=0.6433 (250200 muestras, 278 img, lr=1.0e-06)
+11:02:45 | [capsules] distribucion N+P ajustada en 659.7s (2048 simbolos)
+11:03:44 | [capsules] AUROC img=0.9393 pix=0.9970 | bestF1=0.908 (P=0.927 R=0.890) | honestoF1=0.890 (P=0.890 R=0.890) | infer 45.8s total 824.2s
+11:05:13 | [cashew] parches 1458000 (pool 700000) -> C_emb 14580 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 15.76s coreset 72.92s dist 0.5s
+11:06:13 |       MLP epoca 1/15 loss=3.2233 (250200 muestras, 278 img, lr=1.0e-03)
+11:06:56 |       MLP epoca 2/15 loss=2.4288 (250200 muestras, 278 img, lr=1.0e-03)
+11:07:39 |       MLP epoca 3/15 loss=2.1542 (250200 muestras, 278 img, lr=1.0e-03)
+11:08:22 |       MLP epoca 4/15 loss=1.9854 (250200 muestras, 278 img, lr=1.0e-03)
+11:09:05 |       MLP epoca 5/15 loss=1.8831 (250200 muestras, 278 img, lr=1.0e-04)
+11:09:48 |       MLP epoca 6/15 loss=1.5890 (250200 muestras, 278 img, lr=1.0e-04)
+11:10:30 |       MLP epoca 7/15 loss=1.4873 (250200 muestras, 278 img, lr=1.0e-04)
+11:11:13 |       MLP epoca 8/15 loss=1.4476 (250200 muestras, 278 img, lr=1.0e-04)
+11:11:56 |       MLP epoca 9/15 loss=1.4062 (250200 muestras, 278 img, lr=1.0e-04)
+11:12:39 |       MLP epoca 10/15 loss=1.3913 (250200 muestras, 278 img, lr=1.0e-05)
+11:13:22 |       MLP epoca 11/15 loss=1.3413 (250200 muestras, 278 img, lr=1.0e-05)
+11:14:05 |       MLP epoca 12/15 loss=1.3359 (250200 muestras, 278 img, lr=1.0e-05)
+11:14:48 |       MLP epoca 13/15 loss=1.3268 (250200 muestras, 278 img, lr=1.0e-05)
+11:15:31 |       MLP epoca 14/15 loss=1.3268 (250200 muestras, 278 img, lr=1.0e-05)
+11:16:14 |       MLP epoca 15/15 loss=1.3096 (250200 muestras, 278 img, lr=1.0e-06)
+11:16:14 | [cashew] distribucion N+P ajustada en 660.8s (2048 simbolos)
+11:17:07 | [cashew] AUROC img=0.9912 pix=0.9636 | bestF1=0.970 (P=0.980 R=0.960) | honestoF1=0.964 (P=0.989 R=0.940) | infer 40.8s total 803.3s
+11:18:36 | [chewinggum] parches 1468800 (pool 700000) -> C_emb 14688 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 15.13s coreset 73.39s dist 0.53s
+11:19:35 |       MLP epoca 1/15 loss=3.2987 (250200 muestras, 278 img, lr=1.0e-03)
+11:20:17 |       MLP epoca 2/15 loss=2.5083 (250200 muestras, 278 img, lr=1.0e-03)
+11:21:00 |       MLP epoca 3/15 loss=2.2199 (250200 muestras, 278 img, lr=1.0e-03)
+11:21:42 |       MLP epoca 4/15 loss=2.0348 (250200 muestras, 278 img, lr=1.0e-03)
+11:22:25 |       MLP epoca 5/15 loss=1.8976 (250200 muestras, 278 img, lr=1.0e-04)
+11:23:08 |       MLP epoca 6/15 loss=1.6192 (250200 muestras, 278 img, lr=1.0e-04)
+11:23:50 |       MLP epoca 7/15 loss=1.5271 (250200 muestras, 278 img, lr=1.0e-04)
+11:24:33 |       MLP epoca 8/15 loss=1.4756 (250200 muestras, 278 img, lr=1.0e-04)
+11:25:15 |       MLP epoca 9/15 loss=1.4379 (250200 muestras, 278 img, lr=1.0e-04)
+11:25:58 |       MLP epoca 10/15 loss=1.4118 (250200 muestras, 278 img, lr=1.0e-05)
+11:26:40 |       MLP epoca 11/15 loss=1.3666 (250200 muestras, 278 img, lr=1.0e-05)
+11:27:23 |       MLP epoca 12/15 loss=1.3577 (250200 muestras, 278 img, lr=1.0e-05)
+11:28:05 |       MLP epoca 13/15 loss=1.3500 (250200 muestras, 278 img, lr=1.0e-05)
+11:28:48 |       MLP epoca 14/15 loss=1.3477 (250200 muestras, 278 img, lr=1.0e-05)
+11:29:30 |       MLP epoca 15/15 loss=1.3414 (250200 muestras, 278 img, lr=1.0e-06)
+11:29:30 | [chewinggum] distribucion N+P ajustada en 654.1s (2048 simbolos)
+11:30:23 | [chewinggum] AUROC img=0.9922 pix=0.9912 | bestF1=0.975 (P=0.970 R=0.980) | honestoF1=0.966 (P=0.951 R=0.980) | infer 40.7s total 796.0s
+11:31:52 | [fryum] parches 1458000 (pool 700000) -> C_emb 14580 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 14.8s coreset 73.0s dist 0.51s
+11:32:50 |       MLP epoca 1/15 loss=1.5564 (250200 muestras, 278 img, lr=1.0e-03)
+11:33:32 |       MLP epoca 2/15 loss=0.9266 (250200 muestras, 278 img, lr=1.0e-03)
+11:34:15 |       MLP epoca 3/15 loss=0.8105 (250200 muestras, 278 img, lr=1.0e-03)
+11:34:57 |       MLP epoca 4/15 loss=0.7593 (250200 muestras, 278 img, lr=1.0e-03)
+11:35:40 |       MLP epoca 5/15 loss=0.7149 (250200 muestras, 278 img, lr=1.0e-04)
+11:36:22 |       MLP epoca 6/15 loss=0.5452 (250200 muestras, 278 img, lr=1.0e-04)
+11:37:04 |       MLP epoca 7/15 loss=0.4941 (250200 muestras, 278 img, lr=1.0e-04)
+11:37:47 |       MLP epoca 8/15 loss=0.4735 (250200 muestras, 278 img, lr=1.0e-04)
+11:38:29 |       MLP epoca 9/15 loss=0.4597 (250200 muestras, 278 img, lr=1.0e-04)
+11:39:12 |       MLP epoca 10/15 loss=0.4519 (250200 muestras, 278 img, lr=1.0e-05)
+11:39:54 |       MLP epoca 11/15 loss=0.4367 (250200 muestras, 278 img, lr=1.0e-05)
+11:40:36 |       MLP epoca 12/15 loss=0.4255 (250200 muestras, 278 img, lr=1.0e-05)
+11:41:19 |       MLP epoca 13/15 loss=0.4195 (250200 muestras, 278 img, lr=1.0e-05)
+11:42:01 |       MLP epoca 14/15 loss=0.4192 (250200 muestras, 278 img, lr=1.0e-05)
+11:42:44 |       MLP epoca 15/15 loss=0.4150 (250200 muestras, 278 img, lr=1.0e-06)
+11:42:44 | [fryum] distribucion N+P ajustada en 652.0s (2048 simbolos)
+11:43:36 | [fryum] AUROC img=0.9916 pix=0.9432 | bestF1=0.975 (P=0.970 R=0.980) | honestoF1=0.960 (P=0.969 R=0.950) | infer 40.5s total 792.9s
+11:46:30 | [macaroni1] parches 2916000 (pool 700000) -> C_emb 29160 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 28.51s coreset 144.49s dist 0.75s
+11:47:43 |       MLP epoca 1/15 loss=2.1026 (250200 muestras, 278 img, lr=1.0e-03)
+11:48:26 |       MLP epoca 2/15 loss=1.4521 (250200 muestras, 278 img, lr=1.0e-03)
+11:49:08 |       MLP epoca 3/15 loss=1.2511 (250200 muestras, 278 img, lr=1.0e-03)
+11:49:50 |       MLP epoca 4/15 loss=1.1806 (250200 muestras, 278 img, lr=1.0e-03)
+11:50:33 |       MLP epoca 5/15 loss=1.0934 (250200 muestras, 278 img, lr=1.0e-04)
+11:51:15 |       MLP epoca 6/15 loss=0.8568 (250200 muestras, 278 img, lr=1.0e-04)
+11:51:57 |       MLP epoca 7/15 loss=0.7746 (250200 muestras, 278 img, lr=1.0e-04)
+11:52:40 |       MLP epoca 8/15 loss=0.7557 (250200 muestras, 278 img, lr=1.0e-04)
+11:53:22 |       MLP epoca 9/15 loss=0.7267 (250200 muestras, 278 img, lr=1.0e-04)
+11:54:04 |       MLP epoca 10/15 loss=0.7120 (250200 muestras, 278 img, lr=1.0e-05)
+11:54:47 |       MLP epoca 11/15 loss=0.6911 (250200 muestras, 278 img, lr=1.0e-05)
+11:55:29 |       MLP epoca 12/15 loss=0.6674 (250200 muestras, 278 img, lr=1.0e-05)
+11:56:11 |       MLP epoca 13/15 loss=0.6602 (250200 muestras, 278 img, lr=1.0e-05)
+11:56:54 |       MLP epoca 14/15 loss=0.6736 (250200 muestras, 278 img, lr=1.0e-05)
+11:57:36 |       MLP epoca 15/15 loss=0.6728 (250200 muestras, 278 img, lr=1.0e-06)
+11:57:36 | [macaroni1] distribucion N+P ajustada en 666.2s (2048 simbolos)
+11:59:00 | [macaroni1] AUROC img=0.9915 pix=0.9975 | bestF1=0.965 (P=0.970 R=0.960) | honestoF1=0.942 (P=0.915 R=0.970) | infer 68.0s total 924.0s
+12:01:54 | [macaroni2] parches 2916000 (pool 700000) -> C_emb 29160 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 28.18s coreset 144.64s dist 0.72s
+12:03:07 |       MLP epoca 1/15 loss=1.9908 (250200 muestras, 278 img, lr=1.0e-03)
+12:03:50 |       MLP epoca 2/15 loss=1.2632 (250200 muestras, 278 img, lr=1.0e-03)
+12:04:32 |       MLP epoca 3/15 loss=1.1128 (250200 muestras, 278 img, lr=1.0e-03)
+12:05:14 |       MLP epoca 4/15 loss=1.0087 (250200 muestras, 278 img, lr=1.0e-03)
+12:05:57 |       MLP epoca 5/15 loss=0.9494 (250200 muestras, 278 img, lr=1.0e-04)
+12:06:39 |       MLP epoca 6/15 loss=0.7331 (250200 muestras, 278 img, lr=1.0e-04)
+12:07:22 |       MLP epoca 7/15 loss=0.6571 (250200 muestras, 278 img, lr=1.0e-04)
+12:08:04 |       MLP epoca 8/15 loss=0.6312 (250200 muestras, 278 img, lr=1.0e-04)
+12:08:46 |       MLP epoca 9/15 loss=0.6211 (250200 muestras, 278 img, lr=1.0e-04)
+12:09:29 |       MLP epoca 10/15 loss=0.6079 (250200 muestras, 278 img, lr=1.0e-05)
+12:10:11 |       MLP epoca 11/15 loss=0.5798 (250200 muestras, 278 img, lr=1.0e-05)
+12:10:54 |       MLP epoca 12/15 loss=0.5635 (250200 muestras, 278 img, lr=1.0e-05)
+12:11:36 |       MLP epoca 13/15 loss=0.5624 (250200 muestras, 278 img, lr=1.0e-05)
+12:12:18 |       MLP epoca 14/15 loss=0.5612 (250200 muestras, 278 img, lr=1.0e-05)
+12:13:01 |       MLP epoca 15/15 loss=0.5493 (250200 muestras, 278 img, lr=1.0e-06)
+12:13:01 | [macaroni2] distribucion N+P ajustada en 666.9s (2048 simbolos)
+12:14:24 | [macaroni2] AUROC img=0.8883 pix=0.9944 | bestF1=0.832 (P=0.781 R=0.890) | honestoF1=0.736 (P=0.865 R=0.640) | infer 68.1s total 924.4s
+12:15:53 | [pipe_fryum] parches 1458000 (pool 700000) -> C_emb 14580 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 14.8s coreset 72.88s dist 0.5s
+12:16:51 |       MLP epoca 1/15 loss=2.1097 (250200 muestras, 278 img, lr=1.0e-03)
+12:17:34 |       MLP epoca 2/15 loss=1.5333 (250200 muestras, 278 img, lr=1.0e-03)
+12:18:17 |       MLP epoca 3/15 loss=1.3571 (250200 muestras, 278 img, lr=1.0e-03)
+12:18:59 |       MLP epoca 4/15 loss=1.2462 (250200 muestras, 278 img, lr=1.0e-03)
+12:19:42 |       MLP epoca 5/15 loss=1.1596 (250200 muestras, 278 img, lr=1.0e-04)
+12:20:24 |       MLP epoca 6/15 loss=0.9495 (250200 muestras, 278 img, lr=1.0e-04)
+12:21:07 |       MLP epoca 7/15 loss=0.8825 (250200 muestras, 278 img, lr=1.0e-04)
+12:21:49 |       MLP epoca 8/15 loss=0.8488 (250200 muestras, 278 img, lr=1.0e-04)
+12:22:32 |       MLP epoca 9/15 loss=0.8242 (250200 muestras, 278 img, lr=1.0e-04)
+12:23:14 |       MLP epoca 10/15 loss=0.7970 (250200 muestras, 278 img, lr=1.0e-05)
+12:23:57 |       MLP epoca 11/15 loss=0.7667 (250200 muestras, 278 img, lr=1.0e-05)
+12:24:40 |       MLP epoca 12/15 loss=0.7608 (250200 muestras, 278 img, lr=1.0e-05)
+12:25:22 |       MLP epoca 13/15 loss=0.7570 (250200 muestras, 278 img, lr=1.0e-05)
+12:26:05 |       MLP epoca 14/15 loss=0.7517 (250200 muestras, 278 img, lr=1.0e-05)
+12:26:47 |       MLP epoca 15/15 loss=0.7515 (250200 muestras, 278 img, lr=1.0e-06)
+12:26:47 | [pipe_fryum] distribucion N+P ajustada en 654.2s (2048 simbolos)
+12:27:39 | [pipe_fryum] AUROC img=0.9978 pix=0.9923 | bestF1=0.990 (P=1.000 R=0.980) | honestoF1=0.971 (P=0.943 R=1.000) | infer 40.5s total 794.8s
+12:30:34 | [pcb1] parches 2930400 (pool 700000) -> C_emb 29304 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 28.65s coreset 145.11s dist 0.73s
+12:31:49 |       MLP epoca 1/15 loss=1.7796 (250200 muestras, 278 img, lr=1.0e-03)
+12:32:32 |       MLP epoca 2/15 loss=1.1694 (250200 muestras, 278 img, lr=1.0e-03)
+12:33:15 |       MLP epoca 3/15 loss=1.0198 (250200 muestras, 278 img, lr=1.0e-03)
+12:33:58 |       MLP epoca 4/15 loss=0.9497 (250200 muestras, 278 img, lr=1.0e-03)
+12:34:41 |       MLP epoca 5/15 loss=0.8875 (250200 muestras, 278 img, lr=1.0e-04)
+12:35:23 |       MLP epoca 6/15 loss=0.6790 (250200 muestras, 278 img, lr=1.0e-04)
+12:36:06 |       MLP epoca 7/15 loss=0.6149 (250200 muestras, 278 img, lr=1.0e-04)
+12:36:49 |       MLP epoca 8/15 loss=0.5798 (250200 muestras, 278 img, lr=1.0e-04)
+12:37:32 |       MLP epoca 9/15 loss=0.5637 (250200 muestras, 278 img, lr=1.0e-04)
+12:38:15 |       MLP epoca 10/15 loss=0.5543 (250200 muestras, 278 img, lr=1.0e-05)
+12:38:57 |       MLP epoca 11/15 loss=0.5407 (250200 muestras, 278 img, lr=1.0e-05)
+12:39:40 |       MLP epoca 12/15 loss=0.5190 (250200 muestras, 278 img, lr=1.0e-05)
+12:40:23 |       MLP epoca 13/15 loss=0.5169 (250200 muestras, 278 img, lr=1.0e-05)
+12:41:06 |       MLP epoca 14/15 loss=0.5148 (250200 muestras, 278 img, lr=1.0e-05)
+12:41:49 |       MLP epoca 15/15 loss=0.5157 (250200 muestras, 278 img, lr=1.0e-06)
+12:41:49 | [pcb1] distribucion N+P ajustada en 674.7s (2048 simbolos)
+12:43:13 | [pcb1] AUROC img=0.9892 pix=0.9977 | bestF1=0.970 (P=0.980 R=0.960) | honestoF1=0.942 (P=0.915 R=0.970) | infer 68.4s total 933.9s
+12:46:08 | [pcb2] parches 2919600 (pool 700000) -> C_emb 29196 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 29.19s coreset 144.7s dist 0.73s
+12:47:23 |       MLP epoca 1/15 loss=1.8019 (250200 muestras, 278 img, lr=1.0e-03)
+12:48:06 |       MLP epoca 2/15 loss=1.1550 (250200 muestras, 278 img, lr=1.0e-03)
+12:48:48 |       MLP epoca 3/15 loss=1.0221 (250200 muestras, 278 img, lr=1.0e-03)
+12:49:31 |       MLP epoca 4/15 loss=0.9414 (250200 muestras, 278 img, lr=1.0e-03)
+12:50:14 |       MLP epoca 5/15 loss=0.8922 (250200 muestras, 278 img, lr=1.0e-04)
+12:50:57 |       MLP epoca 6/15 loss=0.6930 (250200 muestras, 278 img, lr=1.0e-04)
+12:51:40 |       MLP epoca 7/15 loss=0.6312 (250200 muestras, 278 img, lr=1.0e-04)
+12:52:23 |       MLP epoca 8/15 loss=0.6136 (250200 muestras, 278 img, lr=1.0e-04)
+12:53:05 |       MLP epoca 9/15 loss=0.5974 (250200 muestras, 278 img, lr=1.0e-04)
+12:53:48 |       MLP epoca 10/15 loss=0.5811 (250200 muestras, 278 img, lr=1.0e-05)
+12:54:31 |       MLP epoca 11/15 loss=0.5587 (250200 muestras, 278 img, lr=1.0e-05)
+12:55:14 |       MLP epoca 12/15 loss=0.5528 (250200 muestras, 278 img, lr=1.0e-05)
+12:55:57 |       MLP epoca 13/15 loss=0.5487 (250200 muestras, 278 img, lr=1.0e-05)
+12:56:39 |       MLP epoca 14/15 loss=0.5469 (250200 muestras, 278 img, lr=1.0e-05)
+12:57:22 |       MLP epoca 15/15 loss=0.5398 (250200 muestras, 278 img, lr=1.0e-06)
+12:57:22 | [pcb2] distribucion N+P ajustada en 674.0s (2048 simbolos)
+12:58:46 | [pcb2] AUROC img=0.9909 pix=0.9900 | bestF1=0.947 (P=0.908 R=0.990) | honestoF1=0.947 (P=0.908 R=0.990) | infer 68.5s total 933.2s
+13:01:41 | [pcb3] parches 2934000 (pool 700000) -> C_emb 29340 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 27.83s coreset 145.46s dist 0.72s
+13:02:55 |       MLP epoca 1/15 loss=1.8031 (250200 muestras, 278 img, lr=1.0e-03)
+13:03:37 |       MLP epoca 2/15 loss=1.1580 (250200 muestras, 278 img, lr=1.0e-03)
+13:04:20 |       MLP epoca 3/15 loss=1.0023 (250200 muestras, 278 img, lr=1.0e-03)
+13:05:02 |       MLP epoca 4/15 loss=0.9029 (250200 muestras, 278 img, lr=1.0e-03)
+13:05:45 |       MLP epoca 5/15 loss=0.8608 (250200 muestras, 278 img, lr=1.0e-04)
+13:06:27 |       MLP epoca 6/15 loss=0.6580 (250200 muestras, 278 img, lr=1.0e-04)
+13:07:10 |       MLP epoca 7/15 loss=0.6060 (250200 muestras, 278 img, lr=1.0e-04)
+13:07:52 |       MLP epoca 8/15 loss=0.5790 (250200 muestras, 278 img, lr=1.0e-04)
+13:08:35 |       MLP epoca 9/15 loss=0.5582 (250200 muestras, 278 img, lr=1.0e-04)
+13:09:17 |       MLP epoca 10/15 loss=0.5466 (250200 muestras, 278 img, lr=1.0e-05)
+13:10:00 |       MLP epoca 11/15 loss=0.5247 (250200 muestras, 278 img, lr=1.0e-05)
+13:10:42 |       MLP epoca 12/15 loss=0.5149 (250200 muestras, 278 img, lr=1.0e-05)
+13:11:25 |       MLP epoca 13/15 loss=0.5136 (250200 muestras, 278 img, lr=1.0e-05)
+13:12:07 |       MLP epoca 14/15 loss=0.5105 (250200 muestras, 278 img, lr=1.0e-05)
+13:12:50 |       MLP epoca 15/15 loss=0.5147 (250200 muestras, 278 img, lr=1.0e-06)
+13:12:50 | [pcb3] distribucion N+P ajustada en 668.9s (2048 simbolos)
+13:15:04 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+13:15:04 | Cerrojo obsoleto de un PID muerto (3148): se reutiliza.
+13:15:05 | --resume: 10 categorias ya evaluadas en parcial_visa_N+P.csv -> ['candle', 'capsules', 'cashew', 'chewinggum', 'fryum', 'macaroni1', 'macaroni2', 'pcb1', 'pcb2', 'pipe_fryum']
+13:15:05 | [candle] REUTILIZADA del parcial: AUROC img=0.9834 pix=0.9959
+13:15:05 | [capsules] REUTILIZADA del parcial: AUROC img=0.9393 pix=0.9970
+13:15:05 | [cashew] REUTILIZADA del parcial: AUROC img=0.9912 pix=0.9636
+13:15:05 | [chewinggum] REUTILIZADA del parcial: AUROC img=0.9922 pix=0.9912
+13:15:05 | [fryum] REUTILIZADA del parcial: AUROC img=0.9916 pix=0.9432
+13:15:05 | [macaroni1] REUTILIZADA del parcial: AUROC img=0.9915 pix=0.9975
+13:15:05 | [macaroni2] REUTILIZADA del parcial: AUROC img=0.8883 pix=0.9944
+13:15:05 | [pipe_fryum] REUTILIZADA del parcial: AUROC img=0.9978 pix=0.9923
+13:15:05 | [pcb1] REUTILIZADA del parcial: AUROC img=0.9892 pix=0.9977
+13:15:05 | [pcb2] REUTILIZADA del parcial: AUROC img=0.9909 pix=0.9900
+13:18:07 | [pcb3] parches 2934000 (pool 700000) -> C_emb 29340 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 27.64s coreset 153.31s dist 0.82s
+13:19:25 |       MLP epoca 1/15 loss=1.8047 (250200 muestras, 278 img, lr=1.0e-03)
+13:20:11 |       MLP epoca 2/15 loss=1.1474 (250200 muestras, 278 img, lr=1.0e-03)
+13:20:57 |       MLP epoca 3/15 loss=0.9989 (250200 muestras, 278 img, lr=1.0e-03)
+13:21:43 |       MLP epoca 4/15 loss=0.8998 (250200 muestras, 278 img, lr=1.0e-03)
+13:22:29 |       MLP epoca 5/15 loss=0.8553 (250200 muestras, 278 img, lr=1.0e-04)
+13:23:15 |       MLP epoca 6/15 loss=0.6538 (250200 muestras, 278 img, lr=1.0e-04)
+13:24:01 |       MLP epoca 7/15 loss=0.6033 (250200 muestras, 278 img, lr=1.0e-04)
+13:24:47 |       MLP epoca 8/15 loss=0.5792 (250200 muestras, 278 img, lr=1.0e-04)
+13:25:33 |       MLP epoca 9/15 loss=0.5571 (250200 muestras, 278 img, lr=1.0e-04)
+13:26:19 |       MLP epoca 10/15 loss=0.5479 (250200 muestras, 278 img, lr=1.0e-05)
+13:27:05 |       MLP epoca 11/15 loss=0.5255 (250200 muestras, 278 img, lr=1.0e-05)
+13:27:51 |       MLP epoca 12/15 loss=0.5169 (250200 muestras, 278 img, lr=1.0e-05)
+13:28:37 |       MLP epoca 13/15 loss=0.5148 (250200 muestras, 278 img, lr=1.0e-05)
+13:29:23 |       MLP epoca 14/15 loss=0.5136 (250200 muestras, 278 img, lr=1.0e-05)
+13:30:09 |       MLP epoca 15/15 loss=0.5171 (250200 muestras, 278 img, lr=1.0e-06)
+13:30:09 | [pcb3] distribucion N+P ajustada en 721.9s (2048 simbolos)
+13:31:39 | [pcb3] AUROC img=0.9928 pix=0.9930 | bestF1=0.956 (P=0.942 R=0.970) | honestoF1=0.901 (P=0.820 R=1.000) | infer 73.9s total 993.9s
+13:34:48 | [pcb4] parches 2930400 (pool 700000) -> C_emb 29304 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 29.88s coreset 157.81s dist 0.79s
+13:36:07 |       MLP epoca 1/15 loss=1.7294 (250200 muestras, 278 img, lr=1.0e-03)
+13:36:53 |       MLP epoca 2/15 loss=0.9994 (250200 muestras, 278 img, lr=1.0e-03)
+13:37:39 |       MLP epoca 3/15 loss=0.9002 (250200 muestras, 278 img, lr=1.0e-03)
+13:38:26 |       MLP epoca 4/15 loss=0.7927 (250200 muestras, 278 img, lr=1.0e-03)
+13:39:12 |       MLP epoca 5/15 loss=0.7627 (250200 muestras, 278 img, lr=1.0e-04)
+13:39:58 |       MLP epoca 6/15 loss=0.6029 (250200 muestras, 278 img, lr=1.0e-04)
+13:40:44 |       MLP epoca 7/15 loss=0.5362 (250200 muestras, 278 img, lr=1.0e-04)
+13:41:30 |       MLP epoca 8/15 loss=0.5106 (250200 muestras, 278 img, lr=1.0e-04)
+13:42:16 |       MLP epoca 9/15 loss=0.5021 (250200 muestras, 278 img, lr=1.0e-04)
+13:43:03 |       MLP epoca 10/15 loss=0.4940 (250200 muestras, 278 img, lr=1.0e-05)
+13:43:49 |       MLP epoca 11/15 loss=0.4725 (250200 muestras, 278 img, lr=1.0e-05)
+13:44:35 |       MLP epoca 12/15 loss=0.4652 (250200 muestras, 278 img, lr=1.0e-05)
+13:45:19 |       MLP epoca 13/15 loss=0.4598 (250200 muestras, 278 img, lr=1.0e-05)
+13:46:01 |       MLP epoca 14/15 loss=0.4603 (250200 muestras, 278 img, lr=1.0e-05)
+13:46:44 |       MLP epoca 15/15 loss=0.4527 (250200 muestras, 278 img, lr=1.0e-06)
+13:46:44 | [pcb4] distribucion N+P ajustada en 716.1s (2048 simbolos)
+13:48:08 | [pcb4] AUROC img=0.9994 pix=0.9862 | bestF1=0.990 (P=0.980 R=1.000) | honestoF1=0.922 (P=0.855 R=1.000) | infer 68.7s total 989.4s
+13:48:08 | === PROMEDIO AUROC img=0.97897 pix=0.98684 | tiempo total 1983.3s ===
+13:48:08 | AUROC imagen: 0.97897 | referencia 0.9520 | delta +0.0270 -> IGUALADO
+13:48:08 | AUROC pixel : 0.98684 | referencia 0.9880 | delta -0.0012 -> IGUALADO
+13:48:08 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv
+14:51:39 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+14:52:24 | [bottle] parches 680400 (pool 680400) -> C_emb 6804 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 9.03s coreset 33.98s dist 0.44s
+14:52:25 |   [semi] 5735 parches de defecto de 21 imagenes (273.1 por imagen)
+14:52:25 |   [semi] |C_neg| = 4096 (de 5735 candidatos)
+14:52:25 |   [semi] purga: 12 de 6804 parches (0.18 %), 12 candidatos
+14:53:05 |       MLP epoca 1/15 loss=1.7983 (170100 muestras, 189 img, lr=1.0e-03)
+14:53:35 |       MLP epoca 2/15 loss=1.1858 (170100 muestras, 189 img, lr=1.0e-03)
+14:54:06 |       MLP epoca 3/15 loss=1.0402 (170100 muestras, 189 img, lr=1.0e-03)
+14:54:36 |       MLP epoca 4/15 loss=0.9225 (170100 muestras, 189 img, lr=1.0e-03)
+14:55:07 |       MLP epoca 5/15 loss=0.8910 (170100 muestras, 189 img, lr=1.0e-04)
+14:55:37 |       MLP epoca 6/15 loss=0.6512 (170100 muestras, 189 img, lr=1.0e-04)
+14:56:08 |       MLP epoca 7/15 loss=0.5770 (170100 muestras, 189 img, lr=1.0e-04)
+14:56:38 |       MLP epoca 8/15 loss=0.5519 (170100 muestras, 189 img, lr=1.0e-04)
+14:57:08 |       MLP epoca 9/15 loss=0.5357 (170100 muestras, 189 img, lr=1.0e-04)
+14:57:39 |       MLP epoca 10/15 loss=0.5225 (170100 muestras, 189 img, lr=1.0e-05)
+14:58:09 |       MLP epoca 11/15 loss=0.4926 (170100 muestras, 189 img, lr=1.0e-05)
+14:58:39 |       MLP epoca 12/15 loss=0.4807 (170100 muestras, 189 img, lr=1.0e-05)
+14:59:10 |       MLP epoca 13/15 loss=0.4766 (170100 muestras, 189 img, lr=1.0e-05)
+14:59:40 |       MLP epoca 14/15 loss=0.4735 (170100 muestras, 189 img, lr=1.0e-05)
+15:00:11 |       MLP epoca 15/15 loss=0.4685 (170100 muestras, 189 img, lr=1.0e-06)
+15:00:11 | [bottle] distribucion N+P ajustada en 465.1s (2048 simbolos)
+15:00:32 |   [semi] umbral calibrado con 2 clases: 1.9291 (F1 de calibracion 1.000)
+15:00:36 | [bottle] AUROC img=0.9976 pix=0.9874 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.963 (P=1.000 R=0.929) | infer 17.2s total 535.5s
+15:01:14 | === PNI [baseline] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+15:01:57 | [bottle] parches 680400 (pool 680400) -> C_emb 6804 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 8.21s coreset 33.91s dist 0.44s
+15:01:58 |   [semi] 5735 parches de defecto de 21 imagenes (273.1 por imagen)
+15:01:59 |   [semi] |C_neg| = 4096 (de 5735 candidatos)
+15:01:59 |   [semi] purga: 12 de 6804 parches (0.18 %), 12 candidatos
+15:02:05 |   [semi] umbral calibrado con 2 clases: 1.9291 (F1 de calibracion 1.000)
+15:02:09 | [bottle] AUROC img=0.9976 pix=0.9874 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.963 (P=1.000 R=0.929) | infer 5.1s total 54.3s
+15:02:09 | === PROMEDIO AUROC img=0.99762 pix=0.98744 | tiempo total 54.4s ===
+15:02:09 | AUROC imagen: 0.99762 | referencia 0.9892 | delta +0.0084 -> IGUALADO
+15:02:09 | AUROC pixel : 0.98744 | referencia 0.9818 | delta +0.0056 -> IGUALADO
+15:02:09 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_mvtec.csv
+15:24:41 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+15:24:41 | Cerrojo obsoleto de un PID muerto (7940): se reutiliza.
+15:25:25 | [bottle] parches 680400 (pool 680400) -> C_emb 6804 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 8.62s coreset 33.63s dist 0.41s
+15:25:25 |   [semi] 5735 parches de defecto de 21 imagenes (273.1 por imagen)
+15:25:26 |   [semi] |C_neg| = 4096 (de 5735 candidatos)
+15:25:26 |   [semi] purga: 12 de 6804 parches (0.18 %), 12 candidatos
+15:26:06 |       MLP epoca 1/15 loss=1.7983 (170100 muestras, 189 img, lr=1.0e-03)
+15:26:36 |       MLP epoca 2/15 loss=1.1858 (170100 muestras, 189 img, lr=1.0e-03)
+15:27:06 |       MLP epoca 3/15 loss=1.0402 (170100 muestras, 189 img, lr=1.0e-03)
+15:27:36 |       MLP epoca 4/15 loss=0.9225 (170100 muestras, 189 img, lr=1.0e-03)
+15:28:06 |       MLP epoca 5/15 loss=0.8910 (170100 muestras, 189 img, lr=1.0e-04)
+15:28:36 |       MLP epoca 6/15 loss=0.6512 (170100 muestras, 189 img, lr=1.0e-04)
+15:29:06 |       MLP epoca 7/15 loss=0.5770 (170100 muestras, 189 img, lr=1.0e-04)
+15:29:36 |       MLP epoca 8/15 loss=0.5519 (170100 muestras, 189 img, lr=1.0e-04)
+15:30:06 |       MLP epoca 9/15 loss=0.5357 (170100 muestras, 189 img, lr=1.0e-04)
+15:30:36 |       MLP epoca 10/15 loss=0.5225 (170100 muestras, 189 img, lr=1.0e-05)
+15:31:06 |       MLP epoca 11/15 loss=0.4926 (170100 muestras, 189 img, lr=1.0e-05)
+15:31:36 |       MLP epoca 12/15 loss=0.4807 (170100 muestras, 189 img, lr=1.0e-05)
+15:32:06 |       MLP epoca 13/15 loss=0.4766 (170100 muestras, 189 img, lr=1.0e-05)
+15:32:36 |       MLP epoca 14/15 loss=0.4735 (170100 muestras, 189 img, lr=1.0e-05)
+15:33:06 |       MLP epoca 15/15 loss=0.4685 (170100 muestras, 189 img, lr=1.0e-06)
+15:33:06 | [bottle] distribucion N+P ajustada en 459.8s (2048 simbolos)
+15:33:27 |   [semi] umbral calibrado con 2 clases: 1.9291 (F1 de calibracion 1.000)
+15:33:34 | [bottle] AUROC img=0.9976 pix=0.9874 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.963 (P=1.000 R=0.929) | infer 17.0s total 532.7s
+15:34:24 | [cable] parches 727200 (pool 700000) -> C_emb 7272 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 12.57s coreset 36.8s dist 0.38s
+15:34:26 |   [semi] 4079 parches de defecto de 22 imagenes (185.4 por imagen)
+15:34:26 |   [semi] |C_neg| = 4079 (de 4079 candidatos)
+15:34:26 |   [semi] purga: 145 de 7272 parches (1.99 %), 460 candidatos
+15:35:14 |       MLP epoca 1/15 loss=2.4290 (181800 muestras, 202 img, lr=1.0e-03)
+15:35:49 |       MLP epoca 2/15 loss=1.6542 (181800 muestras, 202 img, lr=1.0e-03)
+15:36:24 |       MLP epoca 3/15 loss=1.4093 (181800 muestras, 202 img, lr=1.0e-03)
+15:36:59 |       MLP epoca 4/15 loss=1.2801 (181800 muestras, 202 img, lr=1.0e-03)
+15:37:35 |       MLP epoca 5/15 loss=1.2062 (181800 muestras, 202 img, lr=1.0e-04)
+15:38:10 |       MLP epoca 6/15 loss=0.9359 (181800 muestras, 202 img, lr=1.0e-04)
+15:38:45 |       MLP epoca 7/15 loss=0.8329 (181800 muestras, 202 img, lr=1.0e-04)
+15:39:20 |       MLP epoca 8/15 loss=0.7976 (181800 muestras, 202 img, lr=1.0e-04)
+15:39:55 |       MLP epoca 9/15 loss=0.7699 (181800 muestras, 202 img, lr=1.0e-04)
+15:40:31 |       MLP epoca 10/15 loss=0.7462 (181800 muestras, 202 img, lr=1.0e-05)
+15:41:06 |       MLP epoca 11/15 loss=0.7199 (181800 muestras, 202 img, lr=1.0e-05)
+15:41:41 |       MLP epoca 12/15 loss=0.7018 (181800 muestras, 202 img, lr=1.0e-05)
+15:42:16 |       MLP epoca 13/15 loss=0.6986 (181800 muestras, 202 img, lr=1.0e-05)
+15:42:56 |       MLP epoca 14/15 loss=0.6914 (181800 muestras, 202 img, lr=1.0e-05)
+15:43:31 |       MLP epoca 15/15 loss=0.6873 (181800 muestras, 202 img, lr=1.0e-06)
+15:43:31 | [cable] distribucion N+P ajustada en 545.9s (2048 simbolos)
+15:44:10 |   [semi] umbral calibrado con 2 clases: 2.3765 (F1 de calibracion 1.000)
+15:44:24 | [cable] AUROC img=0.9786 pix=0.9900 | bestF1=0.948 (P=0.985 R=0.914) | honestoF1=0.939 (P=1.000 R=0.886) | infer 33.4s total 649.2s
+15:45:25 | [carpet] parches 907200 (pool 700000) -> C_emb 9072 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 15.05s coreset 45.65s dist 0.4s
+15:45:26 |   [semi] 1933 parches de defecto de 28 imagenes (69.0 por imagen)
+15:45:26 |   [semi] |C_neg| = 1933 (de 1933 candidatos)
+15:45:26 |   [semi] purga: 0 parches (ningun candidato)
+15:46:26 |       MLP epoca 1/15 loss=4.2851 (226800 muestras, 252 img, lr=1.0e-03)
+15:47:09 |       MLP epoca 2/15 loss=3.2293 (226800 muestras, 252 img, lr=1.0e-03)
+15:47:53 |       MLP epoca 3/15 loss=2.8123 (226800 muestras, 252 img, lr=1.0e-03)
+15:48:37 |       MLP epoca 4/15 loss=2.5902 (226800 muestras, 252 img, lr=1.0e-03)
+15:49:20 |       MLP epoca 5/15 loss=2.4265 (226800 muestras, 252 img, lr=1.0e-04)
+15:50:04 |       MLP epoca 6/15 loss=2.0738 (226800 muestras, 252 img, lr=1.0e-04)
+15:50:48 |       MLP epoca 7/15 loss=1.9274 (226800 muestras, 252 img, lr=1.0e-04)
+15:51:31 |       MLP epoca 8/15 loss=1.8841 (226800 muestras, 252 img, lr=1.0e-04)
+15:52:15 |       MLP epoca 9/15 loss=1.8466 (226800 muestras, 252 img, lr=1.0e-04)
+15:52:58 |       MLP epoca 10/15 loss=1.8012 (226800 muestras, 252 img, lr=1.0e-05)
+15:53:42 |       MLP epoca 11/15 loss=1.7371 (226800 muestras, 252 img, lr=1.0e-05)
+15:54:25 |       MLP epoca 12/15 loss=1.7456 (226800 muestras, 252 img, lr=1.0e-05)
+15:55:09 |       MLP epoca 13/15 loss=1.7235 (226800 muestras, 252 img, lr=1.0e-05)
+15:55:53 |       MLP epoca 14/15 loss=1.7217 (226800 muestras, 252 img, lr=1.0e-05)
+15:56:36 |       MLP epoca 15/15 loss=1.7146 (226800 muestras, 252 img, lr=1.0e-06)
+15:56:36 | [carpet] distribucion N+P ajustada en 669.8s (2048 simbolos)
+15:57:08 |   [semi] umbral calibrado con 2 clases: 1.8907 (F1 de calibracion 1.000)
+15:57:18 | [carpet] AUROC img=0.9988 pix=0.9947 | bestF1=0.992 (P=0.984 R=1.000) | honestoF1=0.948 (P=1.000 R=0.902) | infer 25.9s total 774.4s
+16:36:43 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+16:36:43 | Cerrojo obsoleto de un PID muerto (4428): se reutiliza.
+16:36:44 | --resume: 3 categorias ya evaluadas en parcial_mvtec_N+P.csv -> ['bottle', 'cable', 'carpet']
+16:36:44 | [bottle] REUTILIZADA del parcial: AUROC img=0.9976 pix=0.9874
+16:36:44 | [cable] REUTILIZADA del parcial: AUROC img=0.9786 pix=0.9900
+16:36:44 | [carpet] REUTILIZADA del parcial: AUROC img=0.9988 pix=0.9947
+16:37:38 | [grid] parches 856800 (pool 700000) -> C_emb 8568 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 10.09s coreset 43.11s dist 0.42s
+16:37:39 |   [semi] 1356 parches de defecto de 26 imagenes (52.2 por imagen)
+16:37:39 |   [semi] |C_neg| = 1356 (de 1356 candidatos)
+16:37:39 |   [semi] purga: 23 de 8568 parches (0.27 %), 23 candidatos
+16:38:27 |       MLP epoca 1/15 loss=3.9478 (214200 muestras, 238 img, lr=1.0e-03)
+16:39:04 |       MLP epoca 2/15 loss=2.3960 (214200 muestras, 238 img, lr=1.0e-03)
+16:39:41 |       MLP epoca 3/15 loss=1.9570 (214200 muestras, 238 img, lr=1.0e-03)
+16:40:19 |       MLP epoca 4/15 loss=1.7226 (214200 muestras, 238 img, lr=1.0e-03)
+16:40:56 |       MLP epoca 5/15 loss=1.5545 (214200 muestras, 238 img, lr=1.0e-04)
+16:41:34 |       MLP epoca 6/15 loss=1.2653 (214200 muestras, 238 img, lr=1.0e-04)
+16:42:11 |       MLP epoca 7/15 loss=1.0567 (214200 muestras, 238 img, lr=1.0e-04)
+16:42:49 |       MLP epoca 8/15 loss=1.0450 (214200 muestras, 238 img, lr=1.0e-04)
+16:43:26 |       MLP epoca 9/15 loss=0.9970 (214200 muestras, 238 img, lr=1.0e-04)
+16:44:04 |       MLP epoca 10/15 loss=0.9834 (214200 muestras, 238 img, lr=1.0e-05)
+16:44:41 |       MLP epoca 11/15 loss=0.9369 (214200 muestras, 238 img, lr=1.0e-05)
+16:45:19 |       MLP epoca 12/15 loss=0.9006 (214200 muestras, 238 img, lr=1.0e-05)
+16:45:57 |       MLP epoca 13/15 loss=0.8914 (214200 muestras, 238 img, lr=1.0e-05)
+16:46:34 |       MLP epoca 14/15 loss=0.8906 (214200 muestras, 238 img, lr=1.0e-05)
+16:47:12 |       MLP epoca 15/15 loss=0.8925 (214200 muestras, 238 img, lr=1.0e-06)
+16:47:12 | [grid] distribucion N+P ajustada en 572.7s (2048 simbolos)
+16:47:33 |   [semi] umbral calibrado con 2 clases: 1.5379 (F1 de calibracion 1.000)
+16:47:39 | [grid] AUROC img=0.9800 pix=0.9961 | bestF1=0.984 (P=1.000 R=0.968) | honestoF1=0.968 (P=0.968 R=0.968) | infer 16.0s total 654.3s
+16:48:32 | [leather] parches 795600 (pool 700000) -> C_emb 7956 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 12.18s coreset 40.22s dist 0.39s
+16:48:33 |   [semi] 851 parches de defecto de 24 imagenes (35.5 por imagen)
+16:48:33 |   [semi] |C_neg| = 851 (de 851 candidatos)
+16:48:33 |   [semi] purga: 0 parches (ningun candidato)
+16:49:23 |       MLP epoca 1/15 loss=4.6339 (198900 muestras, 221 img, lr=1.0e-03)
+16:50:00 |       MLP epoca 2/15 loss=3.3733 (198900 muestras, 221 img, lr=1.0e-03)
+16:50:37 |       MLP epoca 3/15 loss=2.9150 (198900 muestras, 221 img, lr=1.0e-03)
+16:51:14 |       MLP epoca 4/15 loss=2.6531 (198900 muestras, 221 img, lr=1.0e-03)
+16:51:51 |       MLP epoca 5/15 loss=2.4754 (198900 muestras, 221 img, lr=1.0e-04)
+16:52:28 |       MLP epoca 6/15 loss=2.1094 (198900 muestras, 221 img, lr=1.0e-04)
+16:53:05 |       MLP epoca 7/15 loss=1.9791 (198900 muestras, 221 img, lr=1.0e-04)
+16:53:42 |       MLP epoca 8/15 loss=1.9091 (198900 muestras, 221 img, lr=1.0e-04)
+16:54:20 |       MLP epoca 9/15 loss=1.8680 (198900 muestras, 221 img, lr=1.0e-04)
+16:54:57 |       MLP epoca 10/15 loss=1.8219 (198900 muestras, 221 img, lr=1.0e-05)
+16:55:34 |       MLP epoca 11/15 loss=1.7936 (198900 muestras, 221 img, lr=1.0e-05)
+16:56:11 |       MLP epoca 12/15 loss=1.7790 (198900 muestras, 221 img, lr=1.0e-05)
+16:56:48 |       MLP epoca 13/15 loss=1.7668 (198900 muestras, 221 img, lr=1.0e-05)
+16:57:26 |       MLP epoca 14/15 loss=1.7663 (198900 muestras, 221 img, lr=1.0e-05)
+16:58:03 |       MLP epoca 15/15 loss=1.7593 (198900 muestras, 221 img, lr=1.0e-06)
+16:58:03 | [leather] distribucion N+P ajustada en 570.0s (2048 simbolos)
+16:58:35 |   [semi] umbral calibrado con 2 clases: 1.1740 (F1 de calibracion 1.000)
+16:58:45 | [leather] AUROC img=1.0000 pix=0.9953 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.877 (P=0.782 R=1.000) | infer 26.6s total 666.6s
+16:59:30 | [metal_nut] parches 712800 (pool 700000) -> C_emb 7128 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 8.17s coreset 36.16s dist 0.39s
+16:59:31 |   [semi] 16918 parches de defecto de 22 imagenes (769.0 por imagen)
+16:59:32 |   [semi] |C_neg| = 4096 (de 16918 candidatos)
+16:59:32 |   [semi] purga: 108 de 7128 parches (1.52 %), 108 candidatos
+17:00:11 |       MLP epoca 1/15 loss=2.1207 (178200 muestras, 198 img, lr=1.0e-03)
+17:00:42 |       MLP epoca 2/15 loss=1.2747 (178200 muestras, 198 img, lr=1.0e-03)
+17:01:13 |       MLP epoca 3/15 loss=1.0862 (178200 muestras, 198 img, lr=1.0e-03)
+17:01:43 |       MLP epoca 4/15 loss=0.9792 (178200 muestras, 198 img, lr=1.0e-03)
+17:02:14 |       MLP epoca 5/15 loss=0.8884 (178200 muestras, 198 img, lr=1.0e-04)
+17:02:45 |       MLP epoca 6/15 loss=0.6902 (178200 muestras, 198 img, lr=1.0e-04)
+17:03:16 |       MLP epoca 7/15 loss=0.5933 (178200 muestras, 198 img, lr=1.0e-04)
+17:03:46 |       MLP epoca 8/15 loss=0.5716 (178200 muestras, 198 img, lr=1.0e-04)
+17:04:17 |       MLP epoca 9/15 loss=0.5475 (178200 muestras, 198 img, lr=1.0e-04)
+17:04:48 |       MLP epoca 10/15 loss=0.5286 (178200 muestras, 198 img, lr=1.0e-05)
+17:05:18 |       MLP epoca 11/15 loss=0.5101 (178200 muestras, 198 img, lr=1.0e-05)
+17:05:49 |       MLP epoca 12/15 loss=0.4964 (178200 muestras, 198 img, lr=1.0e-05)
+17:06:20 |       MLP epoca 13/15 loss=0.4881 (178200 muestras, 198 img, lr=1.0e-05)
+17:06:50 |       MLP epoca 14/15 loss=0.4832 (178200 muestras, 198 img, lr=1.0e-05)
+17:07:21 |       MLP epoca 15/15 loss=0.4819 (178200 muestras, 198 img, lr=1.0e-06)
+17:07:21 | [metal_nut] distribucion N+P ajustada en 469.2s (2048 simbolos)
+17:07:49 |   [semi] umbral calibrado con 2 clases: 2.5199 (F1 de calibracion 1.000)
+17:07:58 | [metal_nut] AUROC img=0.9558 pix=0.9964 | bestF1=0.950 (P=0.957 R=0.944) | honestoF1=0.709 (P=1.000 R=0.549) | infer 23.6s total 552.4s
+17:09:02 | [screw] parches 1036800 (pool 700000) -> C_emb 10368 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 11.89s coreset 51.85s dist 0.4s
+17:09:03 |   [semi] 437 parches de defecto de 32 imagenes (13.7 por imagen)
+17:09:03 |   [semi] |C_neg| = 437 (de 437 candidatos)
+17:09:03 |   [semi] purga: 31 de 10368 parches (0.30 %), 31 candidatos
+17:09:59 |       MLP epoca 1/15 loss=1.6890 (250200 muestras, 278 img, lr=1.0e-03)
+17:10:43 |       MLP epoca 2/15 loss=1.0343 (250200 muestras, 278 img, lr=1.0e-03)
+17:11:26 |       MLP epoca 3/15 loss=0.8661 (250200 muestras, 278 img, lr=1.0e-03)
+17:12:09 |       MLP epoca 4/15 loss=0.7532 (250200 muestras, 278 img, lr=1.0e-03)
+17:12:53 |       MLP epoca 5/15 loss=0.7112 (250200 muestras, 278 img, lr=1.0e-04)
+17:13:37 |       MLP epoca 6/15 loss=0.5401 (250200 muestras, 278 img, lr=1.0e-04)
+17:14:21 |       MLP epoca 7/15 loss=0.4750 (250200 muestras, 278 img, lr=1.0e-04)
+17:15:05 |       MLP epoca 8/15 loss=0.4483 (250200 muestras, 278 img, lr=1.0e-04)
+17:15:49 |       MLP epoca 9/15 loss=0.4272 (250200 muestras, 278 img, lr=1.0e-04)
+17:16:33 |       MLP epoca 10/15 loss=0.4174 (250200 muestras, 278 img, lr=1.0e-05)
+17:17:16 |       MLP epoca 11/15 loss=0.3963 (250200 muestras, 278 img, lr=1.0e-05)
+17:17:59 |       MLP epoca 12/15 loss=0.3870 (250200 muestras, 278 img, lr=1.0e-05)
+17:18:43 |       MLP epoca 13/15 loss=0.3869 (250200 muestras, 278 img, lr=1.0e-05)
+17:19:26 |       MLP epoca 14/15 loss=0.3812 (250200 muestras, 278 img, lr=1.0e-05)
+17:20:10 |       MLP epoca 15/15 loss=0.3764 (250200 muestras, 278 img, lr=1.0e-06)
+17:20:10 | [screw] distribucion N+P ajustada en 666.6s (2048 simbolos)
+17:20:49 |   [semi] umbral calibrado con 2 clases: 1.6265 (F1 de calibracion 1.000)
+17:21:01 | [screw] AUROC img=0.9846 pix=0.9967 | bestF1=0.955 (P=0.944 R=0.966) | honestoF1=0.919 (P=1.000 R=0.851) | infer 33.1s total 783.2s
+17:21:50 | [tile] parches 745200 (pool 700000) -> C_emb 7452 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 10.5s coreset 37.74s dist 0.4s
+17:21:51 |   [semi] 10601 parches de defecto de 23 imagenes (460.9 por imagen)
+17:21:51 |   [semi] |C_neg| = 4096 (de 10601 candidatos)
+17:21:51 |   [semi] purga: 124 de 7452 parches (1.66 %), 124 candidatos
+17:22:37 |       MLP epoca 1/15 loss=4.5286 (186300 muestras, 207 img, lr=1.0e-03)
+17:23:11 |       MLP epoca 2/15 loss=3.3940 (186300 muestras, 207 img, lr=1.0e-03)
+17:23:45 |       MLP epoca 3/15 loss=2.9682 (186300 muestras, 207 img, lr=1.0e-03)
+17:24:19 |       MLP epoca 4/15 loss=2.7038 (186300 muestras, 207 img, lr=1.0e-03)
+17:24:53 |       MLP epoca 5/15 loss=2.5445 (186300 muestras, 207 img, lr=1.0e-04)
+17:25:27 |       MLP epoca 6/15 loss=2.1784 (186300 muestras, 207 img, lr=1.0e-04)
+17:26:01 |       MLP epoca 7/15 loss=2.0369 (186300 muestras, 207 img, lr=1.0e-04)
+17:26:35 |       MLP epoca 8/15 loss=1.9861 (186300 muestras, 207 img, lr=1.0e-04)
+17:27:09 |       MLP epoca 9/15 loss=1.9658 (186300 muestras, 207 img, lr=1.0e-04)
+17:27:43 |       MLP epoca 10/15 loss=1.9023 (186300 muestras, 207 img, lr=1.0e-05)
+17:28:17 |       MLP epoca 11/15 loss=1.8429 (186300 muestras, 207 img, lr=1.0e-05)
+17:28:51 |       MLP epoca 12/15 loss=1.8335 (186300 muestras, 207 img, lr=1.0e-05)
+17:29:25 |       MLP epoca 13/15 loss=1.8108 (186300 muestras, 207 img, lr=1.0e-05)
+17:29:59 |       MLP epoca 14/15 loss=1.8164 (186300 muestras, 207 img, lr=1.0e-05)
+17:30:34 |       MLP epoca 15/15 loss=1.8180 (186300 muestras, 207 img, lr=1.0e-06)
+17:30:34 | [tile] distribucion N+P ajustada en 522.1s (2048 simbolos)
+17:31:04 |   [semi] umbral calibrado con 2 clases: 1.8046 (F1 de calibracion 1.000)
+17:31:13 | [tile] AUROC img=1.0000 pix=0.9826 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.992 (P=1.000 R=0.984) | infer 25.0s total 611.8s
+17:31:19 | [toothbrush] parches 194400 (pool 194400) -> C_emb 1944 -> C_dist 1944 (dim 1792, grid (60, 60)) | extract 3.03s coreset 3.21s dist 0.36s
+17:31:20 |   [semi] 516 parches de defecto de 6 imagenes (86.0 por imagen)
+17:31:20 |   [semi] |C_neg| = 516 (de 516 candidatos)
+17:31:20 |   [semi] purga: 3 de 1944 parches (0.15 %), 3 candidatos
+17:31:33 |       MLP epoca 1/15 loss=2.7902 (48600 muestras, 54 img, lr=1.0e-03)
+17:31:42 |       MLP epoca 2/15 loss=1.9675 (48600 muestras, 54 img, lr=1.0e-03)
+17:31:51 |       MLP epoca 3/15 loss=1.5340 (48600 muestras, 54 img, lr=1.0e-03)
+17:32:00 |       MLP epoca 4/15 loss=1.2845 (48600 muestras, 54 img, lr=1.0e-03)
+17:32:10 |       MLP epoca 5/15 loss=1.1083 (48600 muestras, 54 img, lr=1.0e-04)
+17:32:19 |       MLP epoca 6/15 loss=0.8908 (48600 muestras, 54 img, lr=1.0e-04)
+17:32:28 |       MLP epoca 7/15 loss=0.7781 (48600 muestras, 54 img, lr=1.0e-04)
+17:32:37 |       MLP epoca 8/15 loss=0.7312 (48600 muestras, 54 img, lr=1.0e-04)
+17:32:46 |       MLP epoca 9/15 loss=0.7093 (48600 muestras, 54 img, lr=1.0e-04)
+17:32:56 |       MLP epoca 10/15 loss=0.6948 (48600 muestras, 54 img, lr=1.0e-05)
+17:33:05 |       MLP epoca 11/15 loss=0.6611 (48600 muestras, 54 img, lr=1.0e-05)
+17:33:14 |       MLP epoca 12/15 loss=0.6588 (48600 muestras, 54 img, lr=1.0e-05)
+17:33:23 |       MLP epoca 13/15 loss=0.6515 (48600 muestras, 54 img, lr=1.0e-05)
+17:33:33 |       MLP epoca 14/15 loss=0.6464 (48600 muestras, 54 img, lr=1.0e-05)
+17:33:42 |       MLP epoca 15/15 loss=0.6317 (48600 muestras, 54 img, lr=1.0e-06)
+17:33:42 | [toothbrush] distribucion N+P ajustada en 142.3s (1944 simbolos)
+17:33:52 |   [semi] umbral calibrado con 2 clases: 1.5996 (F1 de calibracion 1.000)
+17:33:57 | [toothbrush] AUROC img=1.0000 pix=0.9906 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.906 (P=0.828 R=1.000) | infer 8.7s total 164.0s
+17:34:43 | [transistor] parches 691200 (pool 691200) -> C_emb 6912 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 11.31s coreset 34.65s dist 0.39s
+17:34:44 |   [semi] 13949 parches de defecto de 21 imagenes (664.2 por imagen)
+17:34:45 |   [semi] |C_neg| = 4096 (de 13949 candidatos)
+17:34:45 |   [semi] purga: 138 de 6912 parches (2.00 %), 1257 candidatos
+17:35:31 |       MLP epoca 1/15 loss=2.0562 (172800 muestras, 192 img, lr=1.0e-03)
+17:36:04 |       MLP epoca 2/15 loss=1.3877 (172800 muestras, 192 img, lr=1.0e-03)
+17:36:38 |       MLP epoca 3/15 loss=1.2163 (172800 muestras, 192 img, lr=1.0e-03)
+17:37:11 |       MLP epoca 4/15 loss=1.1097 (172800 muestras, 192 img, lr=1.0e-03)
+17:37:45 |       MLP epoca 5/15 loss=1.0420 (172800 muestras, 192 img, lr=1.0e-04)
+17:38:18 |       MLP epoca 6/15 loss=0.8148 (172800 muestras, 192 img, lr=1.0e-04)
+17:38:51 |       MLP epoca 7/15 loss=0.7227 (172800 muestras, 192 img, lr=1.0e-04)
+17:39:25 |       MLP epoca 8/15 loss=0.6878 (172800 muestras, 192 img, lr=1.0e-04)
+17:39:58 |       MLP epoca 9/15 loss=0.6698 (172800 muestras, 192 img, lr=1.0e-04)
+17:40:32 |       MLP epoca 10/15 loss=0.6527 (172800 muestras, 192 img, lr=1.0e-05)
+17:41:05 |       MLP epoca 11/15 loss=0.6270 (172800 muestras, 192 img, lr=1.0e-05)
+17:41:39 |       MLP epoca 12/15 loss=0.6194 (172800 muestras, 192 img, lr=1.0e-05)
+17:42:12 |       MLP epoca 13/15 loss=0.6085 (172800 muestras, 192 img, lr=1.0e-05)
+17:42:45 |       MLP epoca 14/15 loss=0.6064 (172800 muestras, 192 img, lr=1.0e-05)
+17:43:19 |       MLP epoca 15/15 loss=0.5999 (172800 muestras, 192 img, lr=1.0e-06)
+17:43:19 | [transistor] distribucion N+P ajustada en 513.6s (2048 simbolos)
+17:43:46 |   [semi] umbral calibrado con 2 clases: 2.0771 (F1 de calibracion 1.000)
+17:43:55 | [transistor] AUROC img=0.9982 pix=0.9742 | bestF1=0.973 (P=1.000 R=0.947) | honestoF1=0.947 (P=0.947 R=0.947) | infer 22.2s total 598.1s
+17:44:50 | [wood] parches 802800 (pool 700000) -> C_emb 8028 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 14.02s coreset 40.57s dist 0.4s
+17:44:51 |   [semi] 3750 parches de defecto de 25 imagenes (150.0 por imagen)
+17:44:51 |   [semi] |C_neg| = 3750 (de 3750 candidatos)
+17:44:51 |   [semi] purga: 0 parches (ningun candidato)
+17:45:45 |       MLP epoca 1/15 loss=4.7910 (200700 muestras, 223 img, lr=1.0e-03)
+17:46:24 |       MLP epoca 2/15 loss=3.4846 (200700 muestras, 223 img, lr=1.0e-03)
+17:47:03 |       MLP epoca 3/15 loss=2.9514 (200700 muestras, 223 img, lr=1.0e-03)
+17:47:42 |       MLP epoca 4/15 loss=2.7607 (200700 muestras, 223 img, lr=1.0e-03)
+17:48:21 |       MLP epoca 5/15 loss=2.4719 (200700 muestras, 223 img, lr=1.0e-04)
+17:49:00 |       MLP epoca 6/15 loss=2.1428 (200700 muestras, 223 img, lr=1.0e-04)
+17:49:39 |       MLP epoca 7/15 loss=2.0337 (200700 muestras, 223 img, lr=1.0e-04)
+17:50:18 |       MLP epoca 8/15 loss=1.9578 (200700 muestras, 223 img, lr=1.0e-04)
+17:50:57 |       MLP epoca 9/15 loss=1.9454 (200700 muestras, 223 img, lr=1.0e-04)
+17:51:36 |       MLP epoca 10/15 loss=1.8886 (200700 muestras, 223 img, lr=1.0e-05)
+17:52:15 |       MLP epoca 11/15 loss=1.8564 (200700 muestras, 223 img, lr=1.0e-05)
+17:52:54 |       MLP epoca 12/15 loss=1.8011 (200700 muestras, 223 img, lr=1.0e-05)
+17:53:33 |       MLP epoca 13/15 loss=1.7725 (200700 muestras, 223 img, lr=1.0e-05)
+17:54:13 |       MLP epoca 14/15 loss=1.8159 (200700 muestras, 223 img, lr=1.0e-05)
+17:54:52 |       MLP epoca 15/15 loss=1.7897 (200700 muestras, 223 img, lr=1.0e-06)
+17:54:52 | [wood] distribucion N+P ajustada en 600.2s (2048 simbolos)
+17:55:15 |   [semi] umbral calibrado con 2 clases: 1.4904 (F1 de calibracion 1.000)
+17:55:21 | [wood] AUROC img=0.9880 pix=0.9575 | bestF1=0.971 (P=0.971 R=0.971) | honestoF1=0.921 (P=0.854 R=1.000) | infer 17.5s total 686.6s
+17:56:10 | [zipper] parches 777600 (pool 700000) -> C_emb 7776 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 9.07s coreset 39.2s dist 0.38s
+17:56:11 |   [semi] 2750 parches de defecto de 24 imagenes (114.6 por imagen)
+17:56:11 |   [semi] |C_neg| = 2750 (de 2750 candidatos)
+17:56:11 |   [semi] purga: 28 de 7776 parches (0.36 %), 28 candidatos
+17:56:54 |       MLP epoca 1/15 loss=2.8949 (194400 muestras, 216 img, lr=1.0e-03)
+17:57:28 |       MLP epoca 2/15 loss=2.1232 (194400 muestras, 216 img, lr=1.0e-03)
+07:11:33 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+07:11:34 | --resume: 11 categorias ya evaluadas en parcial_mvtec_N+P.csv -> ['bottle', 'cable', 'carpet', 'grid', 'leather', 'metal_nut', 'screw', 'tile', 'toothbrush', 'transistor', 'wood']
+07:11:34 | [bottle] REUTILIZADA del parcial: AUROC img=0.9976 pix=0.9874
+07:11:34 | [cable] REUTILIZADA del parcial: AUROC img=0.9786 pix=0.9900
+07:11:34 | [carpet] REUTILIZADA del parcial: AUROC img=0.9988 pix=0.9947
+07:11:34 | [grid] REUTILIZADA del parcial: AUROC img=0.9800 pix=0.9961
+07:11:34 | [leather] REUTILIZADA del parcial: AUROC img=1.0000 pix=0.9953
+07:11:34 | [metal_nut] REUTILIZADA del parcial: AUROC img=0.9558 pix=0.9964
+07:11:34 | [screw] REUTILIZADA del parcial: AUROC img=0.9846 pix=0.9967
+07:11:34 | [tile] REUTILIZADA del parcial: AUROC img=1.0000 pix=0.9826
+07:11:34 | [toothbrush] REUTILIZADA del parcial: AUROC img=1.0000 pix=0.9906
+07:11:34 | [transistor] REUTILIZADA del parcial: AUROC img=0.9982 pix=0.9742
+07:11:34 | [wood] REUTILIZADA del parcial: AUROC img=0.9880 pix=0.9575
+07:12:24 | [zipper] parches 777600 (pool 700000) -> C_emb 7776 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 9.81s coreset 39.73s dist 0.44s
+07:12:25 |   [semi] 2750 parches de defecto de 24 imagenes (114.6 por imagen)
+07:12:25 |   [semi] |C_neg| = 2750 (de 2750 candidatos)
+07:12:25 |   [semi] purga: 28 de 7776 parches (0.36 %), 28 candidatos
+07:13:09 |       MLP epoca 1/15 loss=2.8984 (194400 muestras, 216 img, lr=1.0e-03)
+07:13:42 |       MLP epoca 2/15 loss=2.1378 (194400 muestras, 216 img, lr=1.0e-03)
+07:14:16 |       MLP epoca 3/15 loss=1.8833 (194400 muestras, 216 img, lr=1.0e-03)
+07:14:50 |       MLP epoca 4/15 loss=1.6774 (194400 muestras, 216 img, lr=1.0e-03)
+07:15:23 |       MLP epoca 5/15 loss=1.5550 (194400 muestras, 216 img, lr=1.0e-04)
+07:15:57 |       MLP epoca 6/15 loss=1.2591 (194400 muestras, 216 img, lr=1.0e-04)
+07:16:30 |       MLP epoca 7/15 loss=1.1678 (194400 muestras, 216 img, lr=1.0e-04)
+07:17:04 |       MLP epoca 8/15 loss=1.1269 (194400 muestras, 216 img, lr=1.0e-04)
+07:17:38 |       MLP epoca 9/15 loss=1.0969 (194400 muestras, 216 img, lr=1.0e-04)
+07:18:11 |       MLP epoca 10/15 loss=1.0673 (194400 muestras, 216 img, lr=1.0e-05)
+07:18:45 |       MLP epoca 11/15 loss=1.0337 (194400 muestras, 216 img, lr=1.0e-05)
+07:19:18 |       MLP epoca 12/15 loss=1.0178 (194400 muestras, 216 img, lr=1.0e-05)
+07:19:52 |       MLP epoca 13/15 loss=1.0115 (194400 muestras, 216 img, lr=1.0e-05)
+07:20:25 |       MLP epoca 14/15 loss=1.0115 (194400 muestras, 216 img, lr=1.0e-05)
+07:20:59 |       MLP epoca 15/15 loss=1.0044 (194400 muestras, 216 img, lr=1.0e-06)
+07:20:59 | [zipper] distribucion N+P ajustada en 513.7s (2048 simbolos)
+07:21:35 |   [semi] umbral calibrado con 2 clases: 1.1924 (F1 de calibracion 1.000)
+07:21:45 | [zipper] AUROC img=0.9997 pix=0.9957 | bestF1=0.995 (P=0.990 R=1.000) | honestoF1=0.945 (P=0.896 R=1.000) | infer 30.7s total 611.3s
+07:21:45 | === PROMEDIO AUROC img=0.99011 pix=0.98810 | tiempo total 611.4s ===
+07:21:45 | --- contraste sobre 12 categorias de MVTec AD ---
+07:21:45 | AUROC imagen: 0.99011 | referencia 0.9974 | delta -0.0072 -> IGUALADO
+07:21:45 | AUROC pixel : 0.98810 | referencia 0.9892 | delta -0.0011 -> IGUALADO
+07:21:45 | AUROC imagen*: 0.99011 | referencia 0.9964 | delta -0.0062 -> IGUALADO  (referencia APROXIMADA)
+07:21:45 | AUROC pixel*: 0.98810 | referencia 0.9874 | delta +0.0007 -> IGUALADO  (referencia APROXIMADA)
+07:21:45 |   * = referencia sin la red de refinamiento R, que esta implementacion no incluye
+07:21:45 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_mvtec.csv
+07:22:00 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+07:23:58 | [candle] parches 1944000 (pool 700000) -> C_emb 19440 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 19.99s coreset 96.49s dist 0.6s
+07:24:00 |   [semi] 701 parches de defecto de 60 imagenes (11.7 por imagen)
+07:24:00 |   [semi] |C_neg| = 701 (de 701 candidatos)
+07:24:00 |   [semi] purga: 19 de 19440 parches (0.10 %), 19 candidatos
+07:25:04 |       MLP epoca 1/15 loss=1.8824 (250200 muestras, 278 img, lr=1.0e-03)
+07:25:46 |       MLP epoca 2/15 loss=1.3636 (250200 muestras, 278 img, lr=1.0e-03)
+07:26:28 |       MLP epoca 3/15 loss=1.2251 (250200 muestras, 278 img, lr=1.0e-03)
+07:27:10 |       MLP epoca 4/15 loss=1.1240 (250200 muestras, 278 img, lr=1.0e-03)
+07:27:52 |       MLP epoca 5/15 loss=1.0724 (250200 muestras, 278 img, lr=1.0e-04)
+07:28:34 |       MLP epoca 6/15 loss=0.8481 (250200 muestras, 278 img, lr=1.0e-04)
+07:29:17 |       MLP epoca 7/15 loss=0.7784 (250200 muestras, 278 img, lr=1.0e-04)
+07:29:59 |       MLP epoca 8/15 loss=0.7538 (250200 muestras, 278 img, lr=1.0e-04)
+07:30:42 |       MLP epoca 9/15 loss=0.7449 (250200 muestras, 278 img, lr=1.0e-04)
+07:31:25 |       MLP epoca 10/15 loss=0.7302 (250200 muestras, 278 img, lr=1.0e-05)
+07:32:07 |       MLP epoca 11/15 loss=0.7039 (250200 muestras, 278 img, lr=1.0e-05)
+07:32:50 |       MLP epoca 12/15 loss=0.6944 (250200 muestras, 278 img, lr=1.0e-05)
+07:33:32 |       MLP epoca 13/15 loss=0.6870 (250200 muestras, 278 img, lr=1.0e-05)
+07:34:14 |       MLP epoca 14/15 loss=0.6765 (250200 muestras, 278 img, lr=1.0e-05)
+07:34:56 |       MLP epoca 15/15 loss=0.6838 (250200 muestras, 278 img, lr=1.0e-06)
+07:34:56 | [candle] distribucion N+P ajustada en 655.7s (2048 simbolos)
+07:36:58 |   [semi] umbral calibrado con 2 clases: 1.2837 (F1 de calibracion 0.992)
+07:37:34 | [candle] AUROC img=0.9934 pix=0.9968 | bestF1=0.951 (P=0.929 R=0.975) | honestoF1=0.940 (P=0.907 R=0.975) | infer 108.5s total 932.8s
+07:39:32 | [pcb1] parches 1951200 (pool 700000) -> C_emb 19512 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 19.93s coreset 96.86s dist 0.59s
+07:39:33 |   [semi] 2768 parches de defecto de 60 imagenes (46.1 por imagen)
+07:39:33 |   [semi] |C_neg| = 2768 (de 2768 candidatos)
+07:39:34 |   [semi] purga: 24 de 19512 parches (0.12 %), 24 candidatos
+07:40:37 |       MLP epoca 1/15 loss=1.7849 (250200 muestras, 278 img, lr=1.0e-03)
+07:41:20 |       MLP epoca 2/15 loss=1.1669 (250200 muestras, 278 img, lr=1.0e-03)
+07:42:02 |       MLP epoca 3/15 loss=1.0232 (250200 muestras, 278 img, lr=1.0e-03)
+07:42:44 |       MLP epoca 4/15 loss=0.9423 (250200 muestras, 278 img, lr=1.0e-03)
+07:43:27 |       MLP epoca 5/15 loss=0.8601 (250200 muestras, 278 img, lr=1.0e-04)
+07:44:09 |       MLP epoca 6/15 loss=0.6608 (250200 muestras, 278 img, lr=1.0e-04)
+07:44:51 |       MLP epoca 7/15 loss=0.5981 (250200 muestras, 278 img, lr=1.0e-04)
+07:45:34 |       MLP epoca 8/15 loss=0.5778 (250200 muestras, 278 img, lr=1.0e-04)
+07:46:16 |       MLP epoca 9/15 loss=0.5611 (250200 muestras, 278 img, lr=1.0e-04)
+07:46:59 |       MLP epoca 10/15 loss=0.5516 (250200 muestras, 278 img, lr=1.0e-05)
+07:47:41 |       MLP epoca 11/15 loss=0.5277 (250200 muestras, 278 img, lr=1.0e-05)
+07:48:23 |       MLP epoca 12/15 loss=0.5160 (250200 muestras, 278 img, lr=1.0e-05)
+07:49:06 |       MLP epoca 13/15 loss=0.5155 (250200 muestras, 278 img, lr=1.0e-05)
+07:49:48 |       MLP epoca 14/15 loss=0.5101 (250200 muestras, 278 img, lr=1.0e-05)
+07:50:30 |       MLP epoca 15/15 loss=0.5094 (250200 muestras, 278 img, lr=1.0e-06)
+07:50:30 | [pcb1] distribucion N+P ajustada en 656.9s (2048 simbolos)
+07:52:35 |   [semi] umbral calibrado con 2 clases: 1.7139 (F1 de calibracion 1.000)
+07:53:08 | [pcb1] AUROC img=0.9950 pix=0.9994 | bestF1=0.925 (P=0.925 R=0.925) | honestoF1=0.918 (P=0.867 R=0.975) | infer 110.8s total 934.1s
+07:55:05 | [pcb2] parches 1947600 (pool 700000) -> C_emb 19476 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 19.43s coreset 96.57s dist 0.58s
+07:55:07 |   [semi] 1285 parches de defecto de 60 imagenes (21.4 por imagen)
+07:55:07 |   [semi] |C_neg| = 1285 (de 1285 candidatos)
+07:55:07 |   [semi] purga: 33 de 19476 parches (0.17 %), 33 candidatos
+07:56:10 |       MLP epoca 1/15 loss=1.7811 (250200 muestras, 278 img, lr=1.0e-03)
+07:56:53 |       MLP epoca 2/15 loss=1.1595 (250200 muestras, 278 img, lr=1.0e-03)
+07:57:35 |       MLP epoca 3/15 loss=1.0292 (250200 muestras, 278 img, lr=1.0e-03)
+07:58:17 |       MLP epoca 4/15 loss=0.9301 (250200 muestras, 278 img, lr=1.0e-03)
+07:58:59 |       MLP epoca 5/15 loss=0.8714 (250200 muestras, 278 img, lr=1.0e-04)
+07:59:42 |       MLP epoca 6/15 loss=0.6902 (250200 muestras, 278 img, lr=1.0e-04)
+08:00:24 |       MLP epoca 7/15 loss=0.6174 (250200 muestras, 278 img, lr=1.0e-04)
+08:01:06 |       MLP epoca 8/15 loss=0.6022 (250200 muestras, 278 img, lr=1.0e-04)
+08:01:48 |       MLP epoca 9/15 loss=0.5850 (250200 muestras, 278 img, lr=1.0e-04)
+08:02:31 |       MLP epoca 10/15 loss=0.5732 (250200 muestras, 278 img, lr=1.0e-05)
+08:03:13 |       MLP epoca 11/15 loss=0.5593 (250200 muestras, 278 img, lr=1.0e-05)
+08:03:55 |       MLP epoca 12/15 loss=0.5416 (250200 muestras, 278 img, lr=1.0e-05)
+08:04:38 |       MLP epoca 13/15 loss=0.5371 (250200 muestras, 278 img, lr=1.0e-05)
+08:05:20 |       MLP epoca 14/15 loss=0.5308 (250200 muestras, 278 img, lr=1.0e-05)
+08:06:02 |       MLP epoca 15/15 loss=0.5302 (250200 muestras, 278 img, lr=1.0e-06)
+08:06:02 | [pcb2] distribucion N+P ajustada en 654.9s (2048 simbolos)
+08:08:04 |   [semi] umbral calibrado con 2 clases: 1.5475 (F1 de calibracion 1.000)
+08:09:10 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+08:09:10 | Cerrojo obsoleto de un PID muerto (2240): se reutiliza.
+08:09:11 | --resume: 2 categorias ya evaluadas en parcial_visa_N+P.csv -> ['candle', 'pcb1']
+08:11:08 | [pcb2] parches 1947600 (pool 700000) -> C_emb 19476 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 19.81s coreset 96.61s dist 0.6s
+08:11:10 |   [semi] 1285 parches de defecto de 60 imagenes (21.4 por imagen)
+08:11:10 |   [semi] |C_neg| = 1285 (de 1285 candidatos)
+08:11:10 |   [semi] purga: 33 de 19476 parches (0.17 %), 33 candidatos
+08:12:14 |       MLP epoca 1/15 loss=1.7646 (250200 muestras, 278 img, lr=1.0e-03)
+08:12:57 |       MLP epoca 2/15 loss=1.1591 (250200 muestras, 278 img, lr=1.0e-03)
+08:13:39 |       MLP epoca 3/15 loss=1.0201 (250200 muestras, 278 img, lr=1.0e-03)
+08:14:21 |       MLP epoca 4/15 loss=0.9232 (250200 muestras, 278 img, lr=1.0e-03)
+08:15:03 |       MLP epoca 5/15 loss=0.8770 (250200 muestras, 278 img, lr=1.0e-04)
+08:15:46 |       MLP epoca 6/15 loss=0.6932 (250200 muestras, 278 img, lr=1.0e-04)
+08:16:28 |       MLP epoca 7/15 loss=0.6206 (250200 muestras, 278 img, lr=1.0e-04)
+08:17:10 |       MLP epoca 8/15 loss=0.6035 (250200 muestras, 278 img, lr=1.0e-04)
+08:17:52 |       MLP epoca 9/15 loss=0.5870 (250200 muestras, 278 img, lr=1.0e-04)
+08:18:35 |       MLP epoca 10/15 loss=0.5769 (250200 muestras, 278 img, lr=1.0e-05)
+08:19:17 |       MLP epoca 11/15 loss=0.5603 (250200 muestras, 278 img, lr=1.0e-05)
+08:19:59 |       MLP epoca 12/15 loss=0.5432 (250200 muestras, 278 img, lr=1.0e-05)
+08:20:42 |       MLP epoca 13/15 loss=0.5395 (250200 muestras, 278 img, lr=1.0e-05)
+08:21:24 |       MLP epoca 14/15 loss=0.5326 (250200 muestras, 278 img, lr=1.0e-05)
+08:22:06 |       MLP epoca 15/15 loss=0.5315 (250200 muestras, 278 img, lr=1.0e-06)
+08:22:06 | [pcb2] distribucion N+P ajustada en 655.8s (2048 simbolos)
+08:24:08 |   [semi] umbral calibrado con 2 clases: 1.5475 (F1 de calibracion 1.000)
+08:24:41 | [pcb2] AUROC img=0.9979 pix=0.9965 | bestF1=0.935 (P=0.973 R=0.900) | honestoF1=0.833 (P=0.714 R=1.000) | infer 108.5s total 930.0s
+08:24:41 | === PROMEDIO AUROC img=0.99794 pix=0.99648 | tiempo total 930.0s ===
+08:24:41 | --- contraste sobre 1 categorias de estructura compleja de VisA ---
+08:24:41 | AUROC imagen: 0.99794 | referencia 0.9850 | delta +0.0129 -> IGUALADO
+08:24:41 | AUROC pixel : 0.99648 | referencia 0.9900 | delta +0.0065 -> IGUALADO
+08:24:41 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv
+08:24:46 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+08:24:47 | --resume: 3 categorias ya evaluadas en parcial_visa_N+P.csv -> ['candle', 'pcb1', 'pcb2']
+08:26:45 | [pcb3] parches 1958400 (pool 700000) -> C_emb 19584 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 19.33s coreset 97.65s dist 0.64s
+08:26:46 |   [semi] 1522 parches de defecto de 60 imagenes (25.4 por imagen)
+08:26:46 |   [semi] |C_neg| = 1522 (de 1522 candidatos)
+08:26:47 |   [semi] purga: 15 de 19584 parches (0.08 %), 15 candidatos
+08:27:50 |       MLP epoca 1/15 loss=1.8731 (250200 muestras, 278 img, lr=1.0e-03)
+08:28:32 |       MLP epoca 2/15 loss=1.1984 (250200 muestras, 278 img, lr=1.0e-03)
+08:29:14 |       MLP epoca 3/15 loss=1.0049 (250200 muestras, 278 img, lr=1.0e-03)
+08:29:57 |       MLP epoca 4/15 loss=0.9357 (250200 muestras, 278 img, lr=1.0e-03)
+08:30:39 |       MLP epoca 5/15 loss=0.8657 (250200 muestras, 278 img, lr=1.0e-04)
+08:31:21 |       MLP epoca 6/15 loss=0.6591 (250200 muestras, 278 img, lr=1.0e-04)
+08:32:03 |       MLP epoca 7/15 loss=0.5966 (250200 muestras, 278 img, lr=1.0e-04)
+08:32:45 |       MLP epoca 8/15 loss=0.5785 (250200 muestras, 278 img, lr=1.0e-04)
+08:33:28 |       MLP epoca 9/15 loss=0.5610 (250200 muestras, 278 img, lr=1.0e-04)
+08:34:10 |       MLP epoca 10/15 loss=0.5481 (250200 muestras, 278 img, lr=1.0e-05)
+08:34:52 |       MLP epoca 11/15 loss=0.5242 (250200 muestras, 278 img, lr=1.0e-05)
+08:35:34 |       MLP epoca 12/15 loss=0.5195 (250200 muestras, 278 img, lr=1.0e-05)
+08:36:16 |       MLP epoca 13/15 loss=0.5106 (250200 muestras, 278 img, lr=1.0e-05)
+08:36:58 |       MLP epoca 14/15 loss=0.5078 (250200 muestras, 278 img, lr=1.0e-05)
+08:37:41 |       MLP epoca 15/15 loss=0.5080 (250200 muestras, 278 img, lr=1.0e-06)
+08:37:41 | [pcb3] distribucion N+P ajustada en 654.0s (2048 simbolos)
+08:39:44 |   [semi] umbral calibrado con 2 clases: 1.6031 (F1 de calibracion 1.000)
+08:40:18 | [pcb3] AUROC img=0.9979 pix=0.9955 | bestF1=0.962 (P=0.974 R=0.950) | honestoF1=0.905 (P=0.864 R=0.950) | infer 109.9s total 930.9s
+08:40:18 | === PROMEDIO AUROC img=0.99795 pix=0.99552 | tiempo total 930.9s ===
+08:40:18 | --- contraste sobre 1 categorias de estructura compleja de VisA ---
+08:40:18 | AUROC imagen: 0.99795 | referencia 0.9850 | delta +0.0129 -> IGUALADO
+08:40:18 | AUROC pixel : 0.99552 | referencia 0.9900 | delta +0.0055 -> IGUALADO
+08:40:18 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv
+08:40:22 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+08:40:23 | --resume: 4 categorias ya evaluadas en parcial_visa_N+P.csv -> ['candle', 'pcb1', 'pcb2', 'pcb3']
+08:42:20 | [pcb4] parches 1954800 (pool 700000) -> C_emb 19548 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 20.01s coreset 96.92s dist 0.6s
+08:42:22 |   [semi] 3367 parches de defecto de 60 imagenes (56.1 por imagen)
+08:42:22 |   [semi] |C_neg| = 3367 (de 3367 candidatos)
+08:42:23 |   [semi] purga: 136 de 19548 parches (0.70 %), 136 candidatos
+08:43:26 |       MLP epoca 1/15 loss=1.6871 (250200 muestras, 278 img, lr=1.0e-03)
+08:44:09 |       MLP epoca 2/15 loss=0.9877 (250200 muestras, 278 img, lr=1.0e-03)
+08:44:51 |       MLP epoca 3/15 loss=0.8746 (250200 muestras, 278 img, lr=1.0e-03)
+08:45:33 |       MLP epoca 4/15 loss=0.8048 (250200 muestras, 278 img, lr=1.0e-03)
+08:46:16 |       MLP epoca 5/15 loss=0.7361 (250200 muestras, 278 img, lr=1.0e-04)
+08:46:58 |       MLP epoca 6/15 loss=0.5858 (250200 muestras, 278 img, lr=1.0e-04)
+08:47:41 |       MLP epoca 7/15 loss=0.5301 (250200 muestras, 278 img, lr=1.0e-04)
+08:48:23 |       MLP epoca 8/15 loss=0.5181 (250200 muestras, 278 img, lr=1.0e-04)
+08:49:05 |       MLP epoca 9/15 loss=0.4890 (250200 muestras, 278 img, lr=1.0e-04)
+08:49:48 |       MLP epoca 10/15 loss=0.4927 (250200 muestras, 278 img, lr=1.0e-05)
+08:50:30 |       MLP epoca 11/15 loss=0.4632 (250200 muestras, 278 img, lr=1.0e-05)
+08:51:12 |       MLP epoca 12/15 loss=0.4599 (250200 muestras, 278 img, lr=1.0e-05)
+08:51:55 |       MLP epoca 13/15 loss=0.4568 (250200 muestras, 278 img, lr=1.0e-05)
+08:52:37 |       MLP epoca 14/15 loss=0.4491 (250200 muestras, 278 img, lr=1.0e-05)
+08:53:19 |       MLP epoca 15/15 loss=0.4530 (250200 muestras, 278 img, lr=1.0e-06)
+08:53:19 | [pcb4] distribucion N+P ajustada en 656.8s (2048 simbolos)
+08:55:24 |   [semi] umbral calibrado con 2 clases: 1.6883 (F1 de calibracion 1.000)
+08:55:57 | [pcb4] AUROC img=1.0000 pix=0.9993 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.860 (P=0.755 R=1.000) | infer 111.1s total 934.5s
+08:55:57 | === PROMEDIO AUROC img=1.00000 pix=0.99929 | tiempo total 934.6s ===
+08:55:57 | --- contraste sobre 1 categorias de estructura compleja de VisA ---
+08:55:57 | AUROC imagen: 1.00000 | referencia 0.9850 | delta +0.0150 -> IGUALADO
+08:55:57 | AUROC pixel : 0.99929 | referencia 0.9900 | delta +0.0093 -> IGUALADO
+08:55:57 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv
+08:56:14 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+08:56:14 | --resume: 5 categorias ya evaluadas en parcial_visa_N+P.csv -> ['candle', 'pcb1', 'pcb2', 'pcb3', 'pcb4']
+08:56:14 | [candle] REUTILIZADA del parcial: AUROC img=0.9934 pix=0.9968
+08:56:14 | [pcb1] REUTILIZADA del parcial: AUROC img=0.9950 pix=0.9994
+08:56:14 | [pcb2] REUTILIZADA del parcial: AUROC img=0.9979 pix=0.9965
+08:56:14 | [pcb3] REUTILIZADA del parcial: AUROC img=0.9980 pix=0.9955
+08:56:14 | [pcb4] REUTILIZADA del parcial: AUROC img=1.0000 pix=0.9993
+08:56:14 | === PROMEDIO AUROC img=0.99685 pix=0.99751 | tiempo total 0.0s ===
+08:56:14 | --- contraste sobre 4 categorias de estructura compleja de VisA ---
+08:56:14 | AUROC imagen: 0.99771 | referencia 0.9850 | delta +0.0127 -> IGUALADO
+08:56:14 | AUROC pixel : 0.99768 | referencia 0.9900 | delta +0.0077 -> IGUALADO
+08:56:14 | candle: img=0.99338 pix=0.99681 | SIN referencia individual publicada (PNI agrupa VisA por dominio y las otras tres categorias de su dominio quedan fuera del alcance)
+08:56:14 | referencia secundaria SoftPatch+ (pixel, 8 % de ruido, protocolo distinto): obtenido 0.99751 vs 0.9894
+08:56:14 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv
+07:03:23 | === PNI [N+P] | dataset=mvtec | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+07:04:07 | [bottle] parches 680400 (pool 680400) -> C_emb 6804 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 8.65s coreset 33.95s dist 0.43s
+07:04:07 |   [semi] 6213 parches de defecto de 21 imagenes (295.9 por imagen)
+07:04:08 |   [semi] |C_neg| = 4096 (de 6213 candidatos)
+07:04:08 |   [semi] purga: 12 de 6804 parches (0.18 %), 12 candidatos
+07:04:47 |       MLP epoca 1/15 loss=1.7983 (170100 muestras, 189 img, lr=1.0e-03)
+07:05:18 |       MLP epoca 2/15 loss=1.1858 (170100 muestras, 189 img, lr=1.0e-03)
+07:05:48 |       MLP epoca 3/15 loss=1.0402 (170100 muestras, 189 img, lr=1.0e-03)
+07:06:18 |       MLP epoca 4/15 loss=0.9225 (170100 muestras, 189 img, lr=1.0e-03)
+07:06:48 |       MLP epoca 5/15 loss=0.8910 (170100 muestras, 189 img, lr=1.0e-04)
+07:07:18 |       MLP epoca 6/15 loss=0.6512 (170100 muestras, 189 img, lr=1.0e-04)
+07:07:48 |       MLP epoca 7/15 loss=0.5770 (170100 muestras, 189 img, lr=1.0e-04)
+07:08:18 |       MLP epoca 8/15 loss=0.5519 (170100 muestras, 189 img, lr=1.0e-04)
+07:08:48 |       MLP epoca 9/15 loss=0.5357 (170100 muestras, 189 img, lr=1.0e-04)
+07:09:18 |       MLP epoca 10/15 loss=0.5225 (170100 muestras, 189 img, lr=1.0e-05)
+07:09:48 |       MLP epoca 11/15 loss=0.4926 (170100 muestras, 189 img, lr=1.0e-05)
+07:10:18 |       MLP epoca 12/15 loss=0.4807 (170100 muestras, 189 img, lr=1.0e-05)
+07:10:48 |       MLP epoca 13/15 loss=0.4766 (170100 muestras, 189 img, lr=1.0e-05)
+07:11:18 |       MLP epoca 14/15 loss=0.4735 (170100 muestras, 189 img, lr=1.0e-05)
+07:11:47 |       MLP epoca 15/15 loss=0.4685 (170100 muestras, 189 img, lr=1.0e-06)
+07:11:48 | [bottle] distribucion N+P ajustada en 459.2s (2048 simbolos)
+07:12:09 |   [semi] umbral calibrado con 2 clases: 1.9291 (F1 de calibracion 1.000)
+07:12:27 |   [R6] tipo reservado 'contamination' (21 img): AUROC img 0.9952 vs 1.0000 de los tipos vistos (-0.0048) | recall 0.905 vs 1.000 | CUMPLE el 90 %
+07:12:27 | [bottle] AUROC img=0.9976 pix=0.9876 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.976 (P=1.000 R=0.952) | infer 17.0s total 543.5s
+07:13:17 | [cable] parches 727200 (pool 700000) -> C_emb 7272 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 12.5s coreset 36.72s dist 0.38s
+07:13:18 |   [semi] 4735 parches de defecto de 22 imagenes (215.2 por imagen)
+07:13:19 |   [semi] |C_neg| = 4096 (de 4735 candidatos)
+07:13:19 |   [semi] purga: 145 de 7272 parches (1.99 %), 545 candidatos
+07:14:07 |       MLP epoca 1/15 loss=2.4242 (181800 muestras, 202 img, lr=1.0e-03)
+07:14:42 |       MLP epoca 2/15 loss=1.6466 (181800 muestras, 202 img, lr=1.0e-03)
+07:15:17 |       MLP epoca 3/15 loss=1.4026 (181800 muestras, 202 img, lr=1.0e-03)
+07:15:52 |       MLP epoca 4/15 loss=1.2786 (181800 muestras, 202 img, lr=1.0e-03)
+07:16:27 |       MLP epoca 5/15 loss=1.2005 (181800 muestras, 202 img, lr=1.0e-04)
+07:17:02 |       MLP epoca 6/15 loss=0.9381 (181800 muestras, 202 img, lr=1.0e-04)
+07:17:38 |       MLP epoca 7/15 loss=0.8303 (181800 muestras, 202 img, lr=1.0e-04)
+07:18:13 |       MLP epoca 8/15 loss=0.7956 (181800 muestras, 202 img, lr=1.0e-04)
+07:18:48 |       MLP epoca 9/15 loss=0.7650 (181800 muestras, 202 img, lr=1.0e-04)
+07:19:23 |       MLP epoca 10/15 loss=0.7431 (181800 muestras, 202 img, lr=1.0e-05)
+07:19:58 |       MLP epoca 11/15 loss=0.7154 (181800 muestras, 202 img, lr=1.0e-05)
+07:20:33 |       MLP epoca 12/15 loss=0.6972 (181800 muestras, 202 img, lr=1.0e-05)
+07:21:08 |       MLP epoca 13/15 loss=0.6964 (181800 muestras, 202 img, lr=1.0e-05)
+07:21:43 |       MLP epoca 14/15 loss=0.6873 (181800 muestras, 202 img, lr=1.0e-05)
+07:22:19 |       MLP epoca 15/15 loss=0.6841 (181800 muestras, 202 img, lr=1.0e-06)
+07:22:19 | [cable] distribucion N+P ajustada en 539.9s (2048 simbolos)
+07:22:57 |   [semi] umbral calibrado con 2 clases: 2.2515 (F1 de calibracion 1.000)
+07:23:51 |   [R6] tipo reservado 'missing_wire' (10 img): AUROC img 0.9983 vs 0.9963 de los tipos vistos (+0.0020) | recall 0.900 vs 0.967 | CUMPLE el 90 %
+07:23:51 | [cable] AUROC img=0.9966 pix=0.9905 | bestF1=0.978 (P=0.986 R=0.971) | honestoF1=0.971 (P=0.985 R=0.957) | infer 33.3s total 683.8s
+07:24:52 | [carpet] parches 907200 (pool 700000) -> C_emb 9072 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 15.12s coreset 45.39s dist 0.4s
+07:24:53 |   [semi] 2607 parches de defecto de 28 imagenes (93.1 por imagen)
+07:24:53 |   [semi] |C_neg| = 2607 (de 2607 candidatos)
+07:24:53 |   [semi] purga: 1 de 9072 parches (0.01 %), 1 candidatos
+07:25:52 |       MLP epoca 1/15 loss=4.2669 (226800 muestras, 252 img, lr=1.0e-03)
+07:26:36 |       MLP epoca 2/15 loss=3.2361 (226800 muestras, 252 img, lr=1.0e-03)
+07:27:19 |       MLP epoca 3/15 loss=2.8253 (226800 muestras, 252 img, lr=1.0e-03)
+07:28:03 |       MLP epoca 4/15 loss=2.6051 (226800 muestras, 252 img, lr=1.0e-03)
+07:28:46 |       MLP epoca 5/15 loss=2.4332 (226800 muestras, 252 img, lr=1.0e-04)
+07:29:30 |       MLP epoca 6/15 loss=2.0810 (226800 muestras, 252 img, lr=1.0e-04)
+07:30:13 |       MLP epoca 7/15 loss=1.9352 (226800 muestras, 252 img, lr=1.0e-04)
+07:30:56 |       MLP epoca 8/15 loss=1.8907 (226800 muestras, 252 img, lr=1.0e-04)
+07:31:40 |       MLP epoca 9/15 loss=1.8533 (226800 muestras, 252 img, lr=1.0e-04)
+07:32:23 |       MLP epoca 10/15 loss=1.8086 (226800 muestras, 252 img, lr=1.0e-05)
+07:33:07 |       MLP epoca 11/15 loss=1.7425 (226800 muestras, 252 img, lr=1.0e-05)
+07:33:50 |       MLP epoca 12/15 loss=1.7523 (226800 muestras, 252 img, lr=1.0e-05)
+07:34:33 |       MLP epoca 13/15 loss=1.7300 (226800 muestras, 252 img, lr=1.0e-05)
+07:35:17 |       MLP epoca 14/15 loss=1.7289 (226800 muestras, 252 img, lr=1.0e-05)
+07:36:00 |       MLP epoca 15/15 loss=1.7213 (226800 muestras, 252 img, lr=1.0e-06)
+07:36:00 | [carpet] distribucion N+P ajustada en 666.8s (2048 simbolos)
+07:36:32 |   [semi] umbral calibrado con 2 clases: 1.8823 (F1 de calibracion 1.000)
+07:37:00 |   [R6] tipo reservado 'thread' (19 img): AUROC img 0.9962 vs 0.9991 de los tipos vistos (-0.0029) | recall 0.789 vs 0.929 | NO CUMPLE el 90 %
+07:37:00 | [carpet] AUROC img=0.9982 pix=0.9941 | bestF1=0.992 (P=0.984 R=1.000) | honestoF1=0.939 (P=1.000 R=0.885) | infer 26.0s total 789.4s
+07:37:54 | [grid] parches 856800 (pool 700000) -> C_emb 8568 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 10.32s coreset 42.88s dist 0.4s
+07:37:55 |   [semi] 1147 parches de defecto de 26 imagenes (44.1 por imagen)
+07:37:55 |   [semi] |C_neg| = 1147 (de 1147 candidatos)
+07:37:55 |   [semi] purga: 28 de 8568 parches (0.33 %), 28 candidatos
+07:38:43 |       MLP epoca 1/15 loss=3.9652 (214200 muestras, 238 img, lr=1.0e-03)
+07:39:20 |       MLP epoca 2/15 loss=2.3896 (214200 muestras, 238 img, lr=1.0e-03)
+07:39:57 |       MLP epoca 3/15 loss=1.9472 (214200 muestras, 238 img, lr=1.0e-03)
+07:40:34 |       MLP epoca 4/15 loss=1.7207 (214200 muestras, 238 img, lr=1.0e-03)
+07:41:11 |       MLP epoca 5/15 loss=1.5615 (214200 muestras, 238 img, lr=1.0e-04)
+07:41:49 |       MLP epoca 6/15 loss=1.2676 (214200 muestras, 238 img, lr=1.0e-04)
+07:42:26 |       MLP epoca 7/15 loss=1.0547 (214200 muestras, 238 img, lr=1.0e-04)
+07:43:03 |       MLP epoca 8/15 loss=1.0360 (214200 muestras, 238 img, lr=1.0e-04)
+07:43:40 |       MLP epoca 9/15 loss=0.9891 (214200 muestras, 238 img, lr=1.0e-04)
+07:44:18 |       MLP epoca 10/15 loss=0.9782 (214200 muestras, 238 img, lr=1.0e-05)
+07:44:55 |       MLP epoca 11/15 loss=0.9338 (214200 muestras, 238 img, lr=1.0e-05)
+07:45:32 |       MLP epoca 12/15 loss=0.8952 (214200 muestras, 238 img, lr=1.0e-05)
+07:46:09 |       MLP epoca 13/15 loss=0.8849 (214200 muestras, 238 img, lr=1.0e-05)
+07:46:46 |       MLP epoca 14/15 loss=0.8835 (214200 muestras, 238 img, lr=1.0e-05)
+07:47:24 |       MLP epoca 15/15 loss=0.8867 (214200 muestras, 238 img, lr=1.0e-06)
+07:47:24 | [grid] distribucion N+P ajustada en 568.8s (2048 simbolos)
+07:47:45 |   [semi] umbral calibrado con 2 clases: 1.5486 (F1 de calibracion 1.000)
+07:48:02 |   [R6] tipo reservado 'broken' (12 img): AUROC img 1.0000 vs 1.0000 de los tipos vistos (+0.0000) | recall 1.000 vs 1.000 | CUMPLE el 90 %
+07:48:02 | [grid] AUROC img=1.0000 pix=0.9952 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.969 (P=0.939 R=1.000) | infer 15.9s total 662.0s
+07:48:55 | [leather] parches 795600 (pool 700000) -> C_emb 7956 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 12.35s coreset 39.95s dist 0.4s
+07:48:56 |   [semi] 598 parches de defecto de 24 imagenes (24.9 por imagen)
+07:48:56 |   [semi] |C_neg| = 598 (de 598 candidatos)
+07:48:56 |   [semi] purga: 1 de 7956 parches (0.01 %), 1 candidatos
+07:49:46 |       MLP epoca 1/15 loss=4.6212 (198900 muestras, 221 img, lr=1.0e-03)
+07:50:23 |       MLP epoca 2/15 loss=3.3820 (198900 muestras, 221 img, lr=1.0e-03)
+07:51:00 |       MLP epoca 3/15 loss=2.9218 (198900 muestras, 221 img, lr=1.0e-03)
+07:51:37 |       MLP epoca 4/15 loss=2.6570 (198900 muestras, 221 img, lr=1.0e-03)
+07:52:15 |       MLP epoca 5/15 loss=2.4750 (198900 muestras, 221 img, lr=1.0e-04)
+07:52:52 |       MLP epoca 6/15 loss=2.1107 (198900 muestras, 221 img, lr=1.0e-04)
+07:53:29 |       MLP epoca 7/15 loss=1.9810 (198900 muestras, 221 img, lr=1.0e-04)
+07:54:06 |       MLP epoca 8/15 loss=1.9096 (198900 muestras, 221 img, lr=1.0e-04)
+07:54:43 |       MLP epoca 9/15 loss=1.8734 (198900 muestras, 221 img, lr=1.0e-04)
+07:55:20 |       MLP epoca 10/15 loss=1.8263 (198900 muestras, 221 img, lr=1.0e-05)
+07:55:57 |       MLP epoca 11/15 loss=1.7980 (198900 muestras, 221 img, lr=1.0e-05)
+07:56:35 |       MLP epoca 12/15 loss=1.7843 (198900 muestras, 221 img, lr=1.0e-05)
+07:57:12 |       MLP epoca 13/15 loss=1.7741 (198900 muestras, 221 img, lr=1.0e-05)
+07:57:49 |       MLP epoca 14/15 loss=1.7717 (198900 muestras, 221 img, lr=1.0e-05)
+07:58:26 |       MLP epoca 15/15 loss=1.7617 (198900 muestras, 221 img, lr=1.0e-06)
+07:58:26 | [leather] distribucion N+P ajustada en 569.8s (2048 simbolos)
+07:58:58 |   [semi] umbral calibrado con 2 clases: 1.1718 (F1 de calibracion 1.000)
+07:59:28 |   [R6] tipo reservado 'fold' (17 img): AUROC img 1.0000 vs 1.0000 de los tipos vistos (+0.0000) | recall 1.000 vs 1.000 | CUMPLE el 90 %
+07:59:28 | [leather] AUROC img=1.0000 pix=0.9943 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.855 (P=0.747 R=1.000) | infer 26.6s total 686.4s
+08:00:13 | [metal_nut] parches 712800 (pool 700000) -> C_emb 7128 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 8.31s coreset 35.9s dist 0.4s
+08:00:14 |   [semi] 16457 parches de defecto de 22 imagenes (748.0 por imagen)
+08:00:15 |   [semi] |C_neg| = 4096 (de 16457 candidatos)
+08:00:15 |   [semi] purga: 92 de 7128 parches (1.29 %), 92 candidatos
+08:00:55 |       MLP epoca 1/15 loss=2.1301 (178200 muestras, 198 img, lr=1.0e-03)
+08:01:25 |       MLP epoca 2/15 loss=1.2754 (178200 muestras, 198 img, lr=1.0e-03)
+08:01:56 |       MLP epoca 3/15 loss=1.0887 (178200 muestras, 198 img, lr=1.0e-03)
+08:02:27 |       MLP epoca 4/15 loss=0.9809 (178200 muestras, 198 img, lr=1.0e-03)
+08:02:57 |       MLP epoca 5/15 loss=0.8953 (178200 muestras, 198 img, lr=1.0e-04)
+08:03:28 |       MLP epoca 6/15 loss=0.6903 (178200 muestras, 198 img, lr=1.0e-04)
+08:03:59 |       MLP epoca 7/15 loss=0.5971 (178200 muestras, 198 img, lr=1.0e-04)
+08:04:30 |       MLP epoca 8/15 loss=0.5735 (178200 muestras, 198 img, lr=1.0e-04)
+08:05:00 |       MLP epoca 9/15 loss=0.5505 (178200 muestras, 198 img, lr=1.0e-04)
+08:05:31 |       MLP epoca 10/15 loss=0.5308 (178200 muestras, 198 img, lr=1.0e-05)
+08:06:02 |       MLP epoca 11/15 loss=0.5133 (178200 muestras, 198 img, lr=1.0e-05)
+08:06:33 |       MLP epoca 12/15 loss=0.5001 (178200 muestras, 198 img, lr=1.0e-05)
+08:07:03 |       MLP epoca 13/15 loss=0.4913 (178200 muestras, 198 img, lr=1.0e-05)
+08:07:34 |       MLP epoca 14/15 loss=0.4859 (178200 muestras, 198 img, lr=1.0e-05)
+08:08:05 |       MLP epoca 15/15 loss=0.4838 (178200 muestras, 198 img, lr=1.0e-06)
+08:08:05 | [metal_nut] distribucion N+P ajustada en 469.7s (2048 simbolos)
+08:08:33 |   [semi] umbral calibrado con 2 clases: 2.4596 (F1 de calibracion 1.000)
+08:08:56 |   [R6] tipo reservado 'color' (22 img): AUROC img 0.9153 vs 0.9518 de los tipos vistos (-0.0365) | recall 0.409 vs 0.673 | NO CUMPLE el 90 %
+08:08:56 | [metal_nut] AUROC img=0.9405 pix=0.9960 | bestF1=0.945 (P=0.920 R=0.972) | honestoF1=0.743 (P=1.000 R=0.592) | infer 23.5s total 567.7s
+08:10:00 | [screw] parches 1036800 (pool 700000) -> C_emb 10368 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 11.99s coreset 51.55s dist 0.44s
+08:10:01 |   [semi] 459 parches de defecto de 32 imagenes (14.3 por imagen)
+08:10:01 |   [semi] |C_neg| = 459 (de 459 candidatos)
+08:10:02 |   [semi] purga: 59 de 10368 parches (0.57 %), 59 candidatos
+08:10:58 |       MLP epoca 1/15 loss=1.6973 (250200 muestras, 278 img, lr=1.0e-03)
+08:11:41 |       MLP epoca 2/15 loss=1.0324 (250200 muestras, 278 img, lr=1.0e-03)
+08:12:25 |       MLP epoca 3/15 loss=0.8647 (250200 muestras, 278 img, lr=1.0e-03)
+08:13:08 |       MLP epoca 4/15 loss=0.7476 (250200 muestras, 278 img, lr=1.0e-03)
+08:13:51 |       MLP epoca 5/15 loss=0.7109 (250200 muestras, 278 img, lr=1.0e-04)
+08:14:35 |       MLP epoca 6/15 loss=0.5379 (250200 muestras, 278 img, lr=1.0e-04)
+08:15:18 |       MLP epoca 7/15 loss=0.4729 (250200 muestras, 278 img, lr=1.0e-04)
+08:16:02 |       MLP epoca 8/15 loss=0.4466 (250200 muestras, 278 img, lr=1.0e-04)
+08:16:45 |       MLP epoca 9/15 loss=0.4259 (250200 muestras, 278 img, lr=1.0e-04)
+08:17:29 |       MLP epoca 10/15 loss=0.4169 (250200 muestras, 278 img, lr=1.0e-05)
+08:18:12 |       MLP epoca 11/15 loss=0.3952 (250200 muestras, 278 img, lr=1.0e-05)
+08:18:56 |       MLP epoca 12/15 loss=0.3858 (250200 muestras, 278 img, lr=1.0e-05)
+08:19:39 |       MLP epoca 13/15 loss=0.3859 (250200 muestras, 278 img, lr=1.0e-05)
+08:20:23 |       MLP epoca 14/15 loss=0.3804 (250200 muestras, 278 img, lr=1.0e-05)
+08:21:06 |       MLP epoca 15/15 loss=0.3756 (250200 muestras, 278 img, lr=1.0e-06)
+08:21:06 | [screw] distribucion N+P ajustada en 664.5s (2048 simbolos)
+08:21:46 |   [semi] umbral calibrado con 2 clases: 1.6494 (F1 de calibracion 1.000)
+08:22:23 |   [R6] tipo reservado 'thread_top' (23 img): AUROC img 0.9873 vs 0.9493 de los tipos vistos (+0.0380) | recall 0.913 vs 0.781 | CUMPLE el 90 %
+08:22:23 | [screw] AUROC img=0.9593 pix=0.9913 | bestF1=0.928 (P=0.894 R=0.966) | honestoF1=0.887 (P=0.973 R=0.816) | infer 32.9s total 806.8s
+08:23:12 | [tile] parches 745200 (pool 700000) -> C_emb 7452 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 10.78s coreset 37.62s dist 0.41s
+08:23:13 |   [semi] 7319 parches de defecto de 23 imagenes (318.2 por imagen)
+08:23:14 |   [semi] |C_neg| = 4096 (de 7319 candidatos)
+08:23:14 |   [semi] purga: 141 de 7452 parches (1.89 %), 141 candidatos
+08:23:59 |       MLP epoca 1/15 loss=4.4956 (186300 muestras, 207 img, lr=1.0e-03)
+08:24:33 |       MLP epoca 2/15 loss=3.3734 (186300 muestras, 207 img, lr=1.0e-03)
+08:25:08 |       MLP epoca 3/15 loss=2.9520 (186300 muestras, 207 img, lr=1.0e-03)
+08:25:42 |       MLP epoca 4/15 loss=2.6939 (186300 muestras, 207 img, lr=1.0e-03)
+08:26:16 |       MLP epoca 5/15 loss=2.5308 (186300 muestras, 207 img, lr=1.0e-04)
+08:26:50 |       MLP epoca 6/15 loss=2.1638 (186300 muestras, 207 img, lr=1.0e-04)
+08:27:24 |       MLP epoca 7/15 loss=2.0228 (186300 muestras, 207 img, lr=1.0e-04)
+08:27:58 |       MLP epoca 8/15 loss=1.9738 (186300 muestras, 207 img, lr=1.0e-04)
+08:28:33 |       MLP epoca 9/15 loss=1.9521 (186300 muestras, 207 img, lr=1.0e-04)
+08:29:07 |       MLP epoca 10/15 loss=1.8869 (186300 muestras, 207 img, lr=1.0e-05)
+08:29:41 |       MLP epoca 11/15 loss=1.8275 (186300 muestras, 207 img, lr=1.0e-05)
+08:30:15 |       MLP epoca 12/15 loss=1.8173 (186300 muestras, 207 img, lr=1.0e-05)
+08:30:49 |       MLP epoca 13/15 loss=1.7945 (186300 muestras, 207 img, lr=1.0e-05)
+08:31:23 |       MLP epoca 14/15 loss=1.8030 (186300 muestras, 207 img, lr=1.0e-05)
+08:31:58 |       MLP epoca 15/15 loss=1.8028 (186300 muestras, 207 img, lr=1.0e-06)
+08:31:58 | [tile] distribucion N+P ajustada en 523.7s (2048 simbolos)
+08:32:28 |   [semi] umbral calibrado con 2 clases: 1.8319 (F1 de calibracion 1.000)
+08:32:56 |   [R6] tipo reservado 'oil' (18 img): AUROC img 1.0000 vs 1.0000 de los tipos vistos (+0.0000) | recall 1.000 vs 1.000 | CUMPLE el 90 %
+08:32:56 | [tile] AUROC img=1.0000 pix=0.9780 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=1.000 (P=1.000 R=1.000) | infer 25.0s total 633.1s
+08:33:03 | [toothbrush] parches 194400 (pool 194400) -> C_emb 1944 -> C_dist 1944 (dim 1792, grid (60, 60)) | extract 3.12s coreset 3.22s dist 0.39s
+08:33:03 |   [semi] 720 parches de defecto de 6 imagenes (120.0 por imagen)
+08:33:03 |   [semi] |C_neg| = 720 (de 720 candidatos)
+08:33:03 |   [semi] purga: 16 de 1944 parches (0.82 %), 16 candidatos
+08:33:16 |       MLP epoca 1/15 loss=2.8017 (48600 muestras, 54 img, lr=1.0e-03)
+08:33:26 |       MLP epoca 2/15 loss=1.9839 (48600 muestras, 54 img, lr=1.0e-03)
+08:33:35 |       MLP epoca 3/15 loss=1.5281 (48600 muestras, 54 img, lr=1.0e-03)
+08:33:44 |       MLP epoca 4/15 loss=1.2687 (48600 muestras, 54 img, lr=1.0e-03)
+08:33:53 |       MLP epoca 5/15 loss=1.0991 (48600 muestras, 54 img, lr=1.0e-04)
+08:34:03 |       MLP epoca 6/15 loss=0.8948 (48600 muestras, 54 img, lr=1.0e-04)
+08:34:12 |       MLP epoca 7/15 loss=0.7734 (48600 muestras, 54 img, lr=1.0e-04)
+08:34:21 |       MLP epoca 8/15 loss=0.7263 (48600 muestras, 54 img, lr=1.0e-04)
+08:34:30 |       MLP epoca 9/15 loss=0.7037 (48600 muestras, 54 img, lr=1.0e-04)
+08:34:40 |       MLP epoca 10/15 loss=0.6873 (48600 muestras, 54 img, lr=1.0e-05)
+08:34:49 |       MLP epoca 11/15 loss=0.6558 (48600 muestras, 54 img, lr=1.0e-05)
+08:34:58 |       MLP epoca 12/15 loss=0.6519 (48600 muestras, 54 img, lr=1.0e-05)
+08:35:07 |       MLP epoca 13/15 loss=0.6463 (48600 muestras, 54 img, lr=1.0e-05)
+08:35:16 |       MLP epoca 14/15 loss=0.6404 (48600 muestras, 54 img, lr=1.0e-05)
+08:35:26 |       MLP epoca 15/15 loss=0.6261 (48600 muestras, 54 img, lr=1.0e-06)
+08:35:26 | [toothbrush] distribucion N+P ajustada en 142.5s (1944 simbolos)
+08:35:36 |   [semi] umbral calibrado con 2 clases: 1.8793 (F1 de calibracion 1.000)
+08:35:42 |   [R6] toothbrush sin tipo reservado: queda fuera del analisis de generalizacion (1 tipo(s) de defecto en prueba)
+08:35:42 | [toothbrush] AUROC img=1.0000 pix=0.9933 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=1.000 (P=1.000 R=1.000) | infer 8.7s total 166.1s
+08:36:29 | [transistor] parches 691200 (pool 691200) -> C_emb 6912 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 11.5s coreset 34.58s dist 0.39s
+08:36:30 |   [semi] 13585 parches de defecto de 21 imagenes (646.9 por imagen)
+08:36:31 |   [semi] |C_neg| = 4096 (de 13585 candidatos)
+08:36:31 |   [semi] purga: 138 de 6912 parches (2.00 %), 887 candidatos
+08:37:17 |       MLP epoca 1/15 loss=2.0620 (172800 muestras, 192 img, lr=1.0e-03)
+08:37:50 |       MLP epoca 2/15 loss=1.3859 (172800 muestras, 192 img, lr=1.0e-03)
+08:38:24 |       MLP epoca 3/15 loss=1.2189 (172800 muestras, 192 img, lr=1.0e-03)
+08:38:57 |       MLP epoca 4/15 loss=1.0990 (172800 muestras, 192 img, lr=1.0e-03)
+08:39:31 |       MLP epoca 5/15 loss=1.0471 (172800 muestras, 192 img, lr=1.0e-04)
+08:40:04 |       MLP epoca 6/15 loss=0.8159 (172800 muestras, 192 img, lr=1.0e-04)
+08:40:38 |       MLP epoca 7/15 loss=0.7231 (172800 muestras, 192 img, lr=1.0e-04)
+08:41:11 |       MLP epoca 8/15 loss=0.6872 (172800 muestras, 192 img, lr=1.0e-04)
+08:41:44 |       MLP epoca 9/15 loss=0.6686 (172800 muestras, 192 img, lr=1.0e-04)
+08:42:18 |       MLP epoca 10/15 loss=0.6529 (172800 muestras, 192 img, lr=1.0e-05)
+08:42:51 |       MLP epoca 11/15 loss=0.6268 (172800 muestras, 192 img, lr=1.0e-05)
+08:43:25 |       MLP epoca 12/15 loss=0.6186 (172800 muestras, 192 img, lr=1.0e-05)
+08:43:58 |       MLP epoca 13/15 loss=0.6077 (172800 muestras, 192 img, lr=1.0e-05)
+08:44:32 |       MLP epoca 14/15 loss=0.6045 (172800 muestras, 192 img, lr=1.0e-05)
+08:45:05 |       MLP epoca 15/15 loss=0.5982 (172800 muestras, 192 img, lr=1.0e-06)
+08:45:05 | [transistor] distribucion N+P ajustada en 514.0s (2048 simbolos)
+08:45:32 |   [semi] umbral calibrado con 2 clases: 2.0315 (F1 de calibracion 1.000)
+08:46:04 |   [R6] tipo reservado 'damaged_case' (10 img): AUROC img 1.0000 vs 0.9963 de los tipos vistos (+0.0037) | recall 1.000 vs 1.000 | CUMPLE el 90 %
+08:46:04 | [transistor] AUROC img=0.9982 pix=0.9134 | bestF1=0.973 (P=1.000 R=0.947) | honestoF1=0.950 (P=0.905 R=1.000) | infer 22.1s total 621.9s
+08:46:59 | [wood] parches 802800 (pool 700000) -> C_emb 8028 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 14.09s coreset 40.49s dist 0.4s
+08:47:01 |   [semi] 4790 parches de defecto de 25 imagenes (191.6 por imagen)
+08:47:01 |   [semi] |C_neg| = 4096 (de 4790 candidatos)
+08:47:02 |   [semi] purga: 9 de 8028 parches (0.11 %), 9 candidatos
+08:47:55 |       MLP epoca 1/15 loss=4.7602 (200700 muestras, 223 img, lr=1.0e-03)
+08:48:34 |       MLP epoca 2/15 loss=3.4693 (200700 muestras, 223 img, lr=1.0e-03)
+08:49:13 |       MLP epoca 3/15 loss=2.9332 (200700 muestras, 223 img, lr=1.0e-03)
+08:49:52 |       MLP epoca 4/15 loss=2.7360 (200700 muestras, 223 img, lr=1.0e-03)
+08:50:31 |       MLP epoca 5/15 loss=2.4450 (200700 muestras, 223 img, lr=1.0e-04)
+08:51:10 |       MLP epoca 6/15 loss=2.1198 (200700 muestras, 223 img, lr=1.0e-04)
+08:51:50 |       MLP epoca 7/15 loss=2.0080 (200700 muestras, 223 img, lr=1.0e-04)
+08:52:30 |       MLP epoca 8/15 loss=1.9318 (200700 muestras, 223 img, lr=1.0e-04)
+08:53:10 |       MLP epoca 9/15 loss=1.9236 (200700 muestras, 223 img, lr=1.0e-04)
+08:53:49 |       MLP epoca 10/15 loss=1.8633 (200700 muestras, 223 img, lr=1.0e-05)
+08:54:28 |       MLP epoca 11/15 loss=1.8320 (200700 muestras, 223 img, lr=1.0e-05)
+08:55:07 |       MLP epoca 12/15 loss=1.7780 (200700 muestras, 223 img, lr=1.0e-05)
+08:55:46 |       MLP epoca 13/15 loss=1.7493 (200700 muestras, 223 img, lr=1.0e-05)
+08:56:25 |       MLP epoca 14/15 loss=1.7914 (200700 muestras, 223 img, lr=1.0e-05)
+08:57:05 |       MLP epoca 15/15 loss=1.7640 (200700 muestras, 223 img, lr=1.0e-06)
+08:57:05 | [wood] distribucion N+P ajustada en 603.0s (2048 simbolos)
+08:57:28 |   [semi] umbral calibrado con 2 clases: 1.5039 (F1 de calibracion 1.000)
+08:57:46 |   [R6] tipo reservado 'hole' (10 img): AUROC img 0.9947 vs 0.9874 de los tipos vistos (+0.0074) | recall 1.000 vs 1.000 | CUMPLE el 90 %
+08:57:46 | [wood] AUROC img=0.9895 pix=0.9600 | bestF1=0.971 (P=0.971 R=0.971) | honestoF1=0.909 (P=0.833 R=1.000) | infer 17.6s total 702.1s
+08:58:35 | [zipper] parches 777600 (pool 700000) -> C_emb 7776 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 9.28s coreset 39.18s dist 0.38s
+08:58:36 |   [semi] 3221 parches de defecto de 24 imagenes (134.2 por imagen)
+08:58:36 |   [semi] |C_neg| = 3221 (de 3221 candidatos)
+08:58:36 |   [semi] purga: 33 de 7776 parches (0.42 %), 33 candidatos
+08:59:19 |       MLP epoca 1/15 loss=2.9085 (194400 muestras, 216 img, lr=1.0e-03)
+08:59:53 |       MLP epoca 2/15 loss=2.1487 (194400 muestras, 216 img, lr=1.0e-03)
+09:00:27 |       MLP epoca 3/15 loss=1.8888 (194400 muestras, 216 img, lr=1.0e-03)
+09:01:01 |       MLP epoca 4/15 loss=1.6760 (194400 muestras, 216 img, lr=1.0e-03)
+09:01:34 |       MLP epoca 5/15 loss=1.5447 (194400 muestras, 216 img, lr=1.0e-04)
+09:02:08 |       MLP epoca 6/15 loss=1.2524 (194400 muestras, 216 img, lr=1.0e-04)
+09:02:42 |       MLP epoca 7/15 loss=1.1630 (194400 muestras, 216 img, lr=1.0e-04)
+09:03:15 |       MLP epoca 8/15 loss=1.1241 (194400 muestras, 216 img, lr=1.0e-04)
+09:03:49 |       MLP epoca 9/15 loss=1.0937 (194400 muestras, 216 img, lr=1.0e-04)
+09:04:23 |       MLP epoca 10/15 loss=1.0640 (194400 muestras, 216 img, lr=1.0e-05)
+09:04:56 |       MLP epoca 11/15 loss=1.0306 (194400 muestras, 216 img, lr=1.0e-05)
+09:05:30 |       MLP epoca 12/15 loss=1.0151 (194400 muestras, 216 img, lr=1.0e-05)
+09:06:04 |       MLP epoca 13/15 loss=1.0092 (194400 muestras, 216 img, lr=1.0e-05)
+09:06:37 |       MLP epoca 14/15 loss=1.0104 (194400 muestras, 216 img, lr=1.0e-05)
+09:07:11 |       MLP epoca 15/15 loss=1.0044 (194400 muestras, 216 img, lr=1.0e-06)
+09:07:11 | [zipper] distribucion N+P ajustada en 514.7s (2048 simbolos)
+09:07:47 |   [semi] umbral calibrado con 2 clases: 1.2324 (F1 de calibracion 1.000)
+09:08:23 |   [R6] tipo reservado 'combined' (16 img): AUROC img 1.0000 vs 0.9988 de los tipos vistos (+0.0012) | recall 1.000 vs 1.000 | CUMPLE el 90 %
+09:08:23 | [zipper] AUROC img=0.9990 pix=0.9956 | bestF1=0.990 (P=0.979 R=1.000) | honestoF1=0.979 (P=0.960 R=1.000) | infer 31.0s total 636.8s
+09:08:23 | === PROMEDIO AUROC img=0.98991 pix=0.98245 | tiempo total 7499.8s ===
+09:08:23 | --- contraste sobre 12 categorias de MVTec AD ---
+09:08:23 | AUROC imagen: 0.98991 | referencia 0.9974 | delta -0.0074 -> IGUALADO
+09:08:23 | AUROC pixel : 0.98245 | referencia 0.9892 | delta -0.0067 -> IGUALADO
+09:08:23 | AUROC imagen*: 0.98991 | referencia 0.9964 | delta -0.0064 -> IGUALADO  (referencia APROXIMADA)
+09:08:23 | AUROC pixel*: 0.98245 | referencia 0.9874 | delta -0.0049 -> IGUALADO  (referencia APROXIMADA)
+09:08:23 |   * = referencia sin la red de refinamiento R, que esta implementacion no incluye
+09:08:23 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_mvtec.csv
+09:08:28 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+09:10:25 | [candle] parches 1944000 (pool 700000) -> C_emb 19440 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 19.96s coreset 95.91s dist 0.62s
+09:10:27 |   [semi] 701 parches de defecto de 60 imagenes (11.7 por imagen)
+09:10:27 |   [semi] |C_neg| = 701 (de 701 candidatos)
+09:10:27 |   [semi] purga: 19 de 19440 parches (0.10 %), 19 candidatos
+09:11:31 |       MLP epoca 1/15 loss=1.8824 (250200 muestras, 278 img, lr=1.0e-03)
+09:12:13 |       MLP epoca 2/15 loss=1.3636 (250200 muestras, 278 img, lr=1.0e-03)
+09:12:56 |       MLP epoca 3/15 loss=1.2251 (250200 muestras, 278 img, lr=1.0e-03)
+09:13:38 |       MLP epoca 4/15 loss=1.1240 (250200 muestras, 278 img, lr=1.0e-03)
+09:14:20 |       MLP epoca 5/15 loss=1.0724 (250200 muestras, 278 img, lr=1.0e-04)
+09:15:02 |       MLP epoca 6/15 loss=0.8481 (250200 muestras, 278 img, lr=1.0e-04)
+09:15:45 |       MLP epoca 7/15 loss=0.7784 (250200 muestras, 278 img, lr=1.0e-04)
+09:16:28 |       MLP epoca 8/15 loss=0.7538 (250200 muestras, 278 img, lr=1.0e-04)
+09:17:10 |       MLP epoca 9/15 loss=0.7449 (250200 muestras, 278 img, lr=1.0e-04)
+09:17:53 |       MLP epoca 10/15 loss=0.7302 (250200 muestras, 278 img, lr=1.0e-05)
+09:18:36 |       MLP epoca 11/15 loss=0.7039 (250200 muestras, 278 img, lr=1.0e-05)
+09:19:18 |       MLP epoca 12/15 loss=0.6944 (250200 muestras, 278 img, lr=1.0e-05)
+09:20:01 |       MLP epoca 13/15 loss=0.6870 (250200 muestras, 278 img, lr=1.0e-05)
+09:20:43 |       MLP epoca 14/15 loss=0.6765 (250200 muestras, 278 img, lr=1.0e-05)
+09:21:25 |       MLP epoca 15/15 loss=0.6838 (250200 muestras, 278 img, lr=1.0e-06)
+09:21:25 | [candle] distribucion N+P ajustada en 657.8s (2048 simbolos)
+09:23:27 |   [semi] umbral calibrado con 2 clases: 1.2837 (F1 de calibracion 0.992)
+09:24:03 | [candle] AUROC img=0.9934 pix=0.9968 | bestF1=0.951 (P=0.929 R=0.975) | honestoF1=0.940 (P=0.907 R=0.975) | infer 108.3s total 934.8s
+09:24:04 | === PROMEDIO AUROC img=0.99338 pix=0.99681 | tiempo total 934.9s ===
+09:24:04 | candle: img=0.99338 pix=0.99681 | SIN referencia individual publicada (PNI agrupa VisA por dominio y las otras tres categorias de su dominio quedan fuera del alcance)
+09:24:04 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv
+09:24:08 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+09:24:08 | --resume: 1 categorias ya evaluadas en parcial_visa_N+P.csv -> ['candle']
+09:26:06 | [pcb1] parches 1951200 (pool 700000) -> C_emb 19512 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 20.27s coreset 96.48s dist 0.63s
+09:26:08 |   [semi] 2768 parches de defecto de 60 imagenes (46.1 por imagen)
+09:26:08 |   [semi] |C_neg| = 2768 (de 2768 candidatos)
+09:26:08 |   [semi] purga: 24 de 19512 parches (0.12 %), 24 candidatos
+09:27:13 |       MLP epoca 1/15 loss=1.7802 (250200 muestras, 278 img, lr=1.0e-03)
+09:27:55 |       MLP epoca 2/15 loss=1.1692 (250200 muestras, 278 img, lr=1.0e-03)
+09:28:38 |       MLP epoca 3/15 loss=1.0241 (250200 muestras, 278 img, lr=1.0e-03)
+09:29:21 |       MLP epoca 4/15 loss=0.9494 (250200 muestras, 278 img, lr=1.0e-03)
+09:30:03 |       MLP epoca 5/15 loss=0.8622 (250200 muestras, 278 img, lr=1.0e-04)
+09:30:46 |       MLP epoca 6/15 loss=0.6618 (250200 muestras, 278 img, lr=1.0e-04)
+09:31:28 |       MLP epoca 7/15 loss=0.5962 (250200 muestras, 278 img, lr=1.0e-04)
+09:32:11 |       MLP epoca 8/15 loss=0.5784 (250200 muestras, 278 img, lr=1.0e-04)
+09:32:54 |       MLP epoca 9/15 loss=0.5602 (250200 muestras, 278 img, lr=1.0e-04)
+09:33:36 |       MLP epoca 10/15 loss=0.5513 (250200 muestras, 278 img, lr=1.0e-05)
+09:34:19 |       MLP epoca 11/15 loss=0.5271 (250200 muestras, 278 img, lr=1.0e-05)
+09:35:02 |       MLP epoca 12/15 loss=0.5157 (250200 muestras, 278 img, lr=1.0e-05)
+09:35:44 |       MLP epoca 13/15 loss=0.5142 (250200 muestras, 278 img, lr=1.0e-05)
+09:36:27 |       MLP epoca 14/15 loss=0.5095 (250200 muestras, 278 img, lr=1.0e-05)
+09:37:10 |       MLP epoca 15/15 loss=0.5085 (250200 muestras, 278 img, lr=1.0e-06)
+09:37:10 | [pcb1] distribucion N+P ajustada en 661.3s (2048 simbolos)
+09:39:14 |   [semi] umbral calibrado con 2 clases: 1.7139 (F1 de calibracion 1.000)
+09:39:49 | [pcb1] AUROC img=0.9950 pix=0.9994 | bestF1=0.925 (P=0.925 R=0.925) | honestoF1=0.918 (P=0.867 R=0.975) | infer 111.4s total 940.5s
+09:39:49 | === PROMEDIO AUROC img=0.99496 pix=0.99943 | tiempo total 940.5s ===
+09:39:49 | --- contraste sobre 1 categorias de estructura compleja de VisA ---
+09:39:49 | AUROC imagen: 0.99496 | referencia 0.9850 | delta +0.0100 -> IGUALADO
+09:39:49 | AUROC pixel : 0.99943 | referencia 0.9900 | delta +0.0094 -> IGUALADO
+09:39:49 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv
+09:39:53 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+09:39:54 | --resume: 2 categorias ya evaluadas en parcial_visa_N+P.csv -> ['candle', 'pcb1']
+09:41:51 | [pcb2] parches 1947600 (pool 700000) -> C_emb 19476 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 20.22s coreset 95.94s dist 0.62s
+09:41:53 |   [semi] 1285 parches de defecto de 60 imagenes (21.4 por imagen)
+09:41:53 |   [semi] |C_neg| = 1285 (de 1285 candidatos)
+09:41:53 |   [semi] purga: 33 de 19476 parches (0.17 %), 33 candidatos
+09:42:57 |       MLP epoca 1/15 loss=1.7646 (250200 muestras, 278 img, lr=1.0e-03)
+09:43:40 |       MLP epoca 2/15 loss=1.1591 (250200 muestras, 278 img, lr=1.0e-03)
+09:44:22 |       MLP epoca 3/15 loss=1.0201 (250200 muestras, 278 img, lr=1.0e-03)
+09:45:04 |       MLP epoca 4/15 loss=0.9232 (250200 muestras, 278 img, lr=1.0e-03)
+09:45:47 |       MLP epoca 5/15 loss=0.8770 (250200 muestras, 278 img, lr=1.0e-04)
+09:46:29 |       MLP epoca 6/15 loss=0.6932 (250200 muestras, 278 img, lr=1.0e-04)
+09:47:12 |       MLP epoca 7/15 loss=0.6206 (250200 muestras, 278 img, lr=1.0e-04)
+09:47:54 |       MLP epoca 8/15 loss=0.6035 (250200 muestras, 278 img, lr=1.0e-04)
+09:48:37 |       MLP epoca 9/15 loss=0.5870 (250200 muestras, 278 img, lr=1.0e-04)
+09:49:19 |       MLP epoca 10/15 loss=0.5769 (250200 muestras, 278 img, lr=1.0e-05)
+09:50:02 |       MLP epoca 11/15 loss=0.5603 (250200 muestras, 278 img, lr=1.0e-05)
+09:50:44 |       MLP epoca 12/15 loss=0.5432 (250200 muestras, 278 img, lr=1.0e-05)
+09:51:27 |       MLP epoca 13/15 loss=0.5395 (250200 muestras, 278 img, lr=1.0e-05)
+09:52:09 |       MLP epoca 14/15 loss=0.5326 (250200 muestras, 278 img, lr=1.0e-05)
+09:52:51 |       MLP epoca 15/15 loss=0.5315 (250200 muestras, 278 img, lr=1.0e-06)
+09:52:51 | [pcb2] distribucion N+P ajustada en 658.4s (2048 simbolos)
+09:54:54 |   [semi] umbral calibrado con 2 clases: 1.5475 (F1 de calibracion 1.000)
+09:55:28 | [pcb2] AUROC img=0.9979 pix=0.9965 | bestF1=0.935 (P=0.973 R=0.900) | honestoF1=0.833 (P=0.714 R=1.000) | infer 109.6s total 934.5s
+09:55:28 | === PROMEDIO AUROC img=0.99794 pix=0.99648 | tiempo total 934.5s ===
+09:55:28 | --- contraste sobre 1 categorias de estructura compleja de VisA ---
+09:55:28 | AUROC imagen: 0.99794 | referencia 0.9850 | delta +0.0129 -> IGUALADO
+09:55:28 | AUROC pixel : 0.99648 | referencia 0.9900 | delta +0.0065 -> IGUALADO
+09:55:28 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv
+09:55:33 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+09:55:33 | --resume: 3 categorias ya evaluadas en parcial_visa_N+P.csv -> ['candle', 'pcb1', 'pcb2']
+09:57:31 | [pcb3] parches 1958400 (pool 700000) -> C_emb 19584 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 19.85s coreset 96.64s dist 0.62s
+09:57:32 |   [semi] 1522 parches de defecto de 60 imagenes (25.4 por imagen)
+09:57:32 |   [semi] |C_neg| = 1522 (de 1522 candidatos)
+09:57:33 |   [semi] purga: 15 de 19584 parches (0.08 %), 15 candidatos
+09:58:36 |       MLP epoca 1/15 loss=1.8731 (250200 muestras, 278 img, lr=1.0e-03)
+09:59:18 |       MLP epoca 2/15 loss=1.1984 (250200 muestras, 278 img, lr=1.0e-03)
+10:00:01 |       MLP epoca 3/15 loss=1.0049 (250200 muestras, 278 img, lr=1.0e-03)
+10:00:43 |       MLP epoca 4/15 loss=0.9357 (250200 muestras, 278 img, lr=1.0e-03)
+10:01:25 |       MLP epoca 5/15 loss=0.8657 (250200 muestras, 278 img, lr=1.0e-04)
+10:02:07 |       MLP epoca 6/15 loss=0.6591 (250200 muestras, 278 img, lr=1.0e-04)
+10:02:51 |       MLP epoca 7/15 loss=0.5966 (250200 muestras, 278 img, lr=1.0e-04)
+10:03:34 |       MLP epoca 8/15 loss=0.5785 (250200 muestras, 278 img, lr=1.0e-04)
+10:04:16 |       MLP epoca 9/15 loss=0.5610 (250200 muestras, 278 img, lr=1.0e-04)
+10:04:58 |       MLP epoca 10/15 loss=0.5481 (250200 muestras, 278 img, lr=1.0e-05)
+10:05:40 |       MLP epoca 11/15 loss=0.5242 (250200 muestras, 278 img, lr=1.0e-05)
+10:06:22 |       MLP epoca 12/15 loss=0.5195 (250200 muestras, 278 img, lr=1.0e-05)
+10:07:05 |       MLP epoca 13/15 loss=0.5106 (250200 muestras, 278 img, lr=1.0e-05)
+10:07:47 |       MLP epoca 14/15 loss=0.5078 (250200 muestras, 278 img, lr=1.0e-05)
+10:08:29 |       MLP epoca 15/15 loss=0.5080 (250200 muestras, 278 img, lr=1.0e-06)
+10:08:29 | [pcb3] distribucion N+P ajustada en 656.2s (2048 simbolos)
+10:10:32 |   [semi] umbral calibrado con 2 clases: 1.6031 (F1 de calibracion 1.000)
+10:11:06 | [pcb3] AUROC img=0.9979 pix=0.9955 | bestF1=0.962 (P=0.974 R=0.950) | honestoF1=0.905 (P=0.864 R=0.950) | infer 109.6s total 932.5s
+10:11:06 | === PROMEDIO AUROC img=0.99795 pix=0.99552 | tiempo total 932.5s ===
+10:11:06 | --- contraste sobre 1 categorias de estructura compleja de VisA ---
+10:11:06 | AUROC imagen: 0.99795 | referencia 0.9850 | delta +0.0129 -> IGUALADO
+10:11:06 | AUROC pixel : 0.99552 | referencia 0.9900 | delta +0.0055 -> IGUALADO
+10:11:06 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv
+10:11:10 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+10:11:11 | --resume: 4 categorias ya evaluadas en parcial_visa_N+P.csv -> ['candle', 'pcb1', 'pcb2', 'pcb3']
+10:13:08 | [pcb4] parches 1954800 (pool 700000) -> C_emb 19548 -> C_dist 2048 (dim 1792, grid (60, 60)) | extract 20.09s coreset 95.89s dist 0.62s
+10:13:10 |   [semi] 3367 parches de defecto de 60 imagenes (56.1 por imagen)
+10:13:10 |   [semi] |C_neg| = 3367 (de 3367 candidatos)
+10:13:10 |   [semi] purga: 136 de 19548 parches (0.70 %), 136 candidatos
+10:14:14 |       MLP epoca 1/15 loss=1.6871 (250200 muestras, 278 img, lr=1.0e-03)
+10:14:56 |       MLP epoca 2/15 loss=0.9877 (250200 muestras, 278 img, lr=1.0e-03)
+10:15:39 |       MLP epoca 3/15 loss=0.8746 (250200 muestras, 278 img, lr=1.0e-03)
+10:16:21 |       MLP epoca 4/15 loss=0.8048 (250200 muestras, 278 img, lr=1.0e-03)
+10:17:04 |       MLP epoca 5/15 loss=0.7361 (250200 muestras, 278 img, lr=1.0e-04)
+10:17:46 |       MLP epoca 6/15 loss=0.5858 (250200 muestras, 278 img, lr=1.0e-04)
+10:18:29 |       MLP epoca 7/15 loss=0.5301 (250200 muestras, 278 img, lr=1.0e-04)
+10:19:11 |       MLP epoca 8/15 loss=0.5181 (250200 muestras, 278 img, lr=1.0e-04)
+10:19:53 |       MLP epoca 9/15 loss=0.4890 (250200 muestras, 278 img, lr=1.0e-04)
+10:20:36 |       MLP epoca 10/15 loss=0.4927 (250200 muestras, 278 img, lr=1.0e-05)
+10:21:18 |       MLP epoca 11/15 loss=0.4632 (250200 muestras, 278 img, lr=1.0e-05)
+10:22:01 |       MLP epoca 12/15 loss=0.4599 (250200 muestras, 278 img, lr=1.0e-05)
+10:22:43 |       MLP epoca 13/15 loss=0.4568 (250200 muestras, 278 img, lr=1.0e-05)
+10:23:26 |       MLP epoca 14/15 loss=0.4491 (250200 muestras, 278 img, lr=1.0e-05)
+10:24:08 |       MLP epoca 15/15 loss=0.4530 (250200 muestras, 278 img, lr=1.0e-06)
+10:24:08 | [pcb4] distribucion N+P ajustada en 657.9s (2048 simbolos)
+10:26:13 |   [semi] umbral calibrado con 2 clases: 1.6883 (F1 de calibracion 1.000)
+10:26:47 | [pcb4] AUROC img=1.0000 pix=0.9993 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.860 (P=0.755 R=1.000) | infer 111.4s total 935.8s
+10:26:47 | === PROMEDIO AUROC img=1.00000 pix=0.99929 | tiempo total 935.8s ===
+10:26:47 | --- contraste sobre 1 categorias de estructura compleja de VisA ---
+10:26:47 | AUROC imagen: 1.00000 | referencia 0.9850 | delta +0.0150 -> IGUALADO
+10:26:47 | AUROC pixel : 0.99929 | referencia 0.9900 | delta +0.0093 -> IGUALADO
+10:26:47 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv
+10:26:51 | === PNI [N+P] | dataset=visa | device=cuda | backbone=wide_resnet50_2 | capas=('layer1', 'layer2', 'layer3') fusion=layer2 | res=480 | C_emb=1% C_dist=2048 | p_vecindad=9 | umbral=percentile(p90) | seed=0 ===
+10:26:52 | --resume: 5 categorias ya evaluadas en parcial_visa_N+P.csv -> ['candle', 'pcb1', 'pcb2', 'pcb3', 'pcb4']
+10:26:52 | [candle] REUTILIZADA del parcial: AUROC img=0.9934 pix=0.9968
+10:26:52 | [pcb1] REUTILIZADA del parcial: AUROC img=0.9950 pix=0.9994
+10:26:52 | [pcb2] REUTILIZADA del parcial: AUROC img=0.9979 pix=0.9965
+10:26:52 | [pcb3] REUTILIZADA del parcial: AUROC img=0.9980 pix=0.9955
+10:26:52 | [pcb4] REUTILIZADA del parcial: AUROC img=1.0000 pix=0.9993
+10:26:52 | === PROMEDIO AUROC img=0.99685 pix=0.99751 | tiempo total 0.0s ===
+10:26:52 | --- contraste sobre 4 categorias de estructura compleja de VisA ---
+10:26:52 | AUROC imagen: 0.99771 | referencia 0.9850 | delta +0.0127 -> IGUALADO
+10:26:52 | AUROC pixel : 0.99768 | referencia 0.9900 | delta +0.0077 -> IGUALADO
+10:26:52 | candle: img=0.99338 pix=0.99681 | SIN referencia individual publicada (PNI agrupa VisA por dominio y las otras tres categorias de su dominio quedan fuera del alcance)
+10:26:52 | referencia secundaria SoftPatch+ (pixel, 8 % de ruido, protocolo distinto): obtenido 0.99751 vs 0.9894
+10:26:52 | CSV guardado en: C:\Users\USER\Desktop\tesis\patchcore\outputs\resultados_visa.csv

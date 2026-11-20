@@ -1,0 +1,505 @@
+15:53:38 | === ABLATION 'niveles' | variantes=['2niveles_canonico', '3niveles_propuesta'] | base='2niveles_canonico' | 2 categorias | seed=0 ===
+15:53:38 | --- variante '2niveles_canonico': capas=('layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+15:53:45 | [bottle] banco 148176 -> 1482 (dim 1536, grid (28, 28)) | extract 4.39s coreset 2.04s
+15:53:49 | [bottle] AUROC img=1.0000 pix=0.9831 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.962 (P=0.926 R=1.000) | infer 3.0s total 10.5s
+15:53:59 | [screw] banco 225792 -> 2258 (dim 1536, grid (28, 28)) | extract 6.15s coreset 4.26s
+15:54:06 | [screw] AUROC img=0.8471 pix=0.9719 | bestF1=0.885 (P=0.864 R=0.908) | honestoF1=0.809 (P=0.906 R=0.731) | infer 5.1s total 17.6s
+15:54:06 | --- variante '3niveles_propuesta': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+15:54:14 | [bottle] banco 148176 -> 1482 (dim 1792, grid (28, 28)) | extract 4.5s coreset 2.0s
+15:54:17 | [bottle] AUROC img=1.0000 pix=0.9856 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 2.8s total 10.4s
+15:54:28 | [screw] banco 225792 -> 2258 (dim 1792, grid (28, 28)) | extract 5.95s coreset 4.21s
+15:54:35 | [screw] AUROC img=0.9026 pix=0.9856 | bestF1=0.905 (P=0.857 R=0.958) | honestoF1=0.733 (P=0.972 R=0.588) | infer 4.9s total 17.2s
+15:54:35 | === ablation 'niveles' completada en 57.0s ===
+15:54:35 | Comparativa guardada en: C:\Users\USER\Desktop\tesis\patchcore\outputs\ablations\comparativa_niveles.txt
+15:55:23 | === ABLATION 'niveles' | variantes=['2niveles_canonico', '3niveles_propuesta'] | base='2niveles_canonico' | 15 categorias | seed=0 ===
+15:55:23 | --- variante '2niveles_canonico': capas=('layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+15:55:30 | [bottle] banco 148176 -> 1482 (dim 1536, grid (28, 28)) | extract 4.3s coreset 1.97s
+15:55:34 | [bottle] AUROC img=1.0000 pix=0.9831 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.962 (P=0.926 R=1.000) | infer 2.9s total 10.2s
+15:55:44 | [cable] banco 158368 -> 1584 (dim 1536, grid (28, 28)) | extract 7.92s coreset 2.29s
+15:55:54 | [cable] AUROC img=0.9764 pix=0.9840 | bestF1=0.937 (P=0.908 R=0.967) | honestoF1=0.916 (P=0.943 R=0.891) | infer 7.6s total 19.6s
+15:56:03 | [capsule] banco 155232 -> 1552 (dim 1536, grid (28, 28)) | extract 7.32s coreset 2.13s
+15:56:11 | [capsule] AUROC img=0.9681 pix=0.9862 | bestF1=0.977 (P=0.973 R=0.982) | honestoF1=0.968 (P=0.972 R=0.963) | infer 6.6s total 17.6s
+15:56:24 | [carpet] banco 197568 -> 1976 (dim 1536, grid (28, 28)) | extract 9.47s coreset 3.27s
+15:56:32 | [carpet] AUROC img=0.9831 pix=0.9874 | bestF1=0.965 (P=1.000 R=0.933) | honestoF1=0.937 (P=0.881 R=1.000) | infer 6.3s total 20.5s
+15:56:40 | [grid] banco 186592 -> 1866 (dim 1536, grid (28, 28)) | extract 4.89s coreset 3.04s
+15:56:43 | [grid] AUROC img=0.9674 pix=0.9669 | bestF1=0.955 (P=0.981 R=0.930) | honestoF1=0.947 (P=0.947 R=0.947) | infer 2.7s total 11.7s
+15:57:03 | [hazelnut] banco 275968 -> 2760 (dim 1536, grid (28, 28)) | extract 12.75s coreset 6.07s
+15:57:10 | [hazelnut] AUROC img=0.9989 pix=0.9845 | bestF1=0.993 (P=0.986 R=1.000) | honestoF1=0.979 (P=0.959 R=1.000) | infer 6.1s total 26.4s
+15:57:20 | [leather] banco 173264 -> 1733 (dim 1536, grid (28, 28)) | extract 7.03s coreset 2.64s
+15:57:27 | [leather] AUROC img=1.0000 pix=0.9906 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.852 (P=0.742 R=1.000) | infer 5.9s total 17.1s
+15:57:33 | [metal_nut] banco 155232 -> 1552 (dim 1536, grid (28, 28)) | extract 3.78s coreset 2.12s
+15:57:38 | [metal_nut] AUROC img=0.9902 pix=0.9843 | bestF1=0.978 (P=1.000 R=0.957) | honestoF1=0.963 (P=0.957 R=0.968) | infer 3.3s total 10.6s
+15:57:47 | [pill] banco 188944 -> 1889 (dim 1536, grid (28, 28)) | extract 5.83s coreset 3.05s
+15:57:55 | [pill] AUROC img=0.9438 pix=0.9748 | bestF1=0.946 (P=0.963 R=0.929) | honestoF1=0.706 (P=1.000 R=0.546) | infer 5.8s total 16.8s
+15:58:05 | [screw] banco 225792 -> 2258 (dim 1536, grid (28, 28)) | extract 5.97s coreset 4.24s
+15:58:12 | [screw] AUROC img=0.8471 pix=0.9719 | bestF1=0.885 (P=0.864 R=0.908) | honestoF1=0.809 (P=0.906 R=0.731) | infer 5.0s total 17.2s
+15:58:20 | [tile] banco 162288 -> 1623 (dim 1536, grid (28, 28)) | extract 5.95s coreset 2.39s
+15:58:26 | [tile] AUROC img=0.9903 pix=0.9545 | bestF1=0.982 (P=0.988 R=0.976) | honestoF1=0.982 (P=0.988 R=0.976) | infer 4.8s total 14.5s
+15:58:29 | [toothbrush] banco 42336 -> 423 (dim 1536, grid (28, 28)) | extract 1.9s coreset 0.25s
+15:58:31 | [toothbrush] AUROC img=0.9722 pix=0.9847 | bestF1=0.967 (P=0.967 R=0.967) | honestoF1=0.949 (P=0.966 R=0.933) | infer 1.9s total 4.6s
+15:58:40 | [transistor] banco 150528 -> 1505 (dim 1536, grid (28, 28)) | extract 7.33s coreset 2.04s
+15:58:47 | [transistor] AUROC img=0.9979 pix=0.9742 | bestF1=0.987 (P=1.000 R=0.975) | honestoF1=0.909 (P=0.833 R=1.000) | infer 5.3s total 15.9s
+15:58:59 | [wood] banco 174832 -> 1748 (dim 1536, grid (28, 28)) | extract 8.9s coreset 2.67s
+15:59:04 | [wood] AUROC img=0.9860 pix=0.9392 | bestF1=0.975 (P=0.983 R=0.967) | honestoF1=0.909 (P=0.833 R=1.000) | infer 4.7s total 17.3s
+15:59:11 | [zipper] banco 169344 -> 1693 (dim 1536, grid (28, 28)) | extract 4.3s coreset 2.52s
+15:59:17 | [zipper] AUROC img=0.9863 pix=0.9820 | bestF1=0.983 (P=0.991 R=0.975) | honestoF1=0.971 (P=0.952 R=0.992) | infer 4.5s total 13.1s
+15:59:17 | --- variante '3niveles_propuesta': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+15:59:24 | [bottle] banco 148176 -> 1482 (dim 1792, grid (28, 28)) | extract 4.4s coreset 1.97s
+15:59:28 | [bottle] AUROC img=1.0000 pix=0.9856 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 2.9s total 10.3s
+15:59:39 | [cable] banco 158368 -> 1584 (dim 1792, grid (28, 28)) | extract 7.94s coreset 2.39s
+15:59:48 | [cable] AUROC img=0.9376 pix=0.9848 | bestF1=0.887 (P=0.843 R=0.935) | honestoF1=0.874 (P=0.927 R=0.826) | infer 7.7s total 19.8s
+15:59:58 | [capsule] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 7.42s coreset 2.23s
+16:00:06 | [capsule] AUROC img=0.9617 pix=0.9878 | bestF1=0.977 (P=0.973 R=0.982) | honestoF1=0.973 (P=0.964 R=0.982) | infer 6.6s total 17.9s
+16:00:19 | [carpet] banco 197568 -> 1976 (dim 1792, grid (28, 28)) | extract 9.39s coreset 3.36s
+16:00:26 | [carpet] AUROC img=0.9888 pix=0.9889 | bestF1=0.971 (P=0.988 R=0.955) | honestoF1=0.937 (P=0.881 R=1.000) | infer 6.2s total 20.5s
+16:00:35 | [grid] banco 186592 -> 1866 (dim 1792, grid (28, 28)) | extract 5.01s coreset 3.03s
+16:00:38 | [grid] AUROC img=0.9348 pix=0.9777 | bestF1=0.922 (P=0.914 R=0.930) | honestoF1=0.914 (P=0.898 R=0.930) | infer 2.7s total 11.9s
+16:00:57 | [hazelnut] banco 275968 -> 2760 (dim 1792, grid (28, 28)) | extract 12.8s coreset 6.13s
+16:01:05 | [hazelnut] AUROC img=1.0000 pix=0.9860 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.966 (P=0.933 R=1.000) | infer 6.3s total 26.7s
+16:01:15 | [leather] banco 173264 -> 1733 (dim 1792, grid (28, 28)) | extract 7.11s coreset 2.71s
+16:01:22 | [leather] AUROC img=1.0000 pix=0.9915 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.872 (P=0.773 R=1.000) | infer 6.0s total 17.3s
+16:01:28 | [metal_nut] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 3.89s coreset 2.21s
+16:01:33 | [metal_nut] AUROC img=0.9809 pix=0.9861 | bestF1=0.972 (P=1.000 R=0.946) | honestoF1=0.962 (P=0.978 R=0.946) | infer 3.3s total 10.9s
+16:01:42 | [pill] banco 188944 -> 1889 (dim 1792, grid (28, 28)) | extract 5.88s coreset 3.15s
+16:01:50 | [pill] AUROC img=0.9051 pix=0.9739 | bestF1=0.936 (P=0.896 R=0.979) | honestoF1=0.774 (P=0.968 R=0.645) | infer 5.9s total 17.0s
+16:02:01 | [screw] banco 225792 -> 2258 (dim 1792, grid (28, 28)) | extract 6.01s coreset 4.21s
+16:02:07 | [screw] AUROC img=0.9026 pix=0.9856 | bestF1=0.905 (P=0.857 R=0.958) | honestoF1=0.733 (P=0.972 R=0.588) | infer 5.1s total 17.3s
+16:02:16 | [tile] banco 162288 -> 1623 (dim 1792, grid (28, 28)) | extract 6.01s coreset 2.38s
+16:02:22 | [tile] AUROC img=0.9867 pix=0.9587 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.970 (P=0.965 R=0.976) | infer 4.9s total 14.7s
+16:02:24 | [toothbrush] banco 42336 -> 423 (dim 1792, grid (28, 28)) | extract 1.91s coreset 0.3s
+16:02:27 | [toothbrush] AUROC img=0.9694 pix=0.9861 | bestF1=0.967 (P=0.967 R=0.967) | honestoF1=0.967 (P=0.967 R=0.967) | infer 1.9s total 4.7s
+16:02:37 | [transistor] banco 150528 -> 1505 (dim 1792, grid (28, 28)) | extract 7.44s coreset 2.11s
+16:02:43 | [transistor] AUROC img=0.9983 pix=0.9712 | bestF1=0.976 (P=0.952 R=1.000) | honestoF1=0.976 (P=0.952 R=1.000) | infer 5.3s total 16.1s
+16:02:55 | [wood] banco 174832 -> 1748 (dim 1792, grid (28, 28)) | extract 8.92s coreset 2.71s
+16:03:00 | [wood] AUROC img=0.9947 pix=0.9453 | bestF1=0.984 (P=0.968 R=1.000) | honestoF1=0.937 (P=0.882 R=1.000) | infer 4.7s total 17.3s
+16:03:07 | [zipper] banco 169344 -> 1693 (dim 1792, grid (28, 28)) | extract 4.34s coreset 2.59s
+16:03:14 | [zipper] AUROC img=0.9835 pix=0.9851 | bestF1=0.992 (P=0.992 R=0.992) | honestoF1=0.979 (P=0.960 R=1.000) | infer 4.5s total 13.3s
+16:03:14 | === ablation 'niveles' completada en 470.4s ===
+16:03:14 | Comparativa guardada en: C:\Users\USER\Desktop\tesis\patchcore\outputs\ablations\comparativa_niveles.txt
+16:20:14 | === ABLATION 'coreset' | variantes=['coreset_01', 'coreset_10'] | base='coreset_01' | 15 categorias | seed=0 ===
+16:20:14 | --- variante 'coreset_01': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+16:20:21 | [bottle] banco 148176 -> 1482 (dim 1792, grid (28, 28)) | extract 4.76s coreset 1.99s
+16:20:25 | [bottle] AUROC img=1.0000 pix=0.9856 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 3.1s total 10.9s
+16:20:36 | [cable] banco 158368 -> 1584 (dim 1792, grid (28, 28)) | extract 8.11s coreset 2.32s
+16:20:46 | [cable] AUROC img=0.9376 pix=0.9848 | bestF1=0.887 (P=0.843 R=0.935) | honestoF1=0.874 (P=0.927 R=0.826) | infer 8.1s total 20.4s
+16:20:56 | [capsule] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 7.59s coreset 2.2s
+16:21:04 | [capsule] AUROC img=0.9617 pix=0.9878 | bestF1=0.977 (P=0.973 R=0.982) | honestoF1=0.973 (P=0.964 R=0.982) | infer 6.8s total 18.2s
+16:21:17 | [carpet] banco 197568 -> 1976 (dim 1792, grid (28, 28)) | extract 9.77s coreset 3.32s
+16:21:25 | [carpet] AUROC img=0.9888 pix=0.9889 | bestF1=0.971 (P=0.988 R=0.955) | honestoF1=0.937 (P=0.881 R=1.000) | infer 6.2s total 20.8s
+16:21:33 | [grid] banco 186592 -> 1866 (dim 1792, grid (28, 28)) | extract 4.97s coreset 3.02s
+16:21:37 | [grid] AUROC img=0.9348 pix=0.9777 | bestF1=0.922 (P=0.914 R=0.930) | honestoF1=0.914 (P=0.898 R=0.930) | infer 2.7s total 11.8s
+16:21:56 | [hazelnut] banco 275968 -> 2760 (dim 1792, grid (28, 28)) | extract 13.06s coreset 6.07s
+16:22:03 | [hazelnut] AUROC img=1.0000 pix=0.9860 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.966 (P=0.933 R=1.000) | infer 6.2s total 26.9s
+16:22:14 | [leather] banco 173264 -> 1733 (dim 1792, grid (28, 28)) | extract 7.43s coreset 2.69s
+16:22:21 | [leather] AUROC img=1.0000 pix=0.9915 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.872 (P=0.773 R=1.000) | infer 6.0s total 17.6s
+16:22:27 | [metal_nut] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 3.86s coreset 2.19s
+16:22:32 | [metal_nut] AUROC img=0.9809 pix=0.9861 | bestF1=0.972 (P=1.000 R=0.946) | honestoF1=0.962 (P=0.978 R=0.946) | infer 3.4s total 10.8s
+16:22:41 | [pill] banco 188944 -> 1889 (dim 1792, grid (28, 28)) | extract 5.88s coreset 3.16s
+16:22:49 | [pill] AUROC img=0.9051 pix=0.9739 | bestF1=0.936 (P=0.896 R=0.979) | honestoF1=0.774 (P=0.968 R=0.645) | infer 6.1s total 17.3s
+16:23:00 | [screw] banco 225792 -> 2258 (dim 1792, grid (28, 28)) | extract 6.09s coreset 4.19s
+16:23:07 | [screw] AUROC img=0.9026 pix=0.9856 | bestF1=0.905 (P=0.857 R=0.958) | honestoF1=0.733 (P=0.972 R=0.588) | infer 5.1s total 17.4s
+16:23:15 | [tile] banco 162288 -> 1623 (dim 1792, grid (28, 28)) | extract 6.35s coreset 2.37s
+16:23:22 | [tile] AUROC img=0.9867 pix=0.9587 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.970 (P=0.965 R=0.976) | infer 4.8s total 14.9s
+16:23:24 | [toothbrush] banco 42336 -> 423 (dim 1792, grid (28, 28)) | extract 1.9s coreset 0.31s
+16:23:26 | [toothbrush] AUROC img=0.9694 pix=0.9861 | bestF1=0.967 (P=0.967 R=0.967) | honestoF1=0.967 (P=0.967 R=0.967) | infer 2.0s total 4.7s
+16:23:36 | [transistor] banco 150528 -> 1505 (dim 1792, grid (28, 28)) | extract 7.6s coreset 2.0s
+16:23:42 | [transistor] AUROC img=0.9983 pix=0.9712 | bestF1=0.976 (P=0.952 R=1.000) | honestoF1=0.976 (P=0.952 R=1.000) | infer 5.3s total 16.2s
+16:23:55 | [wood] banco 174832 -> 1748 (dim 1792, grid (28, 28)) | extract 9.25s coreset 2.66s
+16:24:00 | [wood] AUROC img=0.9947 pix=0.9453 | bestF1=0.984 (P=0.968 R=1.000) | honestoF1=0.937 (P=0.882 R=1.000) | infer 4.7s total 17.8s
+16:24:07 | [zipper] banco 169344 -> 1693 (dim 1792, grid (28, 28)) | extract 4.5s coreset 2.55s
+16:24:14 | [zipper] AUROC img=0.9835 pix=0.9851 | bestF1=0.992 (P=0.992 R=0.992) | honestoF1=0.979 (P=0.960 R=1.000) | infer 4.5s total 13.5s
+16:24:14 | --- variante 'coreset_10': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=10% backbone=wide_resnet50_2 ---
+16:24:37 | [bottle] banco 148176 -> 14818 (dim 1792, grid (28, 28)) | extract 4.42s coreset 17.69s
+16:24:41 | [bottle] AUROC img=1.0000 pix=0.9860 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.969 (P=0.940 R=1.000) | infer 3.7s total 26.8s
+16:25:10 | [cable] banco 158368 -> 15837 (dim 1792, grid (28, 28)) | extract 8.19s coreset 20.09s
+16:25:21 | [cable] AUROC img=0.9670 pix=0.9863 | bestF1=0.918 (P=0.873 R=0.967) | honestoF1=0.904 (P=0.885 R=0.924) | infer 9.1s total 39.3s
+16:25:48 | [capsule] banco 155232 -> 15523 (dim 1792, grid (28, 28)) | extract 7.41s coreset 19.33s
+16:25:57 | [capsule] AUROC img=0.9725 pix=0.9885 | bestF1=0.973 (P=0.964 R=0.982) | honestoF1=0.973 (P=0.964 R=0.982) | infer 8.0s total 36.5s
+16:26:37 | [carpet] banco 197568 -> 19757 (dim 1792, grid (28, 28)) | extract 9.55s coreset 30.1s
+16:26:46 | [carpet] AUROC img=0.9900 pix=0.9892 | bestF1=0.978 (P=0.978 R=0.978) | honestoF1=0.942 (P=0.890 R=1.000) | infer 7.7s total 48.9s
+16:27:19 | [grid] banco 186592 -> 18659 (dim 1792, grid (28, 28)) | extract 5.18s coreset 27.14s
+16:27:23 | [grid] AUROC img=0.9766 pix=0.9813 | bestF1=0.966 (P=0.949 R=0.982) | honestoF1=0.966 (P=0.949 R=0.982) | infer 4.1s total 37.5s
+16:28:33 | [hazelnut] banco 275968 -> 27597 (dim 1792, grid (28, 28)) | extract 12.72s coreset 56.92s
+16:28:43 | [hazelnut] AUROC img=0.9993 pix=0.9867 | bestF1=0.993 (P=0.986 R=1.000) | honestoF1=0.979 (P=0.959 R=1.000) | infer 8.4s total 79.5s
+16:29:14 | [leather] banco 173264 -> 17326 (dim 1792, grid (28, 28)) | extract 7.11s coreset 23.56s
+16:29:23 | [leather] AUROC img=1.0000 pix=0.9916 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.852 (P=0.742 R=1.000) | infer 7.3s total 39.5s
+16:29:46 | [metal_nut] banco 155232 -> 15523 (dim 1792, grid (28, 28)) | extract 4.13s coreset 19.24s
+16:29:52 | [metal_nut] AUROC img=0.9966 pix=0.9877 | bestF1=0.984 (P=0.979 R=0.989) | honestoF1=0.979 (P=0.968 R=0.989) | infer 4.4s total 29.2s
+16:30:26 | [pill] banco 188944 -> 18894 (dim 1792, grid (28, 28)) | extract 6.11s coreset 27.67s
+16:30:36 | [pill] AUROC img=0.9487 pix=0.9782 | bestF1=0.946 (P=0.898 R=1.000) | honestoF1=0.795 (P=1.000 R=0.660) | infer 7.9s total 43.8s
+16:31:21 | [screw] banco 225792 -> 22579 (dim 1792, grid (28, 28)) | extract 6.03s coreset 38.74s
+16:31:30 | [screw] AUROC img=0.9631 pix=0.9934 | bestF1=0.954 (P=0.958 R=0.950) | honestoF1=0.942 (P=0.927 R=0.958) | infer 7.4s total 54.2s
+16:31:57 | [tile] banco 162288 -> 16229 (dim 1792, grid (28, 28)) | extract 6.28s coreset 20.93s
+16:32:05 | [tile] AUROC img=0.9863 pix=0.9575 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.982 (P=0.988 R=0.976) | infer 6.2s total 34.8s
+16:32:08 | [toothbrush] banco 42336 -> 4234 (dim 1792, grid (28, 28)) | extract 1.9s coreset 1.94s
+16:32:11 | [toothbrush] AUROC img=0.9944 pix=0.9873 | bestF1=0.983 (P=1.000 R=0.967) | honestoF1=0.937 (P=0.882 R=1.000) | infer 2.0s total 6.3s
+16:32:37 | [transistor] banco 150528 -> 15053 (dim 1792, grid (28, 28)) | extract 7.43s coreset 18.21s
+16:32:44 | [transistor] AUROC img=1.0000 pix=0.9730 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.879 (P=0.784 R=1.000) | infer 6.2s total 33.1s
+16:33:17 | [wood] banco 174832 -> 17483 (dim 1792, grid (28, 28)) | extract 8.89s coreset 23.98s
+16:33:24 | [wood] AUROC img=0.9939 pix=0.9454 | bestF1=0.983 (P=0.983 R=0.983) | honestoF1=0.930 (P=0.870 R=1.000) | infer 5.7s total 39.6s
+16:33:51 | [zipper] banco 169344 -> 16934 (dim 1792, grid (28, 28)) | extract 4.42s coreset 22.64s
+16:33:59 | [zipper] AUROC img=0.9926 pix=0.9851 | bestF1=0.987 (P=0.983 R=0.992) | honestoF1=0.971 (P=0.944 R=1.000) | infer 6.1s total 35.0s
+16:33:59 | === ablation 'coreset' completada en 825.1s ===
+16:33:59 | Comparativa guardada en: C:\Users\USER\Desktop\tesis\patchcore\outputs\ablations\comparativa_coreset.txt
+16:40:45 | === ABLATION 'backbone' | variantes=['wide_resnet50_2', 'resnet50'] | base='wide_resnet50_2' | 1 categorias | seed=0 ===
+16:40:45 | --- variante 'wide_resnet50_2': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+16:40:48 | [toothbrush] banco 42336 -> 423 (dim 1792, grid (28, 28)) | extract 2.07s coreset 0.31s
+16:40:51 | [toothbrush] AUROC img=0.9694 pix=0.9861 | bestF1=0.967 (P=0.967 R=0.967) | honestoF1=0.967 (P=0.967 R=0.967) | infer 2.0s total 4.9s
+16:40:51 | --- variante 'resnet50': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=resnet50 ---
+16:40:55 | [toothbrush] banco 42336 -> 423 (dim 1792, grid (28, 28)) | extract 1.91s coreset 0.3s
+16:40:57 | [toothbrush] AUROC img=0.9722 pix=0.9862 | bestF1=0.966 (P=1.000 R=0.933) | honestoF1=0.966 (P=1.000 R=0.933) | infer 1.9s total 4.6s
+16:40:57 | === ablation 'backbone' completada en 12.0s ===
+16:40:57 | Comparativa guardada en: C:\Users\USER\Desktop\tesis\patchcore\outputs\ablations\comparativa_backbone.txt
+16:41:18 | === ABLATION 'backbone' | variantes=['wide_resnet50_2', 'resnet50'] | base='wide_resnet50_2' | 15 categorias | seed=0 ===
+16:41:18 | --- variante 'wide_resnet50_2': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+16:41:25 | [bottle] banco 148176 -> 1482 (dim 1792, grid (28, 28)) | extract 4.51s coreset 2.01s
+16:41:30 | [bottle] AUROC img=1.0000 pix=0.9856 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 3.3s total 10.8s
+16:41:40 | [cable] banco 158368 -> 1584 (dim 1792, grid (28, 28)) | extract 7.96s coreset 2.25s
+16:41:49 | [cable] AUROC img=0.9376 pix=0.9848 | bestF1=0.887 (P=0.843 R=0.935) | honestoF1=0.874 (P=0.927 R=0.826) | infer 7.6s total 19.5s
+16:41:59 | [capsule] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 7.61s coreset 2.18s
+16:42:07 | [capsule] AUROC img=0.9617 pix=0.9878 | bestF1=0.977 (P=0.973 R=0.982) | honestoF1=0.973 (P=0.964 R=0.982) | infer 6.8s total 18.2s
+16:42:20 | [carpet] banco 197568 -> 1976 (dim 1792, grid (28, 28)) | extract 9.58s coreset 3.32s
+16:42:28 | [carpet] AUROC img=0.9888 pix=0.9889 | bestF1=0.971 (P=0.988 R=0.955) | honestoF1=0.937 (P=0.881 R=1.000) | infer 6.3s total 20.5s
+16:42:36 | [grid] banco 186592 -> 1866 (dim 1792, grid (28, 28)) | extract 5.37s coreset 3.06s
+16:42:40 | [grid] AUROC img=0.9348 pix=0.9777 | bestF1=0.922 (P=0.914 R=0.930) | honestoF1=0.914 (P=0.898 R=0.930) | infer 2.7s total 12.1s
+16:42:59 | [hazelnut] banco 275968 -> 2760 (dim 1792, grid (28, 28)) | extract 12.99s coreset 6.12s
+16:43:07 | [hazelnut] AUROC img=1.0000 pix=0.9860 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.966 (P=0.933 R=1.000) | infer 6.6s total 27.0s
+16:43:17 | [leather] banco 173264 -> 1733 (dim 1792, grid (28, 28)) | extract 7.1s coreset 2.67s
+16:43:24 | [leather] AUROC img=1.0000 pix=0.9915 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.872 (P=0.773 R=1.000) | infer 6.0s total 17.2s
+16:43:30 | [metal_nut] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 3.9s coreset 2.12s
+16:43:35 | [metal_nut] AUROC img=0.9809 pix=0.9861 | bestF1=0.972 (P=1.000 R=0.946) | honestoF1=0.962 (P=0.978 R=0.946) | infer 3.7s total 11.0s
+16:43:44 | [pill] banco 188944 -> 1889 (dim 1792, grid (28, 28)) | extract 6.03s coreset 3.02s
+16:43:52 | [pill] AUROC img=0.9051 pix=0.9739 | bestF1=0.936 (P=0.896 R=0.979) | honestoF1=0.774 (P=0.968 R=0.645) | infer 6.0s total 17.0s
+16:44:03 | [screw] banco 225792 -> 2258 (dim 1792, grid (28, 28)) | extract 6.13s coreset 4.18s
+16:44:10 | [screw] AUROC img=0.9026 pix=0.9856 | bestF1=0.905 (P=0.857 R=0.958) | honestoF1=0.733 (P=0.972 R=0.588) | infer 5.3s total 17.5s
+16:44:18 | [tile] banco 162288 -> 1623 (dim 1792, grid (28, 28)) | extract 6.01s coreset 2.3s
+16:44:24 | [tile] AUROC img=0.9867 pix=0.9587 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.970 (P=0.965 R=0.976) | infer 4.8s total 14.5s
+16:44:26 | [toothbrush] banco 42336 -> 423 (dim 1792, grid (28, 28)) | extract 1.92s coreset 0.32s
+16:44:29 | [toothbrush] AUROC img=0.9694 pix=0.9861 | bestF1=0.967 (P=0.967 R=0.967) | honestoF1=0.967 (P=0.967 R=0.967) | infer 2.0s total 4.7s
+16:44:39 | [transistor] banco 150528 -> 1505 (dim 1792, grid (28, 28)) | extract 7.83s coreset 2.02s
+16:44:45 | [transistor] AUROC img=0.9983 pix=0.9712 | bestF1=0.976 (P=0.952 R=1.000) | honestoF1=0.976 (P=0.952 R=1.000) | infer 5.2s total 16.3s
+16:44:57 | [wood] banco 174832 -> 1748 (dim 1792, grid (28, 28)) | extract 8.89s coreset 2.62s
+16:45:03 | [wood] AUROC img=0.9947 pix=0.9453 | bestF1=0.984 (P=0.968 R=1.000) | honestoF1=0.937 (P=0.882 R=1.000) | infer 5.1s total 17.5s
+16:45:10 | [zipper] banco 169344 -> 1693 (dim 1792, grid (28, 28)) | extract 4.74s coreset 2.5s
+16:45:16 | [zipper] AUROC img=0.9835 pix=0.9851 | bestF1=0.992 (P=0.992 R=0.992) | honestoF1=0.979 (P=0.960 R=1.000) | infer 4.4s total 13.5s
+16:45:16 | --- variante 'resnet50': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=resnet50 ---
+16:45:23 | [bottle] banco 148176 -> 1482 (dim 1792, grid (28, 28)) | extract 4.15s coreset 2.0s
+16:45:27 | [bottle] AUROC img=1.0000 pix=0.9844 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.933 (P=0.875 R=1.000) | infer 2.8s total 10.0s
+16:45:36 | [cable] banco 158368 -> 1584 (dim 1792, grid (28, 28)) | extract 7.6s coreset 2.22s
+16:45:46 | [cable] AUROC img=0.9213 pix=0.9822 | bestF1=0.902 (P=0.861 R=0.946) | honestoF1=0.848 (P=0.959 R=0.761) | infer 7.5s total 19.1s
+16:45:55 | [capsule] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 7.26s coreset 2.16s
+16:46:03 | [capsule] AUROC img=0.9477 pix=0.9883 | bestF1=0.959 (P=0.963 R=0.954) | honestoF1=0.954 (P=0.963 R=0.945) | infer 6.4s total 17.4s
+16:46:16 | [carpet] banco 197568 -> 1976 (dim 1792, grid (28, 28)) | extract 9.42s coreset 3.32s
+16:46:23 | [carpet] AUROC img=0.9611 pix=0.9856 | bestF1=0.941 (P=0.898 R=0.989) | honestoF1=0.931 (P=0.880 R=0.989) | infer 6.0s total 20.1s
+16:46:31 | [grid] banco 186592 -> 1866 (dim 1792, grid (28, 28)) | extract 4.67s coreset 3.04s
+16:46:34 | [grid] AUROC img=0.9833 pix=0.9710 | bestF1=0.974 (P=0.950 R=1.000) | honestoF1=0.955 (P=0.981 R=0.930) | infer 2.6s total 11.3s
+16:46:53 | [hazelnut] banco 275968 -> 2760 (dim 1792, grid (28, 28)) | extract 12.53s coreset 6.08s
+16:47:01 | [hazelnut] AUROC img=1.0000 pix=0.9859 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.986 (P=0.972 R=1.000) | infer 6.3s total 26.2s
+16:47:11 | [leather] banco 173264 -> 1733 (dim 1792, grid (28, 28)) | extract 7.19s coreset 2.66s
+16:47:18 | [leather] AUROC img=1.0000 pix=0.9903 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.876 (P=0.780 R=1.000) | infer 6.1s total 17.4s
+16:47:24 | [metal_nut] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 3.75s coreset 2.22s
+16:47:29 | [metal_nut] AUROC img=0.9717 pix=0.9876 | bestF1=0.958 (P=0.929 R=0.989) | honestoF1=0.957 (P=0.957 R=0.957) | infer 3.2s total 10.6s
+16:47:37 | [pill] banco 188944 -> 1889 (dim 1792, grid (28, 28)) | extract 5.61s coreset 3.05s
+16:47:45 | [pill] AUROC img=0.9195 pix=0.9706 | bestF1=0.933 (P=0.924 R=0.943) | honestoF1=0.854 (P=1.000 R=0.745) | infer 6.1s total 16.9s
+16:47:56 | [screw] banco 225792 -> 2258 (dim 1792, grid (28, 28)) | extract 5.82s coreset 4.23s
+16:48:02 | [screw] AUROC img=0.8317 pix=0.9879 | bestF1=0.877 (P=0.787 R=0.992) | honestoF1=0.725 (P=0.946 R=0.588) | infer 4.9s total 16.8s
+16:48:10 | [tile] banco 162288 -> 1623 (dim 1792, grid (28, 28)) | extract 5.76s coreset 2.33s
+16:48:17 | [tile] AUROC img=0.9928 pix=0.9586 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.971 (P=0.954 R=0.988) | infer 4.9s total 14.4s
+16:48:19 | [toothbrush] banco 42336 -> 423 (dim 1792, grid (28, 28)) | extract 1.85s coreset 0.27s
+16:48:21 | [toothbrush] AUROC img=0.9722 pix=0.9862 | bestF1=0.966 (P=1.000 R=0.933) | honestoF1=0.966 (P=1.000 R=0.933) | infer 1.9s total 4.5s
+16:48:30 | [transistor] banco 150528 -> 1505 (dim 1792, grid (28, 28)) | extract 7.12s coreset 2.07s
+16:48:37 | [transistor] AUROC img=0.9808 pix=0.9592 | bestF1=0.923 (P=0.947 R=0.900) | honestoF1=0.860 (P=0.804 R=0.925) | infer 5.0s total 15.4s
+16:48:48 | [wood] banco 174832 -> 1748 (dim 1792, grid (28, 28)) | extract 8.42s coreset 2.71s
+16:48:53 | [wood] AUROC img=0.9921 pix=0.9484 | bestF1=0.983 (P=0.983 R=0.983) | honestoF1=0.945 (P=0.896 R=1.000) | infer 4.6s total 16.7s
+16:49:00 | [zipper] banco 169344 -> 1693 (dim 1792, grid (28, 28)) | extract 4.06s coreset 2.53s
+16:49:06 | [zipper] AUROC img=0.9929 pix=0.9858 | bestF1=0.988 (P=0.975 R=1.000) | honestoF1=0.988 (P=0.975 R=1.000) | infer 4.3s total 12.7s
+16:49:06 | === ablation 'backbone' completada en 467.7s ===
+16:49:06 | Comparativa guardada en: C:\Users\USER\Desktop\tesis\patchcore\outputs\ablations\comparativa_backbone.txt
+16:49:11 | === ABLATION 'fusion' | variantes=['fusion_28', 'fusion_56'] | base='fusion_28' | 15 categorias | seed=0 ===
+16:49:11 | --- variante 'fusion_28': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+16:49:19 | [bottle] banco 148176 -> 1482 (dim 1792, grid (28, 28)) | extract 4.37s coreset 2.01s
+16:49:23 | [bottle] AUROC img=1.0000 pix=0.9856 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 3.2s total 10.7s
+16:49:33 | [cable] banco 158368 -> 1584 (dim 1792, grid (28, 28)) | extract 8.13s coreset 2.19s
+16:49:42 | [cable] AUROC img=0.9376 pix=0.9848 | bestF1=0.887 (P=0.843 R=0.935) | honestoF1=0.874 (P=0.927 R=0.826) | infer 7.6s total 19.7s
+16:49:52 | [capsule] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 7.66s coreset 2.22s
+16:50:01 | [capsule] AUROC img=0.9617 pix=0.9878 | bestF1=0.977 (P=0.973 R=0.982) | honestoF1=0.973 (P=0.964 R=0.982) | infer 6.6s total 18.1s
+16:50:14 | [carpet] banco 197568 -> 1976 (dim 1792, grid (28, 28)) | extract 9.53s coreset 3.36s
+16:50:21 | [carpet] AUROC img=0.9888 pix=0.9889 | bestF1=0.971 (P=0.988 R=0.955) | honestoF1=0.937 (P=0.881 R=1.000) | infer 6.5s total 20.7s
+16:50:29 | [grid] banco 186592 -> 1866 (dim 1792, grid (28, 28)) | extract 4.99s coreset 2.95s
+16:50:33 | [grid] AUROC img=0.9348 pix=0.9777 | bestF1=0.922 (P=0.914 R=0.930) | honestoF1=0.914 (P=0.898 R=0.930) | infer 2.8s total 11.7s
+16:50:53 | [hazelnut] banco 275968 -> 2760 (dim 1792, grid (28, 28)) | extract 13.4s coreset 6.05s
+16:51:00 | [hazelnut] AUROC img=1.0000 pix=0.9860 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.966 (P=0.933 R=1.000) | infer 6.4s total 27.2s
+16:51:10 | [leather] banco 173264 -> 1733 (dim 1792, grid (28, 28)) | extract 7.12s coreset 2.68s
+16:51:17 | [leather] AUROC img=1.0000 pix=0.9915 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.872 (P=0.773 R=1.000) | infer 6.0s total 17.2s
+16:51:24 | [metal_nut] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 4.08s coreset 2.14s
+16:51:28 | [metal_nut] AUROC img=0.9809 pix=0.9861 | bestF1=0.972 (P=1.000 R=0.946) | honestoF1=0.962 (P=0.978 R=0.946) | infer 3.4s total 11.0s
+16:51:37 | [pill] banco 188944 -> 1889 (dim 1792, grid (28, 28)) | extract 5.92s coreset 3.09s
+16:51:45 | [pill] AUROC img=0.9051 pix=0.9739 | bestF1=0.936 (P=0.896 R=0.979) | honestoF1=0.774 (P=0.968 R=0.645) | infer 6.0s total 17.0s
+16:51:56 | [screw] banco 225792 -> 2258 (dim 1792, grid (28, 28)) | extract 6.08s coreset 4.25s
+16:52:03 | [screw] AUROC img=0.9026 pix=0.9856 | bestF1=0.905 (P=0.857 R=0.958) | honestoF1=0.733 (P=0.972 R=0.588) | infer 5.1s total 17.4s
+16:52:11 | [tile] banco 162288 -> 1623 (dim 1792, grid (28, 28)) | extract 6.07s coreset 2.36s
+16:52:17 | [tile] AUROC img=0.9867 pix=0.9587 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.970 (P=0.965 R=0.976) | infer 4.8s total 14.6s
+16:52:20 | [toothbrush] banco 42336 -> 423 (dim 1792, grid (28, 28)) | extract 1.9s coreset 0.27s
+16:52:22 | [toothbrush] AUROC img=0.9694 pix=0.9861 | bestF1=0.967 (P=0.967 R=0.967) | honestoF1=0.967 (P=0.967 R=0.967) | infer 1.9s total 4.6s
+16:52:32 | [transistor] banco 150528 -> 1505 (dim 1792, grid (28, 28)) | extract 7.6s coreset 2.01s
+16:52:38 | [transistor] AUROC img=0.9983 pix=0.9712 | bestF1=0.976 (P=0.952 R=1.000) | honestoF1=0.976 (P=0.952 R=1.000) | infer 5.3s total 16.1s
+16:52:50 | [wood] banco 174832 -> 1748 (dim 1792, grid (28, 28)) | extract 8.86s coreset 2.65s
+16:52:55 | [wood] AUROC img=0.9947 pix=0.9453 | bestF1=0.984 (P=0.968 R=1.000) | honestoF1=0.937 (P=0.882 R=1.000) | infer 4.8s total 17.3s
+16:53:02 | [zipper] banco 169344 -> 1693 (dim 1792, grid (28, 28)) | extract 4.46s coreset 2.55s
+16:53:09 | [zipper] AUROC img=0.9835 pix=0.9851 | bestF1=0.992 (P=0.992 R=0.992) | honestoF1=0.979 (P=0.960 R=1.000) | infer 4.5s total 13.3s
+16:53:09 | --- variante 'fusion_56': capas=('layer1', 'layer2', 'layer3') fusion=layer1 coreset=1% backbone=wide_resnet50_2 ---
+16:53:41 | [bottle] banco 592704 -> 5927 (dim 1792, grid (56, 56)) | extract 5.71s coreset 25.66s
+16:53:46 | [bottle] AUROC img=1.0000 pix=0.9860 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=1.000 (P=1.000 R=1.000) | infer 3.8s total 36.4s
+16:54:24 | [cable] banco 633472 -> 6335 (dim 1792, grid (56, 56)) | extract 8.98s coreset 29.27s
+16:54:35 | [cable] AUROC img=0.9702 pix=0.9858 | bestF1=0.928 (P=0.882 R=0.978) | honestoF1=0.893 (P=0.929 R=0.859) | infer 9.3s total 49.5s
+16:55:12 | [capsule] banco 620928 -> 6209 (dim 1792, grid (56, 56)) | extract 8.5s coreset 28.07s
+16:55:21 | [capsule] AUROC img=0.9565 pix=0.9888 | bestF1=0.968 (P=0.955 R=0.982) | honestoF1=0.968 (P=0.955 R=0.982) | infer 7.9s total 46.3s
+16:56:18 | [carpet] banco 790272 -> 7903 (dim 1792, grid (56, 56)) | extract 11.09s coreset 44.91s
+16:56:27 | [carpet] AUROC img=0.9900 pix=0.9896 | bestF1=0.971 (P=0.988 R=0.955) | honestoF1=0.937 (P=0.881 R=1.000) | infer 7.9s total 65.5s
+16:57:14 | [grid] banco 746368 -> 7464 (dim 1792, grid (56, 56)) | extract 6.49s coreset 40.01s
+16:57:18 | [grid] AUROC img=0.9733 pix=0.9808 | bestF1=0.966 (P=0.949 R=0.982) | honestoF1=0.949 (P=0.918 R=0.982) | infer 3.9s total 51.6s
+16:59:05 | [hazelnut] banco 1103872 -> 11039 (dim 1792, grid (56, 56)) | extract 15.17s coreset 91.31s
+16:59:16 | [hazelnut] AUROC img=0.9993 pix=0.9871 | bestF1=0.993 (P=1.000 R=0.986) | honestoF1=0.972 (P=0.946 R=1.000) | infer 9.2s total 117.4s
+17:00:04 | [leather] banco 693056 -> 6931 (dim 1792, grid (56, 56)) | extract 12.59s coreset 35.57s
+17:00:13 | [leather] AUROC img=1.0000 pix=0.9917 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.868 (P=0.767 R=1.000) | infer 7.7s total 57.6s
+17:00:48 | [metal_nut] banco 620928 -> 6209 (dim 1792, grid (56, 56)) | extract 5.32s coreset 28.77s
+17:00:54 | [metal_nut] AUROC img=0.9976 pix=0.9881 | bestF1=0.989 (P=0.979 R=1.000) | honestoF1=0.979 (P=0.959 R=1.000) | infer 4.8s total 40.5s
+17:01:44 | [pill] banco 755776 -> 7558 (dim 1792, grid (56, 56)) | extract 7.59s coreset 42.33s
+17:01:55 | [pill] AUROC img=0.9329 pix=0.9800 | bestF1=0.944 (P=0.931 R=0.957) | honestoF1=0.752 (P=1.000 R=0.603) | infer 8.4s total 60.7s
+17:03:03 | [screw] banco 903168 -> 9032 (dim 1792, grid (56, 56)) | extract 8.48s coreset 59.81s
+17:03:13 | [screw] AUROC img=0.9699 pix=0.9939 | bestF1=0.957 (P=0.974 R=0.941) | honestoF1=0.953 (P=0.974 R=0.933) | infer 8.1s total 78.6s
+17:03:52 | [tile] banco 649152 -> 6492 (dim 1792, grid (56, 56)) | extract 7.44s coreset 31.43s
+17:04:00 | [tile] AUROC img=0.9827 pix=0.9586 | bestF1=0.982 (P=0.988 R=0.976) | honestoF1=0.982 (P=0.988 R=0.976) | infer 6.6s total 47.0s
+17:04:05 | [toothbrush] banco 169344 -> 1693 (dim 1792, grid (56, 56)) | extract 2.28s coreset 2.59s
+17:04:08 | [toothbrush] AUROC img=0.9917 pix=0.9875 | bestF1=0.968 (P=0.937 R=1.000) | honestoF1=0.923 (P=0.857 R=1.000) | infer 2.2s total 7.7s
+17:04:44 | [transistor] banco 602112 -> 6021 (dim 1792, grid (56, 56)) | extract 8.75s coreset 27.17s
+17:04:52 | [transistor] AUROC img=0.9979 pix=0.9727 | bestF1=0.975 (P=0.975 R=0.975) | honestoF1=0.909 (P=0.833 R=1.000) | infer 6.7s total 44.0s
+17:05:39 | [wood] banco 699328 -> 6993 (dim 1792, grid (56, 56)) | extract 10.77s coreset 36.27s
+17:05:46 | [wood] AUROC img=0.9965 pix=0.9470 | bestF1=0.983 (P=0.983 R=0.983) | honestoF1=0.952 (P=0.909 R=1.000) | infer 5.8s total 54.0s
+17:06:26 | [zipper] banco 677376 -> 6774 (dim 1792, grid (56, 56)) | extract 5.54s coreset 33.97s
+17:06:34 | [zipper] AUROC img=0.9913 pix=0.9858 | bestF1=0.992 (P=0.992 R=0.992) | honestoF1=0.967 (P=0.944 R=0.992) | infer 6.6s total 48.1s
+17:06:34 | === ablation 'fusion' completada en 1042.6s ===
+17:06:34 | Comparativa guardada en: C:\Users\USER\Desktop\tesis\patchcore\outputs\ablations\comparativa_fusion.txt
+17:27:00 | === ABLATION 'combinada' | variantes=['c10_f28', 'c025_f56'] | base='c10_f28' | 15 categorias | seed=0 ===
+17:27:00 | --- variante 'c10_f28': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=10% backbone=wide_resnet50_2 ---
+17:27:23 | [bottle] banco 148176 -> 14818 (dim 1792, grid (28, 28)) | extract 4.57s coreset 17.62s
+17:27:28 | [bottle] AUROC img=1.0000 pix=0.9860 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.969 (P=0.940 R=1.000) | infer 4.2s total 27.5s
+17:27:57 | [cable] banco 158368 -> 15837 (dim 1792, grid (28, 28)) | extract 7.96s coreset 20.26s
+17:28:08 | [cable] AUROC img=0.9670 pix=0.9863 | bestF1=0.918 (P=0.873 R=0.967) | honestoF1=0.904 (P=0.885 R=0.924) | infer 9.8s total 40.1s
+17:28:35 | [capsule] banco 155232 -> 15523 (dim 1792, grid (28, 28)) | extract 7.53s coreset 19.21s
+17:28:44 | [capsule] AUROC img=0.9725 pix=0.9885 | bestF1=0.973 (P=0.964 R=0.982) | honestoF1=0.973 (P=0.964 R=0.982) | infer 7.8s total 36.1s
+17:29:24 | [carpet] banco 197568 -> 19757 (dim 1792, grid (28, 28)) | extract 9.48s coreset 29.97s
+17:29:33 | [carpet] AUROC img=0.9900 pix=0.9892 | bestF1=0.978 (P=0.978 R=0.978) | honestoF1=0.942 (P=0.890 R=1.000) | infer 7.9s total 48.7s
+17:30:05 | [grid] banco 186592 -> 18659 (dim 1792, grid (28, 28)) | extract 4.99s coreset 27.03s
+17:30:10 | [grid] AUROC img=0.9766 pix=0.9813 | bestF1=0.966 (P=0.949 R=0.982) | honestoF1=0.966 (P=0.949 R=0.982) | infer 3.8s total 36.8s
+17:31:20 | [hazelnut] banco 275968 -> 27597 (dim 1792, grid (28, 28)) | extract 12.88s coreset 56.85s
+17:31:29 | [hazelnut] AUROC img=0.9993 pix=0.9867 | bestF1=0.993 (P=0.986 R=1.000) | honestoF1=0.979 (P=0.959 R=1.000) | infer 8.4s total 79.5s
+17:32:00 | [leather] banco 173264 -> 17326 (dim 1792, grid (28, 28)) | extract 7.42s coreset 23.51s
+17:32:09 | [leather] AUROC img=1.0000 pix=0.9916 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.852 (P=0.742 R=1.000) | infer 7.2s total 39.5s
+17:32:32 | [metal_nut] banco 155232 -> 15523 (dim 1792, grid (28, 28)) | extract 3.85s coreset 19.28s
+17:32:38 | [metal_nut] AUROC img=0.9966 pix=0.9877 | bestF1=0.984 (P=0.979 R=0.989) | honestoF1=0.979 (P=0.968 R=0.989) | infer 4.3s total 28.8s
+17:33:11 | [pill] banco 188944 -> 18894 (dim 1792, grid (28, 28)) | extract 5.84s coreset 27.74s
+17:33:21 | [pill] AUROC img=0.9487 pix=0.9782 | bestF1=0.946 (P=0.898 R=1.000) | honestoF1=0.795 (P=1.000 R=0.660) | infer 7.4s total 43.0s
+17:34:06 | [screw] banco 225792 -> 22579 (dim 1792, grid (28, 28)) | extract 5.9s coreset 38.82s
+17:34:14 | [screw] AUROC img=0.9631 pix=0.9934 | bestF1=0.954 (P=0.958 R=0.950) | honestoF1=0.942 (P=0.927 R=0.958) | infer 7.1s total 53.7s
+17:34:41 | [tile] banco 162288 -> 16229 (dim 1792, grid (28, 28)) | extract 6.01s coreset 20.91s
+17:34:48 | [tile] AUROC img=0.9863 pix=0.9575 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.982 (P=0.988 R=0.976) | infer 5.8s total 34.1s
+17:34:52 | [toothbrush] banco 42336 -> 4234 (dim 1792, grid (28, 28)) | extract 1.91s coreset 1.91s
+17:34:55 | [toothbrush] AUROC img=0.9944 pix=0.9873 | bestF1=0.983 (P=1.000 R=0.967) | honestoF1=0.937 (P=0.882 R=1.000) | infer 2.1s total 6.4s
+17:35:21 | [transistor] banco 150528 -> 15053 (dim 1792, grid (28, 28)) | extract 7.41s coreset 18.15s
+17:35:28 | [transistor] AUROC img=1.0000 pix=0.9730 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.879 (P=0.784 R=1.000) | infer 6.1s total 32.8s
+17:36:00 | [wood] banco 174832 -> 17483 (dim 1792, grid (28, 28)) | extract 8.8s coreset 23.89s
+17:36:07 | [wood] AUROC img=0.9939 pix=0.9454 | bestF1=0.983 (P=0.983 R=0.983) | honestoF1=0.930 (P=0.870 R=1.000) | infer 5.5s total 39.1s
+17:36:34 | [zipper] banco 169344 -> 16934 (dim 1792, grid (28, 28)) | extract 4.28s coreset 22.57s
+17:36:41 | [zipper] AUROC img=0.9926 pix=0.9851 | bestF1=0.987 (P=0.983 R=0.992) | honestoF1=0.971 (P=0.944 R=1.000) | infer 5.8s total 34.4s
+17:36:41 | --- variante 'c025_f56': capas=('layer1', 'layer2', 'layer3') fusion=layer1 coreset=2% backbone=wide_resnet50_2 ---
+17:37:51 | [bottle] banco 592704 -> 14818 (dim 1792, grid (56, 56)) | extract 5.69s coreset 62.94s
+17:37:57 | [bottle] AUROC img=1.0000 pix=0.9861 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 5.3s total 75.1s
+17:39:18 | [cable] banco 633472 -> 15837 (dim 1792, grid (56, 56)) | extract 8.89s coreset 71.82s
+17:39:31 | [cable] AUROC img=0.9580 pix=0.9861 | bestF1=0.911 (P=0.879 R=0.946) | honestoF1=0.889 (P=0.962 R=0.826) | infer 11.4s total 94.1s
+17:40:49 | [capsule] banco 620928 -> 15523 (dim 1792, grid (56, 56)) | extract 8.54s coreset 69.03s
+17:41:00 | [capsule] AUROC img=0.9749 pix=0.9889 | bestF1=0.972 (P=0.981 R=0.963) | honestoF1=0.963 (P=0.963 R=0.963) | infer 10.1s total 89.4s
+17:43:02 | [carpet] banco 790272 -> 19757 (dim 1792, grid (56, 56)) | extract 10.87s coreset 110.23s
+17:43:14 | [carpet] AUROC img=0.9876 pix=0.9896 | bestF1=0.971 (P=1.000 R=0.944) | honestoF1=0.937 (P=0.881 R=1.000) | infer 10.7s total 133.5s
+17:44:59 | [grid] banco 746368 -> 18659 (dim 1792, grid (56, 56)) | extract 6.15s coreset 98.5s
+17:45:05 | [grid] AUROC img=0.9733 pix=0.9817 | bestF1=0.966 (P=0.949 R=0.982) | honestoF1=0.947 (P=0.947 R=0.947) | infer 5.7s total 111.5s
+17:48:53 | [hazelnut] banco 1103872 -> 27597 (dim 1792, grid (56, 56)) | extract 15.17s coreset 212.36s
+17:49:07 | [hazelnut] AUROC img=1.0000 pix=0.9870 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.972 (P=0.946 R=1.000) | infer 12.6s total 241.9s
+17:50:41 | [leather] banco 693056 -> 17326 (dim 1792, grid (56, 56)) | extract 8.33s coreset 85.17s
+17:50:52 | [leather] AUROC img=1.0000 pix=0.9917 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.856 (P=0.748 R=1.000) | infer 9.8s total 104.9s
+17:52:06 | [metal_nut] banco 620928 -> 15523 (dim 1792, grid (56, 56)) | extract 5.04s coreset 68.88s
+17:52:14 | [metal_nut] AUROC img=0.9941 pix=0.9886 | bestF1=0.984 (P=0.969 R=1.000) | honestoF1=0.984 (P=0.969 R=1.000) | infer 6.6s total 82.0s
+17:54:03 | [pill] banco 755776 -> 18894 (dim 1792, grid (56, 56)) | extract 7.18s coreset 100.86s
+17:54:16 | [pill] AUROC img=0.9479 pix=0.9803 | bestF1=0.958 (P=0.951 R=0.965) | honestoF1=0.820 (P=1.000 R=0.695) | infer 11.9s total 122.1s
+17:57:03 | [screw] banco 903168 -> 22579 (dim 1792, grid (56, 56)) | extract 8.79s coreset 157.4s
+17:57:17 | [screw] AUROC img=0.9633 pix=0.9940 | bestF1=0.958 (P=0.950 R=0.966) | honestoF1=0.945 (P=0.949 R=0.941) | infer 12.6s total 180.8s
+17:58:45 | [tile] banco 649152 -> 16229 (dim 1792, grid (56, 56)) | extract 7.33s coreset 80.63s
+17:58:55 | [tile] AUROC img=0.9830 pix=0.9585 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.976 (P=0.976 R=0.976) | infer 8.8s total 98.3s
+17:59:04 | [toothbrush] banco 169344 -> 4234 (dim 1792, grid (56, 56)) | extract 2.22s coreset 6.15s
+17:59:07 | [toothbrush] AUROC img=1.0000 pix=0.9874 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.968 (P=0.937 R=1.000) | infer 2.4s total 11.3s
+18:00:25 | [transistor] banco 602112 -> 15053 (dim 1792, grid (56, 56)) | extract 8.64s coreset 69.84s
+18:00:35 | [transistor] AUROC img=0.9958 pix=0.9736 | bestF1=0.987 (P=1.000 R=0.975) | honestoF1=0.963 (P=0.951 R=0.975) | infer 8.5s total 88.3s
+18:02:19 | [wood] banco 699328 -> 17483 (dim 1792, grid (56, 56)) | extract 10.23s coreset 93.23s
+18:02:27 | [wood] AUROC img=0.9991 pix=0.9464 | bestF1=0.992 (P=0.984 R=1.000) | honestoF1=0.916 (P=0.845 R=1.000) | infer 7.7s total 112.3s
+18:04:01 | [zipper] banco 677376 -> 16934 (dim 1792, grid (56, 56)) | extract 5.49s coreset 87.52s
+18:04:12 | [zipper] AUROC img=0.9911 pix=0.9856 | bestF1=0.992 (P=0.992 R=0.992) | honestoF1=0.967 (P=0.937 R=1.000) | infer 9.7s total 104.6s
+18:04:12 | === ablation 'combinada' completada en 2232.0s ===
+18:04:12 | Comparativa guardada en: C:\Users\USER\Desktop\tesis\patchcore\outputs\ablations\comparativa_combinada.txt
+15:27:57 | === ABLATION 'resolucion' | variantes=['res224', 'res288', 'res288_eq', 'res352', 'res352_eq'] | base='res224' | 15 categorias | seed=0 ===
+15:27:57 | --- variante 'res224': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+15:28:05 | [bottle] banco 148176 -> 1482 (dim 1792, grid (28, 28)) | extract 4.52s coreset 1.97s
+15:28:09 | [bottle] AUROC img=1.0000 pix=0.9856 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 3.0s total 10.5s
+15:28:19 | [cable] banco 158368 -> 1584 (dim 1792, grid (28, 28)) | extract 7.93s coreset 2.26s
+15:28:28 | [cable] AUROC img=0.9376 pix=0.9848 | bestF1=0.887 (P=0.843 R=0.935) | honestoF1=0.874 (P=0.927 R=0.826) | infer 7.7s total 19.7s
+15:28:38 | [capsule] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 7.48s coreset 2.15s
+15:28:46 | [capsule] AUROC img=0.9617 pix=0.9878 | bestF1=0.977 (P=0.973 R=0.982) | honestoF1=0.973 (P=0.964 R=0.982) | infer 6.8s total 17.9s
+15:28:59 | [carpet] banco 197568 -> 1976 (dim 1792, grid (28, 28)) | extract 9.46s coreset 3.31s
+15:29:07 | [carpet] AUROC img=0.9888 pix=0.9889 | bestF1=0.971 (P=0.988 R=0.955) | honestoF1=0.937 (P=0.881 R=1.000) | infer 6.4s total 20.6s
+15:29:15 | [grid] banco 186592 -> 1866 (dim 1792, grid (28, 28)) | extract 5.04s coreset 3.02s
+15:29:19 | [grid] AUROC img=0.9348 pix=0.9777 | bestF1=0.922 (P=0.914 R=0.930) | honestoF1=0.914 (P=0.898 R=0.930) | infer 2.7s total 11.8s
+15:29:38 | [hazelnut] banco 275968 -> 2760 (dim 1792, grid (28, 28)) | extract 12.82s coreset 6.07s
+15:29:45 | [hazelnut] AUROC img=1.0000 pix=0.9860 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.966 (P=0.933 R=1.000) | infer 6.3s total 26.6s
+15:29:55 | [leather] banco 173264 -> 1733 (dim 1792, grid (28, 28)) | extract 7.16s coreset 2.61s
+15:30:02 | [leather] AUROC img=1.0000 pix=0.9915 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.872 (P=0.773 R=1.000) | infer 6.0s total 17.2s
+15:30:09 | [metal_nut] banco 155232 -> 1552 (dim 1792, grid (28, 28)) | extract 3.86s coreset 2.14s
+15:30:13 | [metal_nut] AUROC img=0.9809 pix=0.9861 | bestF1=0.972 (P=1.000 R=0.946) | honestoF1=0.962 (P=0.978 R=0.946) | infer 3.2s total 10.7s
+15:30:22 | [pill] banco 188944 -> 1889 (dim 1792, grid (28, 28)) | extract 5.88s coreset 3.07s
+15:30:30 | [pill] AUROC img=0.9051 pix=0.9739 | bestF1=0.936 (P=0.896 R=0.979) | honestoF1=0.774 (P=0.968 R=0.645) | infer 5.8s total 16.7s
+15:30:40 | [screw] banco 225792 -> 2258 (dim 1792, grid (28, 28)) | extract 5.9s coreset 4.23s
+15:30:47 | [screw] AUROC img=0.9026 pix=0.9856 | bestF1=0.905 (P=0.857 R=0.958) | honestoF1=0.733 (P=0.972 R=0.588) | infer 4.9s total 17.0s
+15:30:55 | [tile] banco 162288 -> 1623 (dim 1792, grid (28, 28)) | extract 6.03s coreset 2.36s
+15:31:01 | [tile] AUROC img=0.9867 pix=0.9587 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.970 (P=0.965 R=0.976) | infer 4.8s total 14.6s
+15:31:04 | [toothbrush] banco 42336 -> 423 (dim 1792, grid (28, 28)) | extract 1.92s coreset 0.27s
+15:31:06 | [toothbrush] AUROC img=0.9694 pix=0.9861 | bestF1=0.967 (P=0.967 R=0.967) | honestoF1=0.967 (P=0.967 R=0.967) | infer 1.9s total 4.6s
+15:31:16 | [transistor] banco 150528 -> 1505 (dim 1792, grid (28, 28)) | extract 7.44s coreset 2.09s
+15:31:22 | [transistor] AUROC img=0.9983 pix=0.9712 | bestF1=0.976 (P=0.952 R=1.000) | honestoF1=0.976 (P=0.952 R=1.000) | infer 5.2s total 16.0s
+15:31:34 | [wood] banco 174832 -> 1748 (dim 1792, grid (28, 28)) | extract 8.89s coreset 2.66s
+15:31:39 | [wood] AUROC img=0.9947 pix=0.9453 | bestF1=0.984 (P=0.968 R=1.000) | honestoF1=0.937 (P=0.882 R=1.000) | infer 4.7s total 17.2s
+15:31:46 | [zipper] banco 169344 -> 1693 (dim 1792, grid (28, 28)) | extract 4.34s coreset 2.52s
+15:31:52 | [zipper] AUROC img=0.9835 pix=0.9851 | bestF1=0.992 (P=0.992 R=0.992) | honestoF1=0.979 (P=0.960 R=1.000) | infer 4.4s total 13.0s
+15:31:52 | --- variante 'res288': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+15:32:03 | [bottle] banco 244944 -> 2449 (dim 1792, grid (36, 36)) | extract 5.18s coreset 4.88s
+15:32:08 | [bottle] AUROC img=1.0000 pix=0.9873 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 3.1s total 14.8s
+15:32:22 | [cable] banco 261792 -> 2618 (dim 1792, grid (36, 36)) | extract 8.53s coreset 5.49s
+15:32:32 | [cable] AUROC img=0.9501 pix=0.9850 | bestF1=0.909 (P=0.895 R=0.924) | honestoF1=0.897 (P=0.951 R=0.848) | infer 8.0s total 24.8s
+15:32:46 | [capsule] banco 256608 -> 2566 (dim 1792, grid (36, 36)) | extract 8.24s coreset 5.37s
+15:32:56 | [capsule] AUROC img=0.9765 pix=0.9904 | bestF1=0.977 (P=0.973 R=0.982) | honestoF1=0.977 (P=0.973 R=0.982) | infer 7.0s total 23.1s
+15:33:14 | [carpet] banco 326592 -> 3266 (dim 1792, grid (36, 36)) | extract 10.34s coreset 8.28s
+15:33:23 | [carpet] AUROC img=0.9968 pix=0.9905 | bestF1=0.983 (P=0.967 R=1.000) | honestoF1=0.927 (P=0.864 R=1.000) | infer 6.5s total 27.5s
+15:33:36 | [grid] banco 308448 -> 3084 (dim 1792, grid (36, 36)) | extract 5.86s coreset 7.41s
+15:33:41 | [grid] AUROC img=0.9774 pix=0.9873 | bestF1=0.973 (P=0.982 R=0.965) | honestoF1=0.973 (P=0.982 R=0.965) | infer 2.9s total 17.8s
+15:34:11 | [hazelnut] banco 456192 -> 4562 (dim 1792, grid (36, 36)) | extract 14.02s coreset 15.52s
+15:34:19 | [hazelnut] AUROC img=1.0000 pix=0.9889 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.993 (P=1.000 R=0.986) | infer 6.9s total 38.6s
+15:34:34 | [leather] banco 286416 -> 2864 (dim 1792, grid (36, 36)) | extract 8.1s coreset 6.47s
+15:34:43 | [leather] AUROC img=1.0000 pix=0.9934 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.893 (P=0.807 R=1.000) | infer 6.3s total 23.2s
+15:34:52 | [metal_nut] banco 256608 -> 2566 (dim 1792, grid (36, 36)) | extract 4.38s coreset 5.3s
+15:34:58 | [metal_nut] AUROC img=0.9912 pix=0.9874 | bestF1=0.984 (P=0.979 R=0.989) | honestoF1=0.978 (P=0.989 R=0.968) | infer 3.6s total 15.6s
+15:35:13 | [pill] banco 312336 -> 3123 (dim 1792, grid (36, 36)) | extract 6.81s coreset 7.61s
+15:35:22 | [pill] AUROC img=0.9182 pix=0.9773 | bestF1=0.942 (P=0.963 R=0.922) | honestoF1=0.823 (P=0.980 R=0.709) | infer 6.1s total 23.9s
+15:35:40 | [screw] banco 373248 -> 3732 (dim 1792, grid (36, 36)) | extract 6.99s coreset 10.65s
+15:35:49 | [screw] AUROC img=0.9094 pix=0.9928 | bestF1=0.908 (P=0.837 R=0.992) | honestoF1=0.880 (P=0.934 R=0.832) | infer 5.6s total 26.4s
+15:36:01 | [tile] banco 268272 -> 2683 (dim 1792, grid (36, 36)) | extract 6.89s coreset 5.77s
+15:36:09 | [tile] AUROC img=0.9906 pix=0.9643 | bestF1=0.982 (P=0.988 R=0.976) | honestoF1=0.982 (P=0.988 R=0.976) | infer 5.2s total 20.1s
+15:36:11 | [toothbrush] banco 69984 -> 700 (dim 1792, grid (36, 36)) | extract 2.12s coreset 0.57s
+15:36:14 | [toothbrush] AUROC img=0.9722 pix=0.9896 | bestF1=0.951 (P=0.935 R=0.967) | honestoF1=0.935 (P=0.906 R=0.967) | infer 2.0s total 5.5s
+15:36:27 | [transistor] banco 248832 -> 2488 (dim 1792, grid (36, 36)) | extract 8.26s coreset 4.99s
+15:36:35 | [transistor] AUROC img=0.9892 pix=0.9475 | bestF1=0.947 (P=1.000 R=0.900) | honestoF1=0.842 (P=0.727 R=1.000) | infer 5.5s total 20.8s
+15:36:51 | [wood] banco 289008 -> 2890 (dim 1792, grid (36, 36)) | extract 9.73s coreset 6.6s
+15:36:58 | [wood] AUROC img=0.9930 pix=0.9527 | bestF1=0.992 (P=1.000 R=0.983) | honestoF1=0.923 (P=0.857 R=1.000) | infer 4.9s total 22.8s
+15:37:09 | [zipper] banco 279936 -> 2799 (dim 1792, grid (36, 36)) | extract 4.97s coreset 6.17s
+15:37:17 | [zipper] AUROC img=0.9819 pix=0.9892 | bestF1=0.992 (P=0.983 R=1.000) | honestoF1=0.967 (P=0.937 R=1.000) | infer 4.8s total 18.8s
+15:37:17 | --- variante 'res288_eq': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+15:37:26 | [bottle] banco 244944 -> 1482 (dim 1792, grid (36, 36)) | extract 5.17s coreset 3.12s
+15:37:30 | [bottle] AUROC img=1.0000 pix=0.9869 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.940 (P=0.887 R=1.000) | infer 3.0s total 13.0s
+15:37:42 | [cable] banco 261792 -> 1584 (dim 1792, grid (36, 36)) | extract 8.5s coreset 3.53s
+15:37:53 | [cable] AUROC img=0.9488 pix=0.9837 | bestF1=0.903 (P=0.894 R=0.913) | honestoF1=0.867 (P=0.926 R=0.815) | infer 7.9s total 22.7s
+15:38:05 | [capsule] banco 256608 -> 1552 (dim 1792, grid (36, 36)) | extract 8.18s coreset 3.37s
+15:38:14 | [capsule] AUROC img=0.9809 pix=0.9899 | bestF1=0.973 (P=0.956 R=0.991) | honestoF1=0.972 (P=0.972 R=0.972) | infer 6.9s total 21.0s
+15:38:30 | [carpet] banco 326592 -> 1976 (dim 1792, grid (36, 36)) | extract 10.32s coreset 5.23s
+15:38:38 | [carpet] AUROC img=0.9916 pix=0.9901 | bestF1=0.983 (P=1.000 R=0.966) | honestoF1=0.942 (P=0.890 R=1.000) | infer 6.5s total 24.3s
+15:38:49 | [grid] banco 308448 -> 1866 (dim 1792, grid (36, 36)) | extract 5.86s coreset 4.63s
+15:38:53 | [grid] AUROC img=0.9825 pix=0.9864 | bestF1=0.957 (P=0.933 R=0.982) | honestoF1=0.938 (P=0.946 R=0.930) | infer 2.8s total 14.9s
+15:39:17 | [hazelnut] banco 456192 -> 2760 (dim 1792, grid (36, 36)) | extract 14.04s coreset 9.72s
+15:39:26 | [hazelnut] AUROC img=0.9986 pix=0.9887 | bestF1=0.993 (P=1.000 R=0.986) | honestoF1=0.965 (P=0.945 R=0.986) | infer 6.5s total 32.4s
+15:39:38 | [leather] banco 286416 -> 1733 (dim 1792, grid (36, 36)) | extract 7.95s coreset 4.1s
+15:39:46 | [leather] AUROC img=1.0000 pix=0.9933 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.893 (P=0.807 R=1.000) | infer 6.2s total 20.6s
+15:39:54 | [metal_nut] banco 256608 -> 1552 (dim 1792, grid (36, 36)) | extract 4.42s coreset 3.33s
+15:40:00 | [metal_nut] AUROC img=0.9878 pix=0.9867 | bestF1=0.972 (P=1.000 R=0.946) | honestoF1=0.967 (P=0.978 R=0.957) | infer 3.5s total 13.5s
+15:40:11 | [pill] banco 312336 -> 1889 (dim 1792, grid (36, 36)) | extract 6.83s coreset 4.78s
+15:40:21 | [pill] AUROC img=0.9253 pix=0.9761 | bestF1=0.936 (P=0.891 R=0.986) | honestoF1=0.878 (P=0.982 R=0.794) | infer 6.0s total 20.9s
+15:40:34 | [screw] banco 373248 -> 2258 (dim 1792, grid (36, 36)) | extract 6.94s coreset 6.69s
+15:40:43 | [screw] AUROC img=0.8871 pix=0.9906 | bestF1=0.903 (P=0.841 R=0.975) | honestoF1=0.802 (P=0.943 R=0.697) | infer 5.3s total 22.2s
+15:40:53 | [tile] banco 268272 -> 1623 (dim 1792, grid (36, 36)) | extract 6.86s coreset 3.68s
+15:41:01 | [tile] AUROC img=0.9881 pix=0.9632 | bestF1=0.988 (P=1.000 R=0.976) | honestoF1=0.982 (P=0.988 R=0.976) | infer 5.0s total 17.8s
+15:41:03 | [toothbrush] banco 69984 -> 423 (dim 1792, grid (36, 36)) | extract 2.12s coreset 0.37s
+15:41:06 | [toothbrush] AUROC img=0.9278 pix=0.9898 | bestF1=0.909 (P=1.000 R=0.833) | honestoF1=0.847 (P=0.862 R=0.833) | infer 2.0s total 5.3s
+15:41:17 | [transistor] banco 248832 -> 1505 (dim 1792, grid (36, 36)) | extract 8.22s coreset 3.2s
+15:41:25 | [transistor] AUROC img=0.9904 pix=0.9429 | bestF1=0.947 (P=1.000 R=0.900) | honestoF1=0.927 (P=0.905 R=0.950) | infer 5.5s total 19.0s
+15:41:39 | [wood] banco 289008 -> 1748 (dim 1792, grid (36, 36)) | extract 9.73s coreset 4.23s
+15:41:45 | [wood] AUROC img=0.9912 pix=0.9520 | bestF1=0.983 (P=0.983 R=0.983) | honestoF1=0.937 (P=0.882 R=1.000) | infer 4.8s total 20.3s
+15:41:54 | [zipper] banco 279936 -> 1693 (dim 1792, grid (36, 36)) | extract 4.98s coreset 3.99s
+15:42:02 | [zipper] AUROC img=0.9816 pix=0.9886 | bestF1=0.992 (P=0.983 R=1.000) | honestoF1=0.967 (P=0.937 R=1.000) | infer 4.7s total 16.6s
+15:42:02 | --- variante 'res352': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=1% backbone=wide_resnet50_2 ---
+15:42:18 | [bottle] banco 365904 -> 3659 (dim 1792, grid (44, 44)) | extract 5.61s coreset 10.25s
+15:42:24 | [bottle] AUROC img=1.0000 pix=0.9877 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.962 (P=0.926 R=1.000) | infer 3.6s total 21.9s
+15:42:45 | [cable] banco 391072 -> 3911 (dim 1792, grid (44, 44)) | extract 9.25s coreset 11.63s
+15:42:58 | [cable] AUROC img=0.9640 pix=0.9824 | bestF1=0.917 (P=0.880 R=0.957) | honestoF1=0.886 (P=0.929 R=0.848) | infer 8.7s total 33.8s
+15:43:18 | [capsule] banco 383328 -> 3833 (dim 1792, grid (44, 44)) | extract 8.78s coreset 11.21s
+15:43:30 | [capsule] AUROC img=0.9916 pix=0.9909 | bestF1=0.978 (P=0.956 R=1.000) | honestoF1=0.963 (P=0.963 R=0.963) | infer 7.6s total 31.5s
+15:43:59 | [carpet] banco 487872 -> 4879 (dim 1792, grid (44, 44)) | extract 11.14s coreset 17.73s
+15:44:09 | [carpet] AUROC img=0.9976 pix=0.9921 | bestF1=0.989 (P=0.978 R=1.000) | honestoF1=0.932 (P=0.873 R=1.000) | infer 7.3s total 39.5s
+15:44:32 | [grid] banco 460768 -> 4608 (dim 1792, grid (44, 44)) | extract 6.41s coreset 15.9s
+15:44:37 | [grid] AUROC img=0.9891 pix=0.9914 | bestF1=0.991 (P=1.000 R=0.982) | honestoF1=0.966 (P=0.949 R=0.982) | infer 3.5s total 28.1s
+15:45:26 | [hazelnut] banco 681472 -> 6815 (dim 1792, grid (44, 44)) | extract 15.3s coreset 33.56s
+15:45:37 | [hazelnut] AUROC img=1.0000 pix=0.9897 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.966 (P=0.933 R=1.000) | infer 7.7s total 60.0s
+15:46:00 | [leather] banco 427856 -> 4279 (dim 1792, grid (44, 44)) | extract 8.68s coreset 13.83s
+15:46:11 | [leather] AUROC img=1.0000 pix=0.9941 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.860 (P=0.754 R=1.000) | infer 7.1s total 33.2s
+15:46:27 | [metal_nut] banco 383328 -> 3833 (dim 1792, grid (44, 44)) | extract 5.31s coreset 11.13s
+15:46:35 | [metal_nut] AUROC img=0.9976 pix=0.9878 | bestF1=0.989 (P=0.979 R=1.000) | honestoF1=0.978 (P=0.978 R=0.978) | infer 4.4s total 24.3s
+15:46:59 | [pill] banco 466576 -> 4666 (dim 1792, grid (44, 44)) | extract 7.61s coreset 16.16s
+15:47:11 | [pill] AUROC img=0.9498 pix=0.9743 | bestF1=0.955 (P=0.938 R=0.972) | honestoF1=0.779 (P=1.000 R=0.638) | infer 7.3s total 36.0s
+15:47:42 | [screw] banco 557568 -> 5576 (dim 1792, grid (44, 44)) | extract 7.89s coreset 22.79s
+15:47:53 | [screw] AUROC img=0.9479 pix=0.9914 | bestF1=0.947 (P=0.914 R=0.983) | honestoF1=0.894 (P=0.944 R=0.849) | infer 6.7s total 42.1s
+15:48:13 | [tile] banco 400752 -> 4008 (dim 1792, grid (44, 44)) | extract 7.41s coreset 12.15s
+15:48:22 | [tile] AUROC img=0.9986 pix=0.9688 | bestF1=0.994 (P=1.000 R=0.988) | honestoF1=0.988 (P=0.988 R=0.988) | infer 5.8s total 28.7s
+15:48:25 | [toothbrush] banco 104544 -> 1045 (dim 1792, grid (44, 44)) | extract 2.37s coreset 1.02s
+15:48:28 | [toothbrush] AUROC img=0.9528 pix=0.9907 | bestF1=0.952 (P=0.909 R=1.000) | honestoF1=0.937 (P=0.882 R=1.000) | infer 2.1s total 6.7s
+15:48:48 | [transistor] banco 371712 -> 3717 (dim 1792, grid (44, 44)) | extract 8.73s coreset 10.5s
+15:48:57 | [transistor] AUROC img=0.9775 pix=0.9316 | bestF1=0.962 (P=0.974 R=0.950) | honestoF1=0.935 (P=0.973 R=0.900) | infer 6.2s total 28.5s
+15:49:21 | [wood] banco 431728 -> 4317 (dim 1792, grid (44, 44)) | extract 10.4s coreset 13.94s
+15:49:29 | [wood] AUROC img=0.9947 pix=0.9579 | bestF1=0.983 (P=0.983 R=0.983) | honestoF1=0.916 (P=0.845 R=1.000) | infer 5.4s total 32.0s
+15:49:48 | [zipper] banco 418176 -> 4182 (dim 1792, grid (44, 44)) | extract 5.64s coreset 13.26s
+15:49:58 | [zipper] AUROC img=0.9945 pix=0.9917 | bestF1=0.992 (P=0.983 R=1.000) | honestoF1=0.988 (P=0.975 R=1.000) | infer 5.7s total 28.9s
+15:49:58 | --- variante 'res352_eq': capas=('layer1', 'layer2', 'layer3') fusion=layer2 coreset=0% backbone=wide_resnet50_2 ---
+15:50:09 | [bottle] banco 365904 -> 1482 (dim 1792, grid (44, 44)) | extract 5.58s coreset 4.53s
+15:50:15 | [bottle] AUROC img=0.9992 pix=0.9872 | bestF1=0.992 (P=0.984 R=1.000) | honestoF1=0.977 (P=0.955 R=1.000) | infer 3.4s total 16.0s
+15:50:29 | [cable] banco 391072 -> 1584 (dim 1792, grid (44, 44)) | extract 9.19s coreset 5.0s
+15:50:41 | [cable] AUROC img=0.9172 pix=0.9779 | bestF1=0.880 (P=0.928 R=0.837) | honestoF1=0.865 (P=0.895 R=0.837) | infer 8.4s total 26.9s
+15:50:55 | [capsule] banco 383328 -> 1552 (dim 1792, grid (44, 44)) | extract 8.85s coreset 4.9s
+15:51:07 | [capsule] AUROC img=0.9924 pix=0.9897 | bestF1=0.986 (P=0.982 R=0.991) | honestoF1=0.977 (P=0.981 R=0.972) | infer 7.4s total 25.1s
+15:51:25 | [carpet] banco 487872 -> 1976 (dim 1792, grid (44, 44)) | extract 11.16s coreset 7.64s
+15:51:36 | [carpet] AUROC img=0.9988 pix=0.9918 | bestF1=0.994 (P=0.989 R=1.000) | honestoF1=0.952 (P=0.908 R=1.000) | infer 7.0s total 29.2s
+15:51:49 | [grid] banco 460768 -> 1866 (dim 1792, grid (44, 44)) | extract 6.48s coreset 6.79s
+15:51:55 | [grid] AUROC img=0.9791 pix=0.9898 | bestF1=0.965 (P=0.965 R=0.965) | honestoF1=0.965 (P=0.965 R=0.965) | infer 3.2s total 18.8s
+15:52:24 | [hazelnut] banco 681472 -> 2760 (dim 1792, grid (44, 44)) | extract 15.1s coreset 14.2s
+15:52:34 | [hazelnut] AUROC img=0.9989 pix=0.9891 | bestF1=0.993 (P=1.000 R=0.986) | honestoF1=0.979 (P=0.959 R=1.000) | infer 7.1s total 39.8s
+15:52:49 | [leather] banco 427856 -> 1733 (dim 1792, grid (44, 44)) | extract 8.63s coreset 5.97s
+15:52:59 | [leather] AUROC img=1.0000 pix=0.9940 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.885 (P=0.793 R=1.000) | infer 6.9s total 25.0s
+15:53:10 | [metal_nut] banco 383328 -> 1552 (dim 1792, grid (44, 44)) | extract 5.17s coreset 4.85s
+15:53:17 | [metal_nut] AUROC img=0.9873 pix=0.9855 | bestF1=0.973 (P=0.989 R=0.957) | honestoF1=0.973 (P=0.989 R=0.957) | infer 4.1s total 17.6s
+15:53:32 | [pill] banco 466576 -> 1889 (dim 1792, grid (44, 44)) | extract 7.56s coreset 6.93s
+15:53:43 | [pill] AUROC img=0.9214 pix=0.9688 | bestF1=0.942 (P=0.913 R=0.972) | honestoF1=0.812 (P=0.990 R=0.688) | infer 6.7s total 26.1s
+15:54:01 | [screw] banco 557568 -> 2258 (dim 1792, grid (44, 44)) | extract 7.81s coreset 9.7s
+15:54:11 | [screw] AUROC img=0.9233 pix=0.9860 | bestF1=0.915 (P=0.923 R=0.908) | honestoF1=0.881 (P=0.970 R=0.807) | infer 5.9s total 28.2s
+15:54:24 | [tile] banco 400752 -> 1623 (dim 1792, grid (44, 44)) | extract 7.42s coreset 5.29s
+15:54:33 | [tile] AUROC img=1.0000 pix=0.9680 | bestF1=1.000 (P=1.000 R=1.000) | honestoF1=0.994 (P=0.988 R=1.000) | infer 5.5s total 21.5s
+15:54:36 | [toothbrush] banco 104544 -> 423 (dim 1792, grid (44, 44)) | extract 2.39s coreset 0.5s
+15:54:39 | [toothbrush] AUROC img=0.9556 pix=0.9898 | bestF1=0.935 (P=0.906 R=0.967) | honestoF1=0.929 (P=1.000 R=0.867) | infer 2.1s total 6.2s
+15:54:53 | [transistor] banco 371712 -> 1505 (dim 1792, grid (44, 44)) | extract 8.86s coreset 4.58s
+15:55:01 | [transistor] AUROC img=0.9558 pix=0.9048 | bestF1=0.962 (P=0.974 R=0.950) | honestoF1=0.894 (P=0.844 R=0.950) | infer 5.9s total 22.3s
+15:55:18 | [wood] banco 431728 -> 1748 (dim 1792, grid (44, 44)) | extract 10.45s coreset 6.1s
+15:55:25 | [wood] AUROC img=0.9930 pix=0.9580 | bestF1=0.983 (P=0.983 R=0.983) | honestoF1=0.923 (P=0.857 R=1.000) | infer 5.2s total 24.0s
+15:55:37 | [zipper] banco 418176 -> 1693 (dim 1792, grid (44, 44)) | extract 5.69s coreset 5.73s
+15:55:46 | [zipper] AUROC img=0.9940 pix=0.9912 | bestF1=0.992 (P=0.983 R=1.000) | honestoF1=0.941 (P=0.888 R=1.000) | infer 5.3s total 21.0s
+15:55:46 | === ablation 'resolucion' completada en 1669.0s ===
+15:55:46 | Comparativa guardada en: C:\Users\USER\Desktop\tesis\patchcore\outputs\ablations\comparativa_resolucion.txt

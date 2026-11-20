@@ -1,0 +1,38 @@
+====================================================================================================
+R6 - GENERALIZACION A TIPOS DE DEFECTO NO REPRESENTADOS  (mvtec, 11 categorias)
+====================================================================================================
+Criterio (IOV): detectar al menos el 90 % de las anomalias del tipo no representado,
+en el punto de operacion declarado para la categoria (umbral calibrado con las dos clases
+de ENTRENAMIENTO, nunca con el conjunto de prueba).
+
+categoria    tipo reservado       n   AUROCv   AUROCr    delta   recall_v recall_r       R6
+-------------------------------------------------------------------------------------------
+bottle       contamination       21   1.0000   0.9952  -0.0048      1.000    0.905       SI
+cable        missing_wire        10   0.9963   0.9983  +0.0020      0.967    0.900       SI
+carpet       thread              19   0.9991   0.9962  -0.0029      0.929    0.789       NO
+grid         broken              12   1.0000   1.0000  +0.0000      1.000    1.000       SI
+leather      fold                17   1.0000   1.0000  +0.0000      1.000    1.000       SI
+metal_nut    color               22   0.9518   0.9153  -0.0365      0.673    0.409       NO
+screw        thread_top          23   0.9493   0.9873  +0.0380      0.781    0.913       SI
+tile         oil                 18   1.0000   1.0000  +0.0000      1.000    1.000       SI
+transistor   damaged_case        10   0.9963   1.0000  +0.0037      1.000    1.000       SI
+wood         hole                10   0.9874   0.9947  +0.0074      1.000    1.000       SI
+zipper       combined            16   0.9988   1.0000  +0.0012      1.000    1.000       SI
+-------------------------------------------------------------------------------------------
+PROMEDIO                        178   0.9890   0.9897  +0.0007      0.941    0.901    9/11
+
+Recall agregado sobre las 178 anomalias reservadas de las 11 categorias: 0.8764 (156 detectadas)
+AUROC de pixel: vistos 0.9822 | reservado 0.9945 | delta +0.0124
+Tasa de falsa alarma sobre las conformes de prueba, en el mismo punto de operacion: 0.1279
+
+Wilcoxon pareado (AUROC imagen, vistos vs reservado): p=0.7422 | el reservado rinde peor en 3 de 11 categorias
+  n=11: potencia baja. Un p alto no prueba que no haya diferencia, solo que no se detecta.
+
+--- El tipo reservado, es peor por no visto o por dificil? ---
+El reservado es el PEOR tipo de su categoria en 2 de 11 casos.
+Posicion relativa media (0 = siempre el peor, 1 = siempre el mejor): 0.38
+Bajo la hipotesis de que no ser visto no influye, la posicion esperada seria 0.50.
+Se reporta el AUROC de CADA tipo en tipos_mvtec.csv: el reservado debe leerse dentro
+de ese rango, no contra el promedio de su categoria.
+
+Veredicto R6: CUMPLIDO PARCIALMENTE (9 de 11 categorias alcanzan el 90 % de recall sobre el tipo no representado)

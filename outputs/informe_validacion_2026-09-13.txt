@@ -1,0 +1,119 @@
+
+==============================================================================
+VERIFICACION DE LA TRANSCRIPCION DE LAS TABLAS PUBLICADAS
+==============================================================================
+  Los promedios calculados a partir de los valores por categoria
+  reproducen los que imprimen los articulos. Transcripcion OK.
+
+==============================================================================
+MVTec AD  |  PNI (Bae et al., ICCV 2023), Tabla 1 (metodo completo)
+==============================================================================
+               AUROC imagen          AUROC pixel          
+  categoria     propio     PNI  delta   propio     PNI  delta
+  --------------------------------------------------------------
+  bottle         99.76  100.00  -0.24    98.76   98.87  -0.11
+  cable          99.66   99.76  -0.11    99.05   99.10  -0.05
+  carpet         99.82  100.00  -0.18    99.41   99.40  +0.01
+  grid          100.00   98.41  +1.59    99.52   99.20  +0.32
+  leather       100.00  100.00  +0.00    99.43   99.56  -0.13
+  metal_nut      94.05  100.00  -5.95    99.60   99.29  +0.31
+  screw          95.94   99.51  -3.58    99.13   99.60  -0.47
+  tile          100.00  100.00  +0.00    97.80   98.40  -0.60
+  toothbrush    100.00   99.72  +0.28    99.33   99.09  +0.24
+  transistor     99.83  100.00  -0.17    91.34   98.04  -6.70
+  wood           98.95   99.56  -0.61    96.00   97.04  -1.04
+  zipper         99.90   99.87  +0.03    99.56   99.43  +0.13
+
+  Promedios recalculados sobre las 12 categorias del alcance:
+  imagen          98.99  vs   99.74    -0.74   IGUALADO
+  pixel           98.24  vs   98.92    -0.67   IGUALADO
+
+  Contra la variante N+P, sin la red de refinamiento R (APROXIMADA,
+  se resta el efecto que la Tabla 3 atribuye a R: -0.10 img / -0.18 pix):
+  imagen*         98.99  vs   99.64    -0.64   IGUALADO
+  pixel*          98.24  vs   98.74    -0.49   IGUALADO
+
+==============================================================================
+MVTec AD  |  SoftPatch+ (Wang et al., PR 2025), Tablas 1 y 2
+==============================================================================
+  ADVERTENCIA DE PROTOCOLO: SoftPatch+ entrena con un 10 % de anomalias
+  NO ETIQUETADAS (ruido que trata de anular); aqui son ETIQUETADAS y se
+  explotan. Ademas usa 256 -> 224 px frente a nuestros 512 -> 480, y su
+  modalidad 'No Overlap' RETIRA del test las anomalas inyectadas.
+  No es un veredicto del R3: es contexto.
+
+               AUROC imagen            AUROC pixel            
+  categoria     propio  SP+ NO  SP+ Ov   propio  SP+ NO  SP+ Ov
+  ------------------------------------------------------------------
+  bottle         99.76  100.00  100.00    98.76   98.70   98.40
+  cable          99.66   99.00   88.70    99.05   98.40   98.10
+  carpet         99.82   94.00   96.70    99.41   98.60   98.40
+  grid          100.00   99.10   98.10    99.52   99.10   98.50
+  leather       100.00  100.00  100.00    99.43   99.30   98.30
+  metal_nut      94.05   99.70   99.90    99.60   96.60   99.30
+  screw          95.94   95.70   95.40    99.13   97.10   97.10
+  tile          100.00   99.50   99.10    97.80   96.50   95.20
+  toothbrush    100.00  100.00   99.50    99.33   96.70   94.90
+  transistor     99.83   99.50   98.60    91.34   96.90   95.00
+  wood           98.95   93.50   98.50    96.00   98.40   98.70
+  zipper         99.90   97.20   92.80    99.56   98.80   98.70
+  ------------------------------------------------------------------
+  PROMEDIO       98.99   98.10   97.27    98.24   97.93   97.55
+  (SP+ NO = No Overlap, SP+ Ov = Overlap; promedios recalculados sobre
+   las mismas 12 categorias)
+
+==============================================================================
+VisA  |  PNI (Bae et al., ICCV 2023), Tabla 6 (agrupada por dominio)
+==============================================================================
+  Dominio de estructura compleja = pcb1..pcb4, las cuatro en alcance.
+  La referencia se aplica SIN transformacion: el dominio publicado y
+  nuestro subconjunto son el mismo conjunto de categorias.
+
+  pcb1           99.50 img    99.94 pix
+  pcb2           99.79 img    99.65 pix
+  pcb3           99.80 img    99.55 pix
+  pcb4          100.00 img    99.93 pix
+  ----------------------------------------
+  imagen          99.77  vs   98.50    +1.27   SUPERA
+  pixel           99.77  vs   99.00    +0.77   SUPERA
+
+  candle: 99.34 img / 99.68 pix  -- SIN referencia individual publicada.
+  (su dominio, multiples instancias, pierde por alcance las otras
+   tres categorias; el promedio del dominio no le es atribuible)
+
+==============================================================================
+VisA  |  SoftPatch+ (Wang et al., PR 2025), Tablas 3 y 4
+==============================================================================
+  ADVERTENCIA DE PROTOCOLO: SoftPatch+ entrena con un 8 % de anomalias
+  NO ETIQUETADAS (ruido que trata de anular); aqui son ETIQUETADAS y se
+  explotan. Ademas usa 256 -> 224 px frente a nuestros 512 -> 480, y su
+  modalidad 'No Overlap' RETIRA del test las anomalas inyectadas.
+  No es un veredicto del R3: es contexto.
+
+               AUROC imagen            AUROC pixel            
+  categoria     propio  SP+ NO  SP+ Ov   propio  SP+ NO  SP+ Ov
+  ------------------------------------------------------------------
+  candle         99.34   73.40   61.10    99.68   98.50   97.70
+  pcb1           99.50   78.90   65.80    99.94   97.70   97.90
+  pcb2           99.79   98.50   97.00    99.65   99.90   98.40
+  pcb3           99.80   91.90   93.40    99.55   98.80   99.80
+  pcb4          100.00   96.10   95.20    99.93   99.80   97.90
+  ------------------------------------------------------------------
+  PROMEDIO       99.68   87.76   82.50    99.75   98.94   98.34
+  (SP+ NO = No Overlap, SP+ Ov = Overlap; promedios recalculados sobre
+   las mismas 5 categorias)
+
+==============================================================================
+VEREDICTO DEL R3 (referencia principal: PNI)
+==============================================================================
+  Criterio: igualar la cifra publicada con un margen de 1 punto
+  porcentual, fijado a priori en el R1.
+
+  MVTec imagen     98.99  vs   99.64    -0.64   IGUALADO
+  MVTec pixel      98.24  vs   98.74    -0.49   IGUALADO
+  VisA imagen      99.77  vs   98.50    +1.27   SUPERA
+  VisA pixel       99.77  vs   99.00    +0.77   SUPERA
+
+  MVTec se contrasta contra la variante N+P estimada (sin la red de
+  refinamiento); VisA, contra el dominio de estructura compleja, que
+  es exacto. `candle` queda sin referencia publicada.

@@ -1,0 +1,100 @@
+
+===== auroc_image =====
+categoria                   res224               res288            res288_eq               res352            res352_eq
+----------------------------------------------------------------------------------------------------------------------
+bottle                      1.0000               1.0000               1.0000               1.0000               0.9992
+cable                       0.9376               0.9501               0.9488               0.9640               0.9172
+capsule                     0.9617               0.9765               0.9809               0.9916               0.9924
+carpet                      0.9888               0.9968               0.9916               0.9976               0.9988
+grid                        0.9348               0.9774               0.9825               0.9891               0.9791
+hazelnut                    1.0000               1.0000               0.9986               1.0000               0.9989
+leather                     1.0000               1.0000               1.0000               1.0000               1.0000
+metal_nut                   0.9809               0.9912               0.9878               0.9976               0.9873
+pill                        0.9051               0.9182               0.9253               0.9498               0.9214
+screw                       0.9026               0.9094               0.8871               0.9479               0.9233
+tile                        0.9867               0.9906               0.9881               0.9986               1.0000
+toothbrush                  0.9694               0.9722               0.9278               0.9528               0.9556
+transistor                  0.9983               0.9892               0.9904               0.9775               0.9558
+wood                        0.9947               0.9930               0.9912               0.9947               0.9930
+zipper                      0.9835               0.9819               0.9816               0.9945               0.9940
+----------------------------------------------------------------------------------------------------------------------
+MEDIA                       0.9696               0.9764               0.9721               0.9837               0.9744
+  res288 vs res224: gana en 9/15 categorias, pierde en 3 | Wilcoxon p=0.0229 -> diferencia SIGNIFICATIVA (p<0.05)
+  res288_eq vs res224: gana en 7/15 categorias, pierde en 6 | Wilcoxon p=0.5525 -> diferencia NO significativa
+  res352 vs res224: gana en 9/15 categorias, pierde en 2 | Wilcoxon p=0.0505 -> diferencia NO significativa
+  res352_eq vs res224: gana en 8/15 categorias, pierde en 6 | Wilcoxon p=0.3305 -> diferencia NO significativa
+
+===== auroc_pixel =====
+categoria                   res224               res288            res288_eq               res352            res352_eq
+----------------------------------------------------------------------------------------------------------------------
+bottle                      0.9856               0.9873               0.9869               0.9877               0.9872
+cable                       0.9848               0.9850               0.9837               0.9824               0.9779
+capsule                     0.9878               0.9904               0.9899               0.9909               0.9897
+carpet                      0.9889               0.9905               0.9901               0.9921               0.9918
+grid                        0.9777               0.9873               0.9864               0.9914               0.9898
+hazelnut                    0.9860               0.9889               0.9887               0.9897               0.9891
+leather                     0.9915               0.9934               0.9933               0.9941               0.9940
+metal_nut                   0.9861               0.9874               0.9867               0.9878               0.9855
+pill                        0.9739               0.9773               0.9761               0.9743               0.9688
+screw                       0.9856               0.9928               0.9906               0.9914               0.9860
+tile                        0.9587               0.9643               0.9632               0.9688               0.9680
+toothbrush                  0.9861               0.9896               0.9898               0.9907               0.9898
+transistor                  0.9712               0.9475               0.9429               0.9316               0.9048
+wood                        0.9453               0.9527               0.9520               0.9579               0.9580
+zipper                      0.9851               0.9892               0.9886               0.9917               0.9912
+----------------------------------------------------------------------------------------------------------------------
+MEDIA                       0.9796               0.9816               0.9806               0.9815               0.9781
+  res288 vs res224: gana en 14/15 categorias, pierde en 1 | Wilcoxon p=0.0084 -> diferencia SIGNIFICATIVA (p<0.05)
+  res288_eq vs res224: gana en 13/15 categorias, pierde en 2 | Wilcoxon p=0.0125 -> diferencia SIGNIFICATIVA (p<0.05)
+  res352 vs res224: gana en 13/15 categorias, pierde en 2 | Wilcoxon p=0.0181 -> diferencia SIGNIFICATIVA (p<0.05)
+  res352_eq vs res224: gana en 11/15 categorias, pierde en 4 | Wilcoxon p=0.2078 -> diferencia NO significativa
+
+===== honest_f1 =====
+categoria                   res224               res288            res288_eq               res352            res352_eq
+----------------------------------------------------------------------------------------------------------------------
+bottle                      0.9767               0.9767               0.9403               0.9618               0.9767
+cable                       0.8736               0.8966               0.8671               0.8864               0.8652
+capsule                     0.9727               0.9772               0.9725               0.9633               0.9770
+carpet                      0.9368               0.9271               0.9418               0.9319               0.9519
+grid                        0.9138               0.9735               0.9381               0.9655               0.9649
+hazelnut                    0.9655               0.9928               0.9650               0.9655               0.9790
+leather                     0.8720               0.8932               0.8932               0.8598               0.8846
+metal_nut                   0.9617               0.9783               0.9674               0.9785               0.9727
+pill                        0.7745               0.8230               0.8784               0.7792               0.8117
+screw                       0.7330               0.8800               0.8019               0.8938               0.8807
+tile                        0.9704               0.9820               0.9820               0.9881               0.9941
+toothbrush                  0.9667               0.9355               0.8475               0.9375               0.9286
+transistor                  0.9756               0.8421               0.9268               0.9351               0.8941
+wood                        0.9375               0.9231               0.9375               0.9160               0.9231
+zipper                      0.9794               0.9675               0.9675               0.9876               0.9407
+----------------------------------------------------------------------------------------------------------------------
+MEDIA                       0.9207               0.9312               0.9218               0.9300               0.9297
+  res288 vs res224: gana en 9/15 categorias, pierde en 5 | Wilcoxon p=0.2455 -> diferencia NO significativa
+  res288_eq vs res224: gana en 7/15 categorias, pierde en 7 | Wilcoxon p=0.8753 -> diferencia NO significativa
+  res352 vs res224: gana en 7/15 categorias, pierde en 7 | Wilcoxon p=0.9250 -> diferencia NO significativa
+  res352_eq vs res224: gana en 9/15 categorias, pierde en 5 | Wilcoxon p=0.5098 -> diferencia NO significativa
+
+===== bestF1_f1 =====
+categoria                   res224               res288            res288_eq               res352            res352_eq
+----------------------------------------------------------------------------------------------------------------------
+bottle                      1.0000               1.0000               1.0000               1.0000               0.9921
+cable                       0.8866               0.9091               0.9032               0.9167               0.8800
+capsule                     0.9772               0.9772               0.9730               0.9776               0.9863
+carpet                      0.9714               0.9834               0.9829               0.9889               0.9944
+grid                        0.9217               0.9735               0.9573               0.9912               0.9649
+hazelnut                    1.0000               1.0000               0.9928               1.0000               0.9928
+leather                     1.0000               1.0000               1.0000               1.0000               1.0000
+metal_nut                   0.9724               0.9840               0.9724               0.9894               0.9727
+pill                        0.9356               0.9420               0.9360               0.9547               0.9416
+screw                       0.9048               0.9077               0.9027               0.9474               0.9153
+tile                        0.9880               0.9820               0.9880               0.9940               1.0000
+toothbrush                  0.9667               0.9508               0.9091               0.9524               0.9355
+transistor                  0.9756               0.9474               0.9474               0.9620               0.9620
+wood                        0.9836               0.9916               0.9833               0.9833               0.9833
+zipper                      0.9916               0.9917               0.9917               0.9917               0.9917
+----------------------------------------------------------------------------------------------------------------------
+MEDIA                       0.9650               0.9694               0.9626               0.9766               0.9675
+  res288 vs res224: gana en 8/15 categorias, pierde en 3 | Wilcoxon p=0.2860 -> diferencia NO significativa
+  res288_eq vs res224: gana en 5/15 categorias, pierde en 6 | Wilcoxon p=0.7221 -> diferencia NO significativa
+  res352 vs res224: gana en 9/15 categorias, pierde en 3 | Wilcoxon p=0.0414 -> diferencia SIGNIFICATIVA (p<0.05)
+  res352_eq vs res224: gana en 8/15 categorias, pierde en 6 | Wilcoxon p=0.5936 -> diferencia NO significativa

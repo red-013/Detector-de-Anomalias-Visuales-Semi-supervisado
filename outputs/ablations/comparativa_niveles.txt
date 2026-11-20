@@ -1,0 +1,88 @@
+
+===== auroc_image =====
+categoria        2niveles_canonico   3niveles_propuesta     delta
+-----------------------------------------------------------------
+bottle                      1.0000               1.0000   +0.0000
+cable                       0.9764               0.9376   -0.0388
+capsule                     0.9681               0.9617   -0.0064
+carpet                      0.9831               0.9888   +0.0056
+grid                        0.9674               0.9348   -0.0326
+hazelnut                    0.9989               1.0000   +0.0011
+leather                     1.0000               1.0000   +0.0000
+metal_nut                   0.9902               0.9809   -0.0093
+pill                        0.9438               0.9051   -0.0387
+screw                       0.8471               0.9026   +0.0555
+tile                        0.9903               0.9867   -0.0036
+toothbrush                  0.9722               0.9694   -0.0028
+transistor                  0.9979               0.9983   +0.0004
+wood                        0.9860               0.9947   +0.0088
+zipper                      0.9863               0.9835   -0.0029
+-----------------------------------------------------------------
+MEDIA                       0.9739               0.9696   -0.0042
+  3niveles_propuesta vs 2niveles_canonico: gana en 5/15 categorias, pierde en 8 | Wilcoxon p=0.2787 -> diferencia NO significativa
+
+===== auroc_pixel =====
+categoria        2niveles_canonico   3niveles_propuesta     delta
+-----------------------------------------------------------------
+bottle                      0.9831               0.9856   +0.0025
+cable                       0.9840               0.9848   +0.0007
+capsule                     0.9862               0.9878   +0.0016
+carpet                      0.9874               0.9889   +0.0015
+grid                        0.9669               0.9777   +0.0108
+hazelnut                    0.9845               0.9860   +0.0015
+leather                     0.9906               0.9915   +0.0010
+metal_nut                   0.9843               0.9861   +0.0018
+pill                        0.9748               0.9739   -0.0010
+screw                       0.9719               0.9856   +0.0137
+tile                        0.9545               0.9587   +0.0042
+toothbrush                  0.9847               0.9861   +0.0015
+transistor                  0.9742               0.9712   -0.0031
+wood                        0.9392               0.9453   +0.0061
+zipper                      0.9820               0.9851   +0.0031
+-----------------------------------------------------------------
+MEDIA                       0.9766               0.9796   +0.0031
+  3niveles_propuesta vs 2niveles_canonico: gana en 13/15 categorias, pierde en 2 | Wilcoxon p=0.0043 -> diferencia SIGNIFICATIVA (p<0.05)
+
+===== honest_f1 =====
+categoria        2niveles_canonico   3niveles_propuesta     delta
+-----------------------------------------------------------------
+bottle                      0.9618               0.9767   +0.0149
+cable                       0.9162               0.8736   -0.0426
+capsule                     0.9677               0.9727   +0.0050
+carpet                      0.9368               0.9368   +0.0000
+grid                        0.9474               0.9138   -0.0336
+hazelnut                    0.9790               0.9655   -0.0135
+leather                     0.8519               0.8720   +0.0202
+metal_nut                   0.9626               0.9617   -0.0008
+pill                        0.7064               0.7745   +0.0680
+screw                       0.8093               0.7330   -0.0763
+tile                        0.9820               0.9704   -0.0116
+toothbrush                  0.9492               0.9667   +0.0175
+transistor                  0.9091               0.9756   +0.0665
+wood                        0.9091               0.9375   +0.0284
+zipper                      0.9712               0.9794   +0.0082
+-----------------------------------------------------------------
+MEDIA                       0.9173               0.9207   +0.0034
+  3niveles_propuesta vs 2niveles_canonico: gana en 8/15 categorias, pierde en 6 | Wilcoxon p=0.6378 -> diferencia NO significativa
+
+===== bestF1_f1 =====
+categoria        2niveles_canonico   3niveles_propuesta     delta
+-----------------------------------------------------------------
+bottle                      1.0000               1.0000   +0.0000
+cable                       0.9368               0.8866   -0.0502
+capsule                     0.9772               0.9772   +0.0000
+carpet                      0.9651               0.9714   +0.0063
+grid                        0.9550               0.9217   -0.0332
+hazelnut                    0.9929               1.0000   +0.0071
+leather                     1.0000               1.0000   +0.0000
+metal_nut                   0.9780               0.9724   -0.0056
+pill                        0.9458               0.9356   -0.0103
+screw                       0.8852               0.9048   +0.0195
+tile                        0.9820               0.9880   +0.0059
+toothbrush                  0.9667               0.9667   +0.0000
+transistor                  0.9873               0.9756   -0.0117
+wood                        0.9748               0.9836   +0.0088
+zipper                      0.9831               0.9916   +0.0085
+-----------------------------------------------------------------
+MEDIA                       0.9687               0.9650   -0.0037
+  3niveles_propuesta vs 2niveles_canonico: gana en 6/15 categorias, pierde en 5 | Wilcoxon p=0.7221 -> diferencia NO significativa

@@ -1,0 +1,18 @@
+Extraccion jerarquica de caracteristicas (resultado R2)
+==============================================================
+Backbone      : wide_resnet50_2 (preentrenado en ImageNet, congelado)
+Parametros    : 68.88 M, de los cuales 0 requieren gradiente
+Entrada       : 3 x 480 x 480 px
+Agregacion    : AvgPool2d 3x3, stride 1 (no altera la resolucion)
+
+nivel         canales        rejilla     posiciones
+--------------------------------------------------------------
+layer1            256        120x120          14400
+layer2            512          60x60           3600
+layer3           1024          30x30            900
+--------------------------------------------------------------
+fusion en layer2       1792          60x60           3600
+
+El descriptor de cada posicion concatena los 3 niveles: 256 + 512 + 1024 = 1792 dim.
+Los niveles se alinean por interpolacion bilineal a la resolucion de
+layer2 antes de concatenarse.
